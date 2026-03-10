@@ -781,7 +781,7 @@ const TOPICS_DE = {
       {
         q: "Wie hoch ist der tägliche Flüssigkeitsbedarf eines Erwachsenen?",
         a: "Etwa 30–35 ml pro Kilogramm Körpergewicht, d.h. bei 70 kg ca. 2.100–2.450 ml/Tag. Bei Fieber, Hitze oder erhöhter Aktivität mehr.",
-        options: ["500 ml täglich","1 Liter täglich","30–35 ml/kg Körpergewicht (ca. 2–2,5 l täglich)","5 Liter täglich"],
+        options: ["1,5 Liter täglich, unabhängig vom Körpergewicht","25–28 ml/kg Körpergewicht (ca. 1,5–2 l täglich)","30–35 ml/kg Körpergewicht (ca. 2–2,5 l täglich)","40–50 ml/kg Körpergewicht (ca. 3–3,5 l täglich)"],
         correct: 2,
         fillTemplate: "Der tägliche Flüssigkeitsbedarf beträgt ___ ml pro Kilogramm Körpergewicht. Bei 70 kg entspricht das ca. ___ ml.",
         fillAnswers: ["30–35","2100"],
@@ -789,7 +789,7 @@ const TOPICS_DE = {
       {
         q: "Was ist Mangelernährung (Malnutrition) und wie erkennt man sie?",
         a: "Mangelernährung = unzureichende Aufnahme von Energie und Nährstoffen. Zeichen: Gewichtsverlust, Muskelschwund, trockene Haut, Müdigkeit, geschwächtes Immunsystem. Erfassung z.B. mit dem MNA (Mini Nutritional Assessment).",
-        options: ["Nur Übergewicht","Unzureichende Nährstoffaufnahme; Zeichen: Gewichtsverlust, Muskelschwund, Müdigkeit","Nur bei Untergewicht unter 50 kg","Normaler Alterungsprozess ohne Handlungsbedarf"],
+        options: ["Ausschließlicher Vitaminmangel ohne Auswirkung auf Körpergewicht oder Muskelkraft","Unzureichende Nährstoffaufnahme; Zeichen: Gewichtsverlust, Muskelschwund, Müdigkeit","Vorübergehender Gewichtsverlust durch Krankheit, der sich meist erholt","Ernährungsdefizit, das nur durch Blutuntersuchungen erkennbar ist"],
         correct: 1,
         fillTemplate: "Mangelernährung bedeutet unzureichende Aufnahme von Energie und ___. Sie wird z.B. mit dem ___ erfasst.",
         fillAnswers: ["Nährstoffen","MNA"],
@@ -797,7 +797,7 @@ const TOPICS_DE = {
       {
         q: "Was sind Zeichen von Dehydration (Austrocknung) bei älteren Menschen?",
         a: "Mundtrockenheit, eingefallene Augen, reduzierte Urinmenge (dunkel gefärbt), Verwirrtheit, Schwindel, Obstipation, Hautelastizität vermindert (Hautfaltentest positiv).",
-        options: ["Blässe und Schwitze","Mundtrockenheit, dunkler Urin, Verwirrtheit, Schwindel, Hautelastizitätsverlust","Durchfall","Nur Durst"],
+        options: ["Erhöhte Urinmenge und Blässe","Mundtrockenheit, dunkler Urin, Verwirrtheit, Schwindel, Hautelastizitätsverlust","Gerötete Haut und erhöhte Körpertemperatur","Starker Appetit und vermehrtes Schwitzen"],
         correct: 1,
         fillTemplate: "Zeichen der Dehydration bei Älteren sind Mundtrockenheit, ___ Urin, Verwirrtheit und verminderter ___.",
         fillAnswers: ["dunkler","Hautelastizität"],
@@ -805,7 +805,7 @@ const TOPICS_DE = {
       {
         q: "Welche besonderen Ernährungsrisiken haben ältere Menschen?",
         a: "Verminderter Appetit, Kau-/Schluckprobleme, Medikamentennebenwirkungen, verminderte Sinneswahrnehmung (Geschmack/Geruch), soziale Isolation, Depression, eingeschränkte Mobilität beim Einkaufen/Kochen.",
-        options: ["Keine besonderen Risiken","Verminderter Appetit, Kau-/Schluckprobleme, Medikamentenwirkungen, Isolation","Höherer Energiebedarf als junge Menschen","Nur finanzielle Probleme"],
+        options: ["Kaum veränderte Ernährungsbedürfnisse im Vergleich zu jüngeren Erwachsenen","Verminderter Appetit, Kau-/Schluckprobleme, Medikamentenwirkungen, Isolation","Höherer Energiebedarf und verstärkter Appetit im Alter","Ausschließlich körperliche Einschränkungen beim Einkaufen und Kochen"],
         correct: 1,
         fillTemplate: "Besondere Ernährungsrisiken im Alter sind verminderter Appetit, ___ und Medikamentennebenwirkungen. Auch ___ spielt eine Rolle.",
         fillAnswers: ["Schluckprobleme","soziale Isolation"],
@@ -813,7 +813,7 @@ const TOPICS_DE = {
       {
         q: "Was versteht man unter einer Sondenkost/enteralen Ernährung?",
         a: "Enterale Ernährung = Nährstoffzufuhr über eine Sonde (nasogastral, PEG) bei Personen, die nicht ausreichend oral essen können. Pflegerisch: Lage der Sonde prüfen, Hygiene, Restmenge kontrollieren, Aspirationsrisiko beachten.",
-        options: ["Orale Nahrungsaufnahme","Nährstoffzufuhr über eine Sonde bei Menschen, die nicht oral essen können","Eine Diät für Übergewichtige","Nur in der Intensivmedizin"],
+        options: ["Ausschließlich flüssige Kost, die oral in kleinen Schlucken eingenommen wird","Nährstoffzufuhr über eine Sonde bei Menschen, die nicht oral essen können","Nährstoffanreicherung durch Nahrungsergänzungsmittel zum Schlucken","Parenterale Ernährung, die direkt in die Blutbahn verabreicht wird"],
         correct: 1,
         fillTemplate: "Enterale Ernährung erfolgt über eine ___ (z.B. PEG). Pflegerisch ist besonders das ___ zu beachten.",
         fillAnswers: ["Sonde","Aspirationsrisiko"],
@@ -821,7 +821,7 @@ const TOPICS_DE = {
       {
         q: "Welche Nährstoffgruppen sind für eine ausgewogene Ernährung im Alter wichtig?",
         a: "Proteine (Muskelerhalt), Kalzium und Vitamin D (Knochenschutz), Ballaststoffe (Darmgesundheit), B-Vitamine (Nervensystem), Flüssigkeit. Bei Älteren oft zu wenig Protein und Vitamin D.",
-        options: ["Nur Kohlenhydrate","Proteine, Kalzium, Vitamin D, Ballaststoffe, B-Vitamine und ausreichend Flüssigkeit","Nur Fette und Zucker","Nahrung ist im Alter nicht mehr wichtig"],
+        options: ["Kohlenhydrate und Fette genügen, da der Energiebedarf im Alter sinkt","Proteine, Kalzium, Vitamin D, Ballaststoffe, B-Vitamine und ausreichend Flüssigkeit","Nur Vitamin C und E als relevante Mikronährstoffe im Alter","Flüssigkost und Nahrungsergänzungsmittel ersetzen feste Mahlzeiten"],
         correct: 1,
         fillTemplate: "Im Alter sind besonders ___ für den Muskelerhalt und Kalzium plus ___ für den Knochenschutz wichtig.",
         fillAnswers: ["Proteine","Vitamin D"],
@@ -829,7 +829,7 @@ const TOPICS_DE = {
       {
         q: "Wie sollte man bei Patienten mit Schluckstörungen (Dysphagie) bei der Nahrungsgabe vorgehen?",
         a: "Oberkörper auf mindestens 45–90° aufrechten, angedickte Flüssigkeiten verwenden, kleine Bissen/Schlucke, nicht ablenken, Zeit lassen, auf Stimmveränderung nach dem Schlucken achten, bei Problemen Logopädie einschalten.",
-        options: ["Normale Kost und Flüssigkeiten sind ausreichend","Oberkörper aufrecht, angedickte Flüssigkeiten, kleine Bissen, Zeit lassen, Logopädie","Patienten immer im Liegen ernähren","Nur Sondenernährung bei Dysphagie"],
+        options: ["Flüssige Nahrung ist bei Dysphagie immer unbedenklich, feste Kost meiden","Oberkörper aufrecht, angedickte Flüssigkeiten, kleine Bissen, Zeit lassen, Logopädie","Patienten in leicht zurückgelehnter Position (ca. 30°) ernähren","Ausschließlich Sondenernährung, bis eine logopädische Abklärung erfolgt ist"],
         correct: 1,
         fillTemplate: "Bei Dysphagie sollte der Oberkörper ___ sein und ___ Flüssigkeiten verwendet werden.",
         fillAnswers: ["aufrecht","angedickte"],
@@ -837,7 +837,7 @@ const TOPICS_DE = {
       {
         q: "Was ist der Body-Mass-Index (BMI) und welche Werte gelten für Erwachsene?",
         a: "BMI = Körpergewicht (kg) / Körpergröße² (m²). Untergewicht: < 18,5. Normalgewicht: 18,5–24,9. Übergewicht: 25–29,9. Adipositas: ≥ 30. Bei älteren Menschen ab 65 J. leicht höhere Werte toleriert.",
-        options: ["Ein Test für Herzfunktion","Gewicht/Größe²; Normalgewicht 18,5–24,9; Untergewicht <18,5; Adipositas ≥30","Nur relevant für Kinder","BMI wird nicht mehr verwendet"],
+        options: ["Verhältnis von Taillenumfang zu Hüftumfang; Normalwert ca. 0,85","Gewicht/Größe²; Normalgewicht 18,5–24,9; Untergewicht <18,5; Adipositas ≥30","Verhältnis von Körperfett zu Muskelmasse; Normalwert 20–25 %","Bluttest zur Beurteilung des Ernährungszustands und Stoffwechsels"],
         correct: 1,
         fillTemplate: "Der BMI wird berechnet: Gewicht in kg durch ___ in m². Normalgewicht liegt bei 18,5–___.",
         fillAnswers: ["Körpergröße²","24,9"],
@@ -845,7 +845,7 @@ const TOPICS_DE = {
       {
         q: "Was sollte bei der Unterstützung bei der Nahrungsaufnahme beachtet werden?",
         a: "Würde und Selbstbestimmung des Bewohners wahren, angenehme Atmosphäre schaffen, Essen anpassen, Hunger-/Sättigungssignale beachten, ausreichend Zeit, Hilfestellung nur dort wo nötig (aktivierend), Lieblingsspeisen ermitteln.",
-        options: ["So schnell wie möglich füttern","Würde wahren, Zeit lassen, Lieblingsspeisen, angenehme Atmosphäre, aktivierend unterstützen","Immer komplett füttern, ohne Eigenständigkeit","Nur Sondenkost ist sicher"],
+        options: ["Essen effizient und zügig anreichen, um Pflegezeit zu minimieren","Würde wahren, Zeit lassen, Lieblingsspeisen, angenehme Atmosphäre, aktivierend unterstützen","Hilfe immer vollständig übernehmen, um Verschlucken sicher zu verhindern","Auf Wunsch des Bewohners die Mahlzeit stets allein im Zimmer servieren"],
         correct: 1,
         fillTemplate: "Bei der Nahrungsaufnahme muss die ___ des Bewohners gewahrt werden. Hilfe sollte ___ geleistet werden (nur wo nötig).",
         fillAnswers: ["Würde","aktivierend"],
@@ -853,7 +853,7 @@ const TOPICS_DE = {
       {
         q: "Was ist ein Ernährungsprotokoll und wann wird es eingesetzt?",
         a: "Ein Ernährungsprotokoll dokumentiert alle Mahlzeiten und Flüssigkeitsmengen (Art, Menge, Zeitpunkt). Eingesetzt bei Mangelernährungsrisiko, zur Kontrolle der Nahrungsaufnahme und als Grundlage für Interventionen.",
-        options: ["Ein Diätplan für Übergewichtige","Dokumentation aller Mahlzeiten/Flüssigkeiten bei Mangelernährungsrisiko","Nur bei Diabetikern","Ein Rezeptbuch für die Küche"],
+        options: ["Ärztliches Dokument zur Anordnung von Diätmaßnahmen und Spezialnahrung","Dokumentation aller Mahlzeiten/Flüssigkeiten bei Mangelernährungsrisiko","Pflegerische Notiz über bekannte Lebensmittelallergien und Unverträglichkeiten","Standardisierter Wochenplan für ausgewogene Mahlzeiten in der Einrichtung"],
         correct: 1,
         fillTemplate: "Ein Ernährungsprotokoll dokumentiert Mahlzeiten und ___ bei Bewohnern mit ___risiko.",
         fillAnswers: ["Flüssigkeitsmengen","Mangelernährungs"],
@@ -861,7 +861,7 @@ const TOPICS_DE = {
       {
         q: "Wie viele Mahlzeiten und welche Zeitabstände sind in der Altenpflege empfehlenswert?",
         a: "5–6 Mahlzeiten täglich (3 Hauptmahlzeiten + 2–3 Zwischenmahlzeiten), Abstände nicht länger als 4–6 Stunden, nachts nicht länger als 11 Stunden ohne Nahrung. Fördert Blutzuckerstabilität.",
-        options: ["2 große Mahlzeiten reichen","5–6 Mahlzeiten täglich, Abstände max. 4–6 Stunden, nachts max. 11 Stunden ohne Nahrung","3 Mahlzeiten, kein Snacking","Mahlzeitenfrequenz ist egal"],
+        options: ["2–3 große Mahlzeiten täglich genügen; Zwischenmahlzeiten sind unnötig","5–6 Mahlzeiten täglich, Abstände max. 4–6 Stunden, nachts max. 11 Stunden ohne Nahrung","4 Mahlzeiten täglich mit festen Abständen von jeweils 5–6 Stunden","3 Hauptmahlzeiten täglich; Dauer der nächtlichen Pause ist nicht relevant"],
         correct: 1,
         fillTemplate: "Empfohlen werden ___ Mahlzeiten täglich mit Abständen von max. ___ Stunden.",
         fillAnswers: ["5–6","4–6"],
@@ -869,7 +869,7 @@ const TOPICS_DE = {
       {
         q: "Welche Vitamine und Mineralstoffe sind bei älteren pflegebedürftigen Menschen häufig mangelhaft?",
         a: "Vitamin D (Lichtmangel), Vitamin B12 (verminderte Resorption), Folsäure, Kalzium, Magnesium, Eisen, Zink. Mangel durch verminderte Aufnahme, eingeschränkte Sonnenexposition und Medikamentenwechselwirkungen.",
-        options: ["Keine Mangelzustände möglich","Vitamin D, B12, Kalzium, Magnesium; durch Lichtmangel, vermin. Resorption, Medikamente","Nur Vitamin C","Ältere Menschen brauchen keine Vitamine"],
+        options: ["Mangelzustände sind bei ausgewogener Ernährung im Alter kaum möglich","Vitamin D, B12, Kalzium, Magnesium; durch Lichtmangel, vermin. Resorption, Medikamente","Nur Vitamin C und Eisen durch einseitige Ernährungsgewohnheiten","Vitaminmangel tritt ausschließlich bei bettlägerigen Pflegebedürftigen auf"],
         correct: 1,
         fillTemplate: "Bei älteren Menschen ist häufig ___ durch Lichtmangel und ___ durch verminderte Resorption mangelhaft.",
         fillAnswers: ["Vitamin D","Vitamin B12"],
@@ -877,7 +877,7 @@ const TOPICS_DE = {
       {
         q: "Was ist Aspirationspneumonie und wie wird sie verhindert?",
         a: "Aspirationspneumonie entsteht, wenn Speise- oder Flüssigkeitsreste in die Lunge gelangen (Aspiration). Prävention: aufrechte Sitzposition beim Essen, Konsistenzanpassung, Schlucktraining, nach dem Essen 30 Minuten aufrecht sitzen.",
-        options: ["Durch Erkältungen verursacht","Aspiration von Speiseresten in die Lunge; verhindert durch aufrechte Haltung, Konsistenzanpassung","Nur bei Beatmungspatienten","Nicht verhinderbar"],
+        options: ["Lungenentzündung durch Bakterien der Mundflora bei mangelnder Mundhygiene","Aspiration von Speiseresten in die Lunge; verhindert durch aufrechte Haltung, Konsistenzanpassung","Entzündung der Speiseröhre durch aufsteigenden Magensäurereflux","Pneumonie durch unzureichende Flüssigkeitszufuhr und Sekretanstauung"],
         correct: 1,
         fillTemplate: "Aspirationspneumonie entsteht durch ___ von Speiseresten in die Lunge. Wichtig: ___ Sitzposition beim Essen und Konsistenzanpassung.",
         fillAnswers: ["Aspiration","aufrechte"],
@@ -885,7 +885,7 @@ const TOPICS_DE = {
       {
         q: "Wie erkennt man Exsikkose (Austrocknung) und was ist zu tun?",
         a: "Exsikkose: trockene Schleimhäute, verminderter Hautturgor (Hautfalte bleibt stehen), Verwirrtheit, Schwäche, konzentrierter Urin. Maßnahmen: Flüssigkeitsaufnahme dokumentieren, trinken animieren, ggf. ärztliche Anordnung für Infusion.",
-        options: ["Schwitzen ist das Hauptzeichen","Trockene Schleimhäute, verminderter Hautturgor, Verwirrtheit; Flüssigkeit geben, Arzt informieren","Nur bei Hitze relevant","Wassereinlagerungen behandeln"],
+        options: ["Übermäßiges Schwitzen und gerötete Haut; kühlen und Elektrolytlösungen verabreichen","Trockene Schleimhäute, verminderter Hautturgor, Verwirrtheit; Flüssigkeit geben, Arzt informieren","Geschwollene Knöchel und erhöhter Blutdruck durch Wassereinlagerung","Fieberhaftes Erscheinungsbild mit erhöhter Urinproduktion"],
         correct: 1,
         fillTemplate: "Exsikkose zeigt sich durch trockene ___ und verminderten ___. Sofortmaßnahme: Flüssigkeitsaufnahme fördern.",
         fillAnswers: ["Schleimhäute","Hautturgor"],
@@ -893,7 +893,7 @@ const TOPICS_DE = {
       {
         q: "Was ist bei der Arzneimittelgabe und Ernährung zu beachten?",
         a: "Viele Medikamente sollten mit ausreichend Wasser (mindestens 100–200 ml) eingenommen werden, einige nicht mit Milch oder Grapefruitsaft. Manche Medikamente beeinflussen Appetit, Geschmack oder Nährstoffresorption.",
-        options: ["Medikamente immer nüchtern einnehmen","Mit ausreichend Wasser; Wechselwirkungen mit Milch/Grapefruitsaft; Einfluss auf Appetit/Resorption","Medikamente nach Belieben","Essen hat keinen Einfluss auf Medikamente"],
+        options: ["Alle Medikamente sollten mit einem Glas Milch eingenommen werden","Mit ausreichend Wasser; Wechselwirkungen mit Milch/Grapefruitsaft; Einfluss auf Appetit/Resorption","Medikamente grundsätzlich zu den Mahlzeiten, um Magenprobleme zu vermeiden","Mahlzeiten verzögern immer die Aufnahme und sollten bei Medikamentengabe vermieden werden"],
         correct: 1,
         fillTemplate: "Medikamente sollten mit mindestens ___ ml Wasser eingenommen werden. Wechselwirkungen mit ___ oder Grapefruitsaft sind zu beachten.",
         fillAnswers: ["100–200","Milch"],
@@ -901,7 +901,7 @@ const TOPICS_DE = {
       {
         q: "Was versteht man unter einer Schluckstörung (Dysphagie) und welche Maßnahmen helfen?",
         a: "Dysphagie = erschwerte oder schmerzhafte Schluckfähigkeit, häufig bei Schlaganfall, Parkinson, Demenz. Maßnahmen: Oberkörper erhöht, Speisen andicken, kleine Bissen, langsames Essen, Logopädie, Aspirationsrisiko beachten.",
-        options: ["Appetitlosigkeit","Schluckschwierigkeiten; Hilfe: Oberkörper erhöhen, Eindicken, Logopädie, langsam essen","Nur bei Bewusstlosen relevant","Ausschließlich mit Sondenkost behandeln"],
+        options: ["Plötzliche Übelkeit beim Anblick oder Geruch bestimmter Lebensmittel","Schluckschwierigkeiten; Hilfe: Oberkörper erhöhen, Eindicken, Logopädie, langsam essen","Schmerzen beim Kauen durch mangelhafte Zahnversorgung oder Prothesensitz","Vorübergehende Schluckbeschwerden durch Heiserkeit oder Halsentzündung"],
         correct: 1,
         fillTemplate: "Bei Dysphagie sollte der Oberkörper ___ sein. Oft werden Speisen ___ und in kleinen Portionen gereicht.",
         fillAnswers: ["erhöht","eingedickt"],
@@ -909,7 +909,7 @@ const TOPICS_DE = {
       {
         q: "Welche fünf Hauptnährstoffgruppen gibt es und welche Aufgaben haben sie?",
         a: "Kohlenhydrate (Energie), Eiweiß/Protein (Aufbau/Reparatur), Fette (Energie, Hormonsynthese), Vitamine (Regulationsfunktionen), Mineralstoffe/Spurenelemente (Knochen, Nervenfunktion). Dazu Wasser als lebensnotwendige Grundlage.",
-        options: ["Nur Kohlenhydrate und Eiweiß","Kohlenhydrate, Eiweiß, Fette, Vitamine, Mineralstoffe – jeweils mit spezifischer Funktion","Nur Vitamine und Mineralstoffe","Protein ist nicht wichtig im Alter"],
+        options: ["Nur Makronährstoffe zählen; Vitamine werden vom Körper selbst hergestellt","Kohlenhydrate, Eiweiß, Fette, Vitamine, Mineralstoffe – jeweils mit spezifischer Funktion","Vier Gruppen: Kohlenhydrate, Eiweiß, Fette und Flüssigkeit","Sechs Gruppen einschließlich Alkohol und Koffein als Energielieferanten"],
         correct: 1,
         fillTemplate: "___ liefern Energie. ___ sind wichtig für den Aufbau und die Reparatur von Gewebe.",
         fillAnswers: ["Kohlenhydrate","Eiweiß"],
@@ -2297,7 +2297,7 @@ const TOPICS_EN = {
       {
         q: "What is the daily fluid requirement for an adult?",
         a: "About 30–35 ml per kilogram of body weight, i.e. for 70 kg approximately 2,100–2,450 ml/day. More with fever, heat or increased activity.",
-        options: ["500 ml daily","1 litre daily","30–35 ml/kg body weight (approx. 2–2.5 l daily)","5 litres daily"],
+        options: ["1.5 litres daily, regardless of body weight","25–28 ml/kg body weight (approx. 1.5–2 l daily)","30–35 ml/kg body weight (approx. 2–2.5 l daily)","40–50 ml/kg body weight (approx. 3–3.5 l daily)"],
         correct: 2,
         fillTemplate: "The daily fluid requirement is ___ ml per kilogram of body weight. For 70 kg this is approximately ___ ml.",
         fillAnswers: ["30–35","2100"],
@@ -2305,7 +2305,7 @@ const TOPICS_EN = {
       {
         q: "What is malnutrition and how is it recognised?",
         a: "Malnutrition = insufficient intake of energy and nutrients. Signs: weight loss, muscle wasting, dry skin, fatigue, weakened immune system. Assessed e.g. with the MNA (Mini Nutritional Assessment).",
-        options: ["Only obesity","Insufficient nutrient intake; signs: weight loss, muscle wasting, fatigue","Only in underweight <50 kg","Normal ageing without action needed"],
+        options: ["Exclusive vitamin deficiency without impact on body weight or muscle strength","Insufficient nutrient intake; signs: weight loss, muscle wasting, fatigue","Temporary weight loss during illness that usually resolves on its own","Nutritional deficit detectable only through blood tests"],
         correct: 1,
         fillTemplate: "Malnutrition means insufficient intake of energy and ___. It is assessed with tools like the ___.",
         fillAnswers: ["nutrients","MNA"],
@@ -2313,7 +2313,7 @@ const TOPICS_EN = {
       {
         q: "What are the signs of dehydration in older people?",
         a: "Dry mouth, sunken eyes, reduced urine output (dark colour), confusion, dizziness, constipation, reduced skin elasticity (skin turgor test positive).",
-        options: ["Pallor and sweating","Dry mouth, dark urine, confusion, dizziness, reduced skin elasticity","Diarrhoea","Only thirst"],
+        options: ["Increased urine output, pallor and mild headache","Dry mouth, dark urine, confusion, dizziness, reduced skin elasticity","Flushed skin and elevated body temperature","Strong appetite and increased perspiration"],
         correct: 1,
         fillTemplate: "Signs of dehydration include dry mouth, ___ urine, confusion and reduced skin ___.",
         fillAnswers: ["dark","elasticity"],
@@ -2321,7 +2321,7 @@ const TOPICS_EN = {
       {
         q: "What nutrients are particularly important for older people?",
         a: "Proteins (muscle maintenance), calcium and vitamin D (bone protection), fibre (bowel health), B vitamins (nervous system), fluid. Older people often have insufficient protein and vitamin D.",
-        options: ["Only carbohydrates","Proteins, calcium, vitamin D, fibre, B vitamins and adequate fluid","Only fats and sugar","Food is not important in old age"],
+        options: ["Carbohydrates and fats are sufficient since energy needs decrease with age","Proteins, calcium, vitamin D, fibre, B vitamins and adequate fluid","Only vitamins C and E as the relevant micronutrients in old age","Liquid diet and supplements replace solid meals most effectively"],
         correct: 1,
         fillTemplate: "Older people particularly need ___ for muscle maintenance and calcium plus ___ for bone protection.",
         fillAnswers: ["proteins","vitamin D"],
@@ -2329,7 +2329,7 @@ const TOPICS_EN = {
       {
         q: "What is enteral nutrition and what care considerations apply?",
         a: "Enteral nutrition = nutrient supply via tube (nasogastric, PEG) for people unable to eat orally sufficiently. Care: check tube position, hygiene, control residual volume, monitor aspiration risk.",
-        options: ["Oral food intake","Nutrient supply via tube for people unable to eat orally","A diet for overweight people","Only in intensive care"],
+        options: ["Exclusively liquid food taken orally in small sips","Nutrient supply via tube for people unable to eat orally","Nutrient supplementation through oral tablets and capsules","Parenteral nutrition delivered directly into the bloodstream"],
         correct: 1,
         fillTemplate: "Enteral nutrition is delivered via a ___ (e.g. PEG). In care, ___ risk must be closely monitored.",
         fillAnswers: ["tube","aspiration"],
@@ -2337,7 +2337,7 @@ const TOPICS_EN = {
       {
         q: "How should feeding assistance be provided for people with swallowing difficulties?",
         a: "Upper body at least 45–90° upright, use thickened fluids, small bites/sips, no distractions, allow time, monitor for voice changes after swallowing, involve speech therapy.",
-        options: ["Normal food and fluids are fine","Upright position, thickened fluids, small sips, allow time, involve speech therapy","Feed patients lying down","Only tube feeding for dysphagia"],
+        options: ["Thin liquids are easiest to swallow and should always be preferred","Upright position, thickened fluids, small sips, allow time, involve speech therapy","Position the patient at 30° reclined to reduce regurgitation risk","Withhold all oral food until a formal swallowing assessment is completed"],
         correct: 1,
         fillTemplate: "For dysphagia, the upper body should be ___ and ___ fluids used.",
         fillAnswers: ["upright","thickened"],
@@ -2345,7 +2345,7 @@ const TOPICS_EN = {
       {
         q: "What is the BMI and what values are used for adults?",
         a: "BMI = body weight (kg) / height² (m²). Underweight: <18.5. Normal: 18.5–24.9. Overweight: 25–29.9. Obesity: ≥30. Slightly higher values tolerated in people over 65.",
-        options: ["A heart function test","Weight/height²; normal weight 18.5–24.9; underweight <18.5; obesity ≥30","Only for children","BMI is no longer used"],
+        options: ["Ratio of waist to hip circumference; normal value approx. 0.85","Weight/height²; normal weight 18.5–24.9; underweight <18.5; obesity ≥30","Ratio of body fat to muscle mass; normal range 20–25%","Blood test to assess nutritional status and metabolic rate"],
         correct: 1,
         fillTemplate: "BMI = weight in kg divided by ___ in m². Normal weight is between 18.5 and ___.",
         fillAnswers: ["height²","24.9"],
@@ -2353,7 +2353,7 @@ const TOPICS_EN = {
       {
         q: "What is a nutrition protocol and when is it used?",
         a: "A nutrition protocol documents all meals and fluid amounts (type, amount, time). Used when there is a risk of malnutrition, to monitor intake and plan interventions.",
-        options: ["A diet plan for overweight people","Documents meals and fluids when malnutrition risk is present","Only for diabetics","A recipe book"],
+        options: ["A medical document prescribing dietary restrictions and therapeutic diets","Documents meals and fluids when malnutrition risk is present","A care note recording food allergies and intolerances","A standardised weekly meal plan for balanced nutrition in the facility"],
         correct: 1,
         fillTemplate: "A nutrition protocol documents meals and ___ amounts when there is a ___ risk.",
         fillAnswers: ["fluid","malnutrition"],
@@ -2361,7 +2361,7 @@ const TOPICS_EN = {
       {
         q: "What is aspiration pneumonia and how is it prevented?",
         a: "Aspiration pneumonia occurs when food or fluid enters the lungs. Prevention: upright sitting position during eating, texture modification, swallowing training, remain upright for 30 minutes after eating.",
-        options: ["Caused by colds","Aspiration of food into lungs; prevented by upright position, texture modification","Only in ventilated patients","Cannot be prevented"],
+        options: ["Lung infection caused by oral bacteria due to poor mouth hygiene","Aspiration of food into lungs; prevented by upright position, texture modification","Inflammation of the oesophagus caused by stomach acid reflux","Pneumonia from insufficient fluid intake and mucus build-up"],
         correct: 1,
         fillTemplate: "Aspiration pneumonia is caused by food entering the ___. Prevention: ___ sitting during eating and texture modification.",
         fillAnswers: ["lungs","upright"],
@@ -2369,7 +2369,7 @@ const TOPICS_EN = {
       {
         q: "What special nutritional risks do older people have?",
         a: "Reduced appetite, chewing/swallowing problems, medication side effects, reduced senses (taste/smell), social isolation, depression, reduced mobility for shopping/cooking.",
-        options: ["No special risks","Reduced appetite, chewing/swallowing issues, medication effects, isolation","Higher energy needs than young people","Only financial problems"],
+        options: ["Nutritional needs change very little compared to younger adults","Reduced appetite, chewing/swallowing issues, medication effects, isolation","Increased appetite and higher energy requirements due to medication","Exclusively physical limitations with shopping and cooking"],
         correct: 1,
         fillTemplate: "Nutritional risks in older age include reduced appetite, ___ problems and medication side effects. ___ isolation also plays a role.",
         fillAnswers: ["swallowing","Social"],
@@ -2377,7 +2377,7 @@ const TOPICS_EN = {
       {
         q: "How should assistance with eating be provided to preserve dignity?",
         a: "Preserve dignity and self-determination, create a pleasant atmosphere, respect food preferences, allow sufficient time, activating approach (only help where needed), identify favourite foods.",
-        options: ["Feed as quickly as possible","Preserve dignity, allow time, respect preferences, pleasant atmosphere, activating approach","Always feed completely","Only tube feeding is safe"],
+        options: ["Complete the meal efficiently to stay within scheduled care time","Preserve dignity, allow time, respect preferences, pleasant atmosphere, activating approach","Always take over completely to prevent any risk of choking","Leave the room at every meal when the resident requests privacy"],
         correct: 1,
         fillTemplate: "When assisting with eating, the resident's ___ must be preserved. Help should be provided in an ___ way (only where needed).",
         fillAnswers: ["dignity","activating"],
@@ -2385,7 +2385,7 @@ const TOPICS_EN = {
       {
         q: "What vitamins and minerals are commonly deficient in older care-dependent people?",
         a: "Vitamin D (lack of sunlight), vitamin B12 (reduced absorption), folate, calcium, magnesium, iron, zinc. Deficiency from reduced intake, sunlight restriction and medication interactions.",
-        options: ["No deficiencies possible","Vitamin D, B12, calcium, magnesium; from lack of sunlight, reduced absorption, medications","Only vitamin C","Older people don't need vitamins"],
+        options: ["Deficiencies rarely occur in older adults with a varied diet","Vitamin D, B12, calcium, magnesium; from lack of sunlight, reduced absorption, medications","Only vitamin C and iron from dietary habits","Vitamin deficiencies only affect those in full-time residential care"],
         correct: 1,
         fillTemplate: "Older people often lack ___ due to reduced sunlight and ___ due to impaired absorption.",
         fillAnswers: ["vitamin D","vitamin B12"],
@@ -2393,7 +2393,7 @@ const TOPICS_EN = {
       {
         q: "How many meals are recommended per day in elderly care?",
         a: "5–6 meals daily (3 main meals + 2–3 snacks), intervals not longer than 4–6 hours, not longer than 11 hours without food overnight. Promotes blood sugar stability.",
-        options: ["2 large meals are enough","5–6 meals daily, intervals max 4–6 hours, max 11 hours overnight without food","3 meals, no snacking","Meal frequency doesn't matter"],
+        options: ["2–3 large meals per day are sufficient; snacks are unnecessary","5–6 meals daily, intervals max 4–6 hours, max 11 hours overnight without food","4 meals per day with fixed 5–6-hour intervals throughout the day","3 main meals daily; overnight fasting duration is not relevant"],
         correct: 1,
         fillTemplate: "___ meals per day are recommended with intervals of maximum ___ hours.",
         fillAnswers: ["5–6","4–6"],
@@ -2401,7 +2401,7 @@ const TOPICS_EN = {
       {
         q: "How is dehydration (exsiccosis) identified and treated?",
         a: "Signs: dry mucous membranes, reduced skin turgor (skin fold remains), confusion, weakness, concentrated urine. Action: document fluid intake, encourage drinking, medical order for infusion if needed.",
-        options: ["Sweating is the main sign","Dry mucous membranes, reduced skin turgor, confusion; encourage fluid intake, inform doctor","Only relevant in heat","Treat water retention"],
+        options: ["Excessive sweating and flushed skin; cool the person and give electrolyte solution","Dry mucous membranes, reduced skin turgor, confusion; encourage fluid intake, inform doctor","Swollen ankles and elevated blood pressure due to fluid retention","Feverish appearance with increased urine production"],
         correct: 1,
         fillTemplate: "Dehydration shows as dry ___ and reduced skin ___. Encourage fluid intake and inform the doctor.",
         fillAnswers: ["mucous membranes","turgor"],
@@ -2409,7 +2409,7 @@ const TOPICS_EN = {
       {
         q: "What should be considered when taking medication with food?",
         a: "Many medications should be taken with enough water (at least 100–200 ml); some not with milk or grapefruit juice. Some medications affect appetite, taste or nutrient absorption.",
-        options: ["Medications always on empty stomach","With sufficient water; interactions with milk/grapefruit juice; effects on appetite/absorption","At personal discretion","Food doesn't affect medications"],
+        options: ["All medications should be taken with a large glass of milk","With sufficient water; interactions with milk/grapefruit juice; effects on appetite/absorption","Medications should always be taken with meals to prevent stomach upset","Meals always delay absorption and should be avoided when taking medication"],
         correct: 1,
         fillTemplate: "Medications should be taken with at least ___ ml of water. Interactions with ___ or grapefruit juice must be considered.",
         fillAnswers: ["100–200","milk"],
@@ -2417,7 +2417,7 @@ const TOPICS_EN = {
       {
         q: "What is dysphagia and what measures help?",
         a: "Dysphagia = difficulty or pain when swallowing, common in stroke, Parkinson's, dementia. Measures: upper body elevated, thicken fluids, small bites, slow eating, speech therapy, monitor aspiration risk.",
-        options: ["Loss of appetite","Swallowing difficulties; help: elevate upper body, thicken fluids, speech therapy, slow eating","Only relevant in unconscious patients","Treat exclusively with tube feeding"],
+        options: ["Sudden nausea triggered by the sight or smell of certain foods","Swallowing difficulties; help: elevate upper body, thicken fluids, speech therapy, slow eating","Pain when chewing due to poor dental care or ill-fitting dentures","Temporary swallowing discomfort caused by a sore throat or hoarseness"],
         correct: 1,
         fillTemplate: "With dysphagia the upper body should be ___ positioned. Fluids are often ___ and given in small portions.",
         fillAnswers: ["upright","thickened"],
@@ -2425,7 +2425,7 @@ const TOPICS_EN = {
       {
         q: "What are the five main nutrient groups and their functions?",
         a: "Carbohydrates (energy), protein (building/repair), fats (energy, hormone synthesis), vitamins (regulatory functions), minerals/trace elements (bones, nerve function). Water is also essential.",
-        options: ["Only carbohydrates and protein","Carbohydrates, protein, fats, vitamins, minerals – each with specific functions","Only vitamins and minerals","Protein is not important in old age"],
+        options: ["Only macronutrients count; vitamins are synthesised by the body itself","Carbohydrates, protein, fats, vitamins, minerals – each with specific functions","Four groups: carbohydrates, protein, fats and fluids","Six groups including alcohol and caffeine as energy sources"],
         correct: 1,
         fillTemplate: "___ provide energy. ___ are important for building and repairing tissue.",
         fillAnswers: ["Carbohydrates","Protein"],
@@ -3512,27 +3512,26 @@ export default function App() {
         {mode === "home" && (
           <div>
             <div style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: "20px", padding: "24px", marginBottom: "24px" }}>
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
-                <div>
-                  <div style={{ fontSize: "15px", marginBottom: "6px" }}>{T.welcome}</div>
-                  <div style={{ fontFamily: "sans-serif", fontSize: "13px", opacity: 0.5 }}>
-                    {T.questionsFrom(active.length, selectedTopics.length)}
-                  </div>
-                </div>
-                {(() => {
-                  const { count, studiedToday } = getStreak();
-                  if (count === 0) return (
-                    <div style={{ textAlign: "right", fontFamily: "sans-serif", fontSize: "11px", opacity: 0.35, whiteSpace: "nowrap" }}>{T.streakNone}</div>
-                  );
-                  return (
-                    <div style={{ textAlign: "right" }}>
-                      <div style={{ fontSize: "22px", lineHeight: 1 }}>{count >= 7 ? "🔥" : "✨"} <span style={{ fontSize: "20px", fontWeight: "bold", color: count >= 7 ? "#f4a03a" : "#f0e6d3" }}>{count}</span></div>
-                      <div style={{ fontFamily: "sans-serif", fontSize: "11px", marginTop: "4px", color: count >= 7 ? "#f4a03a" : "rgba(240,230,211,0.55)" }}>{T.streakDays(count)}</div>
-                      {studiedToday && <div style={{ fontFamily: "sans-serif", fontSize: "10px", marginTop: "2px", color: "#4cc864" }}>{T.streakToday}</div>}
-                    </div>
-                  );
-                })()}
+              <div style={{ fontSize: "15px", marginBottom: "4px" }}>{T.welcome}</div>
+              <div style={{ fontFamily: "sans-serif", fontSize: "13px", opacity: 0.5, marginBottom: "14px" }}>
+                {T.questionsFrom(active.length, selectedTopics.length)}
               </div>
+              {(() => {
+                const { count, studiedToday } = getStreak();
+                if (count === 0) return (
+                  <div style={{ fontFamily: "sans-serif", fontSize: "11px", opacity: 0.35 }}>{T.streakNone}</div>
+                );
+                return (
+                  <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                    <span style={{ fontSize: "20px", lineHeight: 1 }}>{count >= 7 ? "🔥" : "✨"}</span>
+                    <div>
+                      <span style={{ fontFamily: "sans-serif", fontSize: "13px", fontWeight: "bold", color: count >= 7 ? "#f4a03a" : "#f0e6d3" }}>{count}</span>
+                      <span style={{ fontFamily: "sans-serif", fontSize: "12px", color: count >= 7 ? "#f4a03a" : "rgba(240,230,211,0.55)", marginLeft: "5px" }}>{T.streakDays(count)}</span>
+                      {studiedToday && <span style={{ fontFamily: "sans-serif", fontSize: "11px", color: "#4cc864", marginLeft: "8px" }}>{T.streakToday}</span>}
+                    </div>
+                  </div>
+                );
+              })()}
             </div>
 
             {/* Topic selector */}
