@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Dark navy background -->
+  <rect width="512" height="512" rx="96" fill="#1a1a2e"/>
+
+  <!-- Left page of open book -->
+  <path d="M256 148 C220 140 140 148 104 164 L104 352 C140 336 220 328 256 336 Z" fill="#d4c4a8"/>
+
+  <!-- Right page of open book -->
+  <path d="M256 148 C292 140 372 148 408 164 L408 352 C372 336 292 328 256 336 Z" fill="#f0e6d3"/>
+
+  <!-- Book spine -->
+  <line x1="256" y1="148" x2="256" y2="336" stroke="#c8a87c" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Heart -->
+  <path d="M256 432 C252 428 196 396 196 360 C196 340 210 328 226 332 C240 336 256 350 256 350 C256 350 272 336 286 332 C302 328 316 340 316 360 C316 396 260 428 256 432 Z" fill="#e87ca8"/>
+</svg>
