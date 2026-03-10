@@ -3522,7 +3522,7 @@ export default function App() {
                 {(() => {
                   const { count, studiedToday } = getStreak();
                   if (count === 0) return (
-                    <div style={{ textAlign: "right", fontFamily: "sans-serif", fontSize: "11px", opacity: 0.35, maxWidth: 120 }}>{T.streakNone}</div>
+                    <div style={{ textAlign: "right", fontFamily: "sans-serif", fontSize: "11px", opacity: 0.35, whiteSpace: "nowrap" }}>{T.streakNone}</div>
                   );
                   return (
                     <div style={{ textAlign: "right" }}>
