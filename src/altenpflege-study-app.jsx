@@ -3590,7 +3590,7 @@ export default function App() {
 
         {/* ── QUIZ ── */}
         {mode === "quiz" && !quizDone && quizQs.length > 0 && (
-          <div>
+          <div key={qIdx}>
             {progressBar(qIdx, quizQs.length, "#7ca8e8")}
             {topicBadge(quizQs[qIdx])}
             <div style={{ fontSize: "18px", lineHeight: "1.65", marginBottom: "24px" }}>{quizQs[qIdx].q}</div>
