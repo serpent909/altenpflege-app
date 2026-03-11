@@ -169,7 +169,7 @@ const TOPICS_DE = {
       {
         q: "Was ist ein Dekubitus und welche Hauptursache hat er?",
         a: "Ein Dekubitus ist ein Druckgeschwür der Haut und des darunterliegenden Gewebes, verursacht durch anhaltenden Druck oder Scherkräfte, die die Durchblutung unterbrechen.",
-        options: ["Eine Wunde durch mangelnde Hautpflege und Trockenheit","Ein Druckgeschwür durch anhaltenden Druck auf die Haut","Eine Hautveränderung durch Feuchtigkeit in Körperfalten","Eine Schädigung durch Reibung beim Umlagern"],
+        options: ["Eine chronische Wunde durch mangelnde Hautpflege, die die Hautbarriere dauerhaft zerstört","Ein Druckgeschwür durch anhaltenden Druck auf die Haut","Ein Hautschaden durch Feuchtigkeit in Körperfalten, der durch Bakterien verschlimmert wird","Eine Schädigung durch Reibungskräfte beim Umlagern, die die Hautschichten voneinander trennen"],
         correct: 1,
         fillTemplate: "Ein Dekubitus ist ein ___ durch anhaltenden Druck, der die ___ unterbricht.",
         fillAnswers: ["Druckgeschwür","Durchblutung"],
@@ -177,7 +177,7 @@ const TOPICS_DE = {
       {
         q: "Welche vier Dekubitus-Grade unterscheidet man?",
         a: "Grad 1: Rötung, nicht wegdrückbar. Grad 2: Hautdefekt bis zur Dermis. Grad 3: Defekt bis zur Subkutis. Grad 4: Defekt bis zu Knochen/Sehnen/Muskeln.",
-        options: ["Grad 1–3: Rötung, Blasenbildung, und nekrotisches Gewebe ohne Tiefeneinteilung","Grad 1–4 nach Tiefe des Gewebeschadens","Stadium I–IV nach EPUAP mit zusätzlicher Kategorie für tiefe Gewebeläsionen","Grad 1–5 einschließlich eines Vorstadiums bei gefährdeter Haut"],
+        options: ["Grad 1–3: Rötung, Blasenbildung, Nekrose; Grad 4 existiert nur im NPUAP-System, nicht in Deutschland","Grad 1–4 nach Tiefe des Gewebeschadens","Grad 1: Rötung; Grad 2: Blase; Grad 3: Infektion; Grad 4: Amputation als Konsequenz nötig","Grad 1–5 einschließlich Grad 0 als Vorstadium bei gefährdeter, aber noch intakter Haut"],
         correct: 1,
         fillTemplate: "Beim Dekubitus Grad 1 besteht eine nicht wegdrückbare ___. Bei Grad 4 reicht der Defekt bis zu ___ oder Sehnen.",
         fillAnswers: ["Rötung","Knochen"],
@@ -185,7 +185,7 @@ const TOPICS_DE = {
       {
         q: "Was sind die fünf Momente der Händehygiene (WHO)?",
         a: "1. Vor Patientenkontakt. 2. Vor aseptischen Tätigkeiten. 3. Nach Kontakt mit Körperflüssigkeiten. 4. Nach Patientenkontakt. 5. Nach Kontakt mit der Patientenumgebung.",
-        options: ["Drei Situationen: vor, während und nach der Pflege","Vor und nach jedem Betreten des Patientenzimmers","Fünf definierte Situationen: vor/nach Patientenkontakt, vor aseptischen Tätigkeiten, nach Körperflüssigkeiten","Jedes Mal, wenn Handschuhe gewechselt werden"],
+        options: ["Drei Momente: vor Patientenkontakt, nach Körperflüssigkeitskontakt und beim Handschuhwechsel","Vor und nach jedem Betreten des Patientenzimmers sowie nach dem Ablegen von PSA","Fünf definierte Situationen: vor/nach Patientenkontakt, vor aseptischen Tätigkeiten, nach Körperflüssigkeiten","Vier Momente: vor und nach jeder Pflegemaßnahme sowie vor und nach Kontakt mit Wunden"],
         correct: 2,
         fillTemplate: "Die WHO nennt fünf Momente der Händehygiene: vor ___, nach Körperflüssigkeitskontakt und nach ___.",
         fillAnswers: ["Patientenkontakt","Patientenumgebungskontakt"],
@@ -209,7 +209,7 @@ const TOPICS_DE = {
       {
         q: "Was versteht man unter Inkontinenzversorgung und welche Grundprinzipien gelten?",
         a: "Regelmäßiger Wechsel von Inkontinenzprodukten, Hautpflege zur Vermeidung von Mazerationen, Intimsphäre wahren, aktivierende Kontinenzförderung anstreben.",
-        options: ["Produkte erst wechseln, wenn sie vollständig durchnässt sind","Regelmäßiger Wechsel, Hautschutz, Würde wahren","Bewohner möglichst diskret nicht auf Inkontinenz ansprechen","Ausschließlich absorbierende Einlagen ohne Hautpflege verwenden"],
+        options: ["Produkte erst wechseln, wenn vollständig durchnässt; Mazerationsschutz nur bei bestehenden Wunden","Regelmäßiger Wechsel, Hautschutz, Würde wahren","Bewohner stündlich zum Toilettengang begleiten; Einlagen nur nachts als Sicherheitsmaßnahme","Ausschließlich absorbierende Einlagen verwenden; Hautpflege ist Aufgabe des medizinischen Personals"],
         correct: 1,
         fillTemplate: "Bei der Inkontinenzversorgung ist regelmäßiger Wechsel und ___ zur Vermeidung von Mazerationen wichtig. Die ___ des Bewohners muss immer gewahrt werden.",
         fillAnswers: ["Hautpflege","Intimsphäre"],
@@ -217,7 +217,7 @@ const TOPICS_DE = {
       {
         q: "Was ist bei der Mundpflege bei pflegebedürftigen Menschen zu beachten?",
         a: "Mindestens zweimal täglich Zähne/Prothesen reinigen, Schleimhäute feucht halten, auf Entzündungen oder Soor (Pilzinfektionen) achten, bei Schluckstörungen Aspirationsschutz.",
-        options: ["Einmal täglich nach dem Frühstück reicht aus","Mindestens 2x täglich, Schleimhäute feucht halten, auf Veränderungen achten","Nur bei sichtbaren Verunreinigungen oder Geruch handeln","Mundpflege ausschließlich mit Wasser, ohne Pflegemittel"],
+        options: ["Einmal täglich nach dem Frühstück reicht aus; Prothesen müssen nur wöchentlich gereinigt werden","Mindestens 2x täglich, Schleimhäute feucht halten, auf Veränderungen achten","Nur bei sichtbaren Verunreinigungen oder Mundgeruch handeln; Schleimhäute benötigen keine Feuchtigkeitspflege","Mundpflege dreimal täglich ausschließlich mit Wasser; Zahnpasta und Mundspülungen sind kontraindiziert"],
         correct: 1,
         fillTemplate: "Mundpflege sollte mindestens ___ täglich durchgeführt werden. Bei Schluckstörungen ist besonders auf ___ zu achten.",
         fillAnswers: ["zweimal","Aspiration"],
@@ -225,7 +225,7 @@ const TOPICS_DE = {
       {
         q: "Wie lautet die korrekte Reihenfolge beim An- und Ausziehen von Handschuhen?",
         a: "Anziehen: Hände desinfizieren → Handschuhe anziehen. Ausziehen: Handschuh abrollen ohne Innenseite zu berühren → zweiten Handschuh um den ersten wickeln → Entsorgung → Hände desinfizieren.",
-        options: ["Reihenfolge ist egal, solange danach desinfiziert wird","Handschuhe ausziehen ohne Innenberührung, sofort Hände desinfizieren","Erst Hände waschen, dann Handschuhe ausziehen","Nach dem Ausziehen genügt gründliches Händewaschen mit Seife"],
+        options: ["Reihenfolge ist egal; Hauptsache ist, dass danach mit Seife gewaschen und dann desinfiziert wird","Handschuhe ausziehen ohne Innenberührung, sofort Hände desinfizieren","Erst Hände waschen, dann Handschuhe ausziehen; zweiten Handschuh mit bloßer Hand greifen","Nach dem Ausziehen genügt gründliches Händewaschen mit Seife für mindestens 60 Sekunden"],
         correct: 1,
         fillTemplate: "Beim Ausziehen von Handschuhen darf die ___ nicht berührt werden. Danach müssen die Hände sofort ___ werden.",
         fillAnswers: ["Innenseite","desinfiziert"],
@@ -241,7 +241,7 @@ const TOPICS_DE = {
       {
         q: "Was sind die Aufgaben der Grundpflege (Körperpflege)?",
         a: "Waschen/Baden, Haarpflege, Mund-/Zahnpflege, Nagelpflege, Rasur, Ankleiden/Auskleiden, Lagerung, Hilfe bei der Nahrungsaufnahme und Ausscheidung.",
-        options: ["Medikamentengabe, Wundversorgung und Verbandswechsel als Teil der Körperpflege","Waschen, Haarpflege, Mundpflege, Nagelpflege, Ankleiden, Lagerung, Ausscheidungshilfe","Pflegeplanung erstellen, Beobachtungen dokumentieren und Vitalzeichen messen","Beatmungsüberwachung, Infusionspflege und Blasenkatheterwechsel auf Anordnung"],
+        options: ["Medikamentengabe, Wundversorgung und Verbandswechsel; Körperpflege ist Teil der Behandlungspflege","Waschen, Haarpflege, Mundpflege, Nagelpflege, Ankleiden, Lagerung, Ausscheidungshilfe","Pflegeplanung erstellen, Bewohnergespräche führen und Pflegeprozess steuern","Beatmungsüberwachung, Infusionspflege und Blasenkatheterwechsel nach ärztlicher Anordnung"],
         correct: 1,
         fillTemplate: "Zu den Aufgaben der Grundpflege gehören Waschen, ___, Mundpflege und Hilfe bei der ___ und Ausscheidung.",
         fillAnswers: ["Haarpflege","Nahrungsaufnahme"],
@@ -257,7 +257,7 @@ const TOPICS_DE = {
       {
         q: "Welche Prophylaxen sind besonders wichtig in der stationären Altenpflege?",
         a: "Dekubitusprophylaxe, Sturz-, Kontraktur-, Thrombose-, Pneumonie-, Intertrigoprophylaxe, Mundpflegeprophylaxe. Alle zielen auf die Verhinderung von Folgeschäden durch Immobilität oder Pflegebedürftigkeit.",
-        options: ["Dekubitus- und Pneumonieprophylaxe als wichtigste Maßnahmen","Dekubitus-, Sturz-, Kontraktur-, Thrombose-, Pneumonieprophylaxe u.a.","Prophylaxen nur bei Pflegegrad 4 und 5 erforderlich","Prophylaxen ausschließlich nach ärztlicher Anordnung durchführen"],
+        options: ["Dekubitus- und Pneumonieprophylaxe; alle weiteren Maßnahmen erfolgen nur auf ärztliche Anordnung","Dekubitus-, Sturz-, Kontraktur-, Thrombose-, Pneumonieprophylaxe u.a.","Prophylaxen nur bei Pflegegrad 4 und 5, da diese Bewohner das größte Risiko aufweisen","Prophylaxen sind ausschließlich nach ärztlicher Anordnung durchzuführen und zu dokumentieren"],
         correct: 1,
         fillTemplate: "Wichtige Prophylaxen in der Altenpflege sind Dekubitus-, Sturz-, Kontraktur-, Thrombose- und ___prophylaxe.",
         fillAnswers: ["Pneumonie"],
@@ -265,7 +265,7 @@ const TOPICS_DE = {
       {
         q: "Welche Maßnahmen umfasst die Sturzprophylaxe?",
         a: "Risikoerfassung (z.B. mit dem Sturz-Assessment), Umgebungsanpassung (rutschfeste Böden, Handläufe, ausreichend Beleuchtung), Hilfsmittel (Gehilfen), Schuhwerk prüfen, Medikamente prüfen, Gleichgewichtstraining.",
-        options: ["Bettgitter als wichtigste Maßnahme hochstellen","Sturzrisiko erfassen, Umgebung sichern, Hilfsmittel, Gleichgewichtstraining","Bewegungseinschränkung zur Vermeidung von Stürzen","Sturzrisikoerfassung einmalig bei der Aufnahme durchführen"],
+        options: ["Bettgitter hochstellen und Bewohner auf Zimmerruhe beschränken als erste Maßnahmen","Sturzrisiko erfassen, Umgebung sichern, Hilfsmittel, Gleichgewichtstraining","Bewegungseinschränkung und Sedierung zur wirksamen Vermeidung von Stürzen einsetzen","Sturzrisikoerfassung einmalig bei der Aufnahme; danach nur bei Sturzereignis wiederholen"],
         correct: 1,
         fillTemplate: "Zur Sturzprophylaxe gehören Risikoerfassung, ___ (z.B. Handläufe), Hilfsmittel und ___.",
         fillAnswers: ["Umgebungsanpassung","Gleichgewichtstraining"],
@@ -273,7 +273,7 @@ const TOPICS_DE = {
       {
         q: "Was ist eine Kontraktur und wie wird sie verhindert?",
         a: "Kontraktur = dauerhafte Verkürzung von Muskeln, Sehnen oder Gelenkkapseln durch fehlende Bewegung. Prophylaxe: regelmäßige passive und aktive Bewegungsübungen (Mobilisation), korrekte Lagerung, frühzeitige Physiotherapie.",
-        options: ["Akute Muskelzerrung durch falsche Lagerung","Dauerhafte Gelenkversteifung durch Bewegungsmangel; verhindert durch Mobilisation und Lagerung","Vorübergehende Muskelschwäche bei bettlägerigen Patienten","Spastik durch neurologische Schädigung des Rückenmarks"],
+        options: ["Akute Muskelzerrung durch falsche Lagerung; verhindert durch Schonhaltung und Schmerzmittel","Dauerhafte Gelenkversteifung durch Bewegungsmangel; verhindert durch Mobilisation und Lagerung","Vorübergehende Muskelschwäche bei bettlägerigen Patienten; behandelt durch Krafttraining","Spastik durch neurologische Schädigung; verhindert durch Wärmebehandlung und Muskelrelaxantien"],
         correct: 1,
         fillTemplate: "Eine Kontraktur entsteht durch fehlende ___ und führt zu dauerhafter ___. Prophylaxe: regelmäßige Mobilisation.",
         fillAnswers: ["Bewegung","Gelenkversteifung"],
@@ -281,7 +281,7 @@ const TOPICS_DE = {
       {
         q: "Wann ist ein Verbandwechsel durchzuführen und was ist dabei zu beachten?",
         a: "Laut ärztlicher Anordnung oder wenn der Verband durchfeuchtet, verschmutzt oder gelöst ist. Aseptisches Vorgehen (Sterilhandschuhe, steriles Material), Wunde von innen nach außen reinigen, Beobachtung und Dokumentation der Wunde.",
-        options: ["Täglich nach festen Zeiten, unabhängig vom Verbandszustand","Nach ärztlicher Anordnung oder bei Bedarf; aseptisch, Wunde beobachten, dokumentieren","Mit Einmalhandschuhen; Wunde von außen nach innen reinigen","Verbandwechsel grundsätzlich erst nach 72 Stunden"],
+        options: ["Täglich nach festen Zeiten; Einmalhandschuhe genügen, eine Dokumentation ist nicht erforderlich","Nach ärztlicher Anordnung oder bei Bedarf; aseptisch, Wunde beobachten, dokumentieren","Mit Einmalhandschuhen; Wunde von außen nach innen reinigen; kein Protokoll nötig","Verbandwechsel grundsätzlich erst nach 72 Stunden; zwischenzeitliche Kontrolle durch Riechen"],
         correct: 1,
         fillTemplate: "Ein Verbandwechsel erfolgt nach ___ Anordnung oder bei Bedarf. Es ist ___ vorzugehen.",
         fillAnswers: ["ärztlicher","aseptisch"],
@@ -360,7 +360,7 @@ const TOPICS_DE = {
       {
         q: "Welche Assessments werden in der Altenpflege häufig zur Risikoerfassung eingesetzt?",
         a: "Braden-Skala (Dekubitusrisiko), Sturz-Assessment (z.B. nach Morse oder Hendrich), Mini-Mental-Status-Test (MMST) für Kognition, Mini Nutritional Assessment (MNA) für Ernährung, Schmerzskala (NRS).",
-        options: ["Braden-Skala allein ist ausreichend, da alle wesentlichen Risiken darin enthalten sind","Braden-Skala, Sturz-Assessment, MMST, MNA, Schmerzskala","Assessments werden bundesweit einheitlich durch den MDK erstellt und übermittelt","Eine Ersteinschätzung bei Aufnahme genügt, da sich stabile Situationen kaum ändern"],
+        options: ["Braden-Skala allein genügt; alle weiteren Risiken werden durch den behandelnden Arzt erfasst","Braden-Skala, Sturz-Assessment, MMST, MNA, Schmerzskala","Assessments werden bundesweit einheitlich durch den MDK erstellt und an Einrichtungen übermittelt","Eine Ersteinschätzung bei Aufnahme genügt; Wiederholungen erfolgen nur nach Krankenhausaufenthalten"],
         correct: 1,
         fillTemplate: "Die ___ erfasst das Dekubitusrisiko. Der ___ (MMST) bewertet die kognitive Leistungsfähigkeit.",
         fillAnswers: ["Braden-Skala","Mini-Mental-Status-Test"],
@@ -376,7 +376,7 @@ const TOPICS_DE = {
       {
         q: "Was gehört in einen Pflegebericht (Pflegetagebuch)?",
         a: "Datum/Uhrzeit, Name des Pflegenden, Beobachtungen zum Zustand des Bewohners, besondere Ereignisse, durchgeführte Maßnahmen, Reaktionen des Bewohners, Veränderungen.",
-        options: ["Ausschließlich besondere Ereignisse und Abweichungen vom Standard","Datum, Beobachtungen, besondere Ereignisse, Maßnahmen und Reaktionen","Nur durchgeführte Maßnahmen ohne Beobachtung des Bewohnerzustands","Vitalzeichen und Medikamentengaben gemäß ärztlicher Anordnung"],
+        options: ["Ausschließlich besondere Ereignisse und Abweichungen; Routinepflege wird nicht dokumentiert","Datum, Beobachtungen, besondere Ereignisse, Maßnahmen und Reaktionen","Nur durchgeführte Maßnahmen mit Zeitangabe; Beobachtungen kommen in die Pflegeplanung","Vitalzeichen und Medikamentengaben gemäß ärztlicher Anordnung; sonstige Maßnahmen sind optional"],
         correct: 1,
         fillTemplate: "Ein Pflegebericht enthält Datum, Name, ___ zum Zustand des Bewohners, besondere Ereignisse und ___.",
         fillAnswers: ["Beobachtungen","Reaktionen"],
@@ -424,7 +424,7 @@ const TOPICS_DE = {
       {
         q: "Welche Phasen enthält eine vollständige Pflegevisite?",
         a: "Vorbereitung (Dokumentation sichten), Durchführung (Bewohnergespräch, Begutachtung), Nachbereitung (Anpassung der Pflegeplanung, Dokumentation der Ergebnisse).",
-        options: ["Ausschließlich die Begutachtung des Bewohners durch die Pflegeleitung","Vorbereitung, Durchführung am Bewohner und Nachbereitung mit Plananpassung","Gemeinsames Gespräch mit Arzt und Angehörigen ohne vorherige Dokumentationssichtung","Bewohnerbefragung zur Zufriedenheit mit der Pflegeeinrichtung"],
+        options: ["Ausschließlich die Begutachtung des Bewohners durch die Pflegeleitung ohne Vor- und Nachbereitung","Vorbereitung, Durchführung am Bewohner und Nachbereitung mit Plananpassung","Gemeinsames Gespräch mit Arzt und Angehörigen; Dokumentation ist nicht Bestandteil der Visite","Standardisierter Fragebogen zur Bewohnerzufriedenheit; keine pflegerische Beurteilung notwendig"],
         correct: 1,
         fillTemplate: "Eine Pflegevisite umfasst ___, Durchführung am Bewohner und ___ mit Anpassung der Pflegeplanung.",
         fillAnswers: ["Vorbereitung","Nachbereitung"],
@@ -463,7 +463,7 @@ const TOPICS_DE = {
       {
         q: "Welche Hauptaufgabe hat das Herz-Kreislauf-System?",
         a: "Transport von Sauerstoff, Nährstoffen, Hormonen und Abfallstoffen durch den Körper. Das Herz als Pumpe treibt das Blut durch den Blutkreislauf.",
-        options: ["Körpertemperatur durch Erweiterung und Verengung der Hautblutgefäße regulieren","Sauerstoff und Nährstoffe transportieren","Hormone über das Blut produzieren und an Zielorgane verteilen","Stoffwechselabbauprodukte über die Leber filtern und ausscheiden"],
+        options: ["Körpertemperatur durch Erweiterung und Verengung der Hautblutgefäße regulieren","Sauerstoff und Nährstoffe transportieren","Hormone im endokrinen System produzieren und direkt ins Blut abgeben","Stoffwechselabbauprodukte über die Leber filtern, speichern und ausscheiden"],
         correct: 1,
         fillTemplate: "Das Herz-Kreislauf-System transportiert ___, Nährstoffe und Abfallstoffe. Das Herz wirkt dabei als ___.",
         fillAnswers: ["Sauerstoff","Pumpe"],
@@ -495,7 +495,7 @@ const TOPICS_DE = {
       {
         q: "Was sind die Aufgaben der Nieren?",
         a: "Filterung des Blutes, Ausscheidung von Harnstoff und Abfallstoffen, Regulation des Wasserhaushalts und Blutdrucks, Produktion von Erythropoetin und Renin.",
-        options: ["Gallenflüssigkeit produzieren und Medikamente sowie Stoffwechselprodukte abbauen","Blut filtern, Abfallstoffe ausscheiden, Wasserhaushalt regulieren","Verdauungsenzyme produzieren und Glukose als Glykogen speichern","Kalzium und Phosphat durch Aktivierung von Vitamin D in der Haut regulieren"],
+        options: ["Gallenflüssigkeit produzieren und Medikamente sowie Stoffwechselprodukte über Galle abbauen","Blut filtern, Abfallstoffe ausscheiden, Wasserhaushalt regulieren","Verdauungsenzyme produzieren und Glukose als Glykogen in der Leber speichern","Kalzium und Phosphat durch direkte Aktivierung von Vitamin D in der Nierenhülle regulieren"],
         correct: 1,
         fillTemplate: "Die Nieren filtern das ___ und scheiden Harnstoff aus. Sie regulieren außerdem den ___ und Blutdruck.",
         fillAnswers: ["Blut","Wasserhaushalt"],
@@ -511,7 +511,7 @@ const TOPICS_DE = {
       {
         q: "Was ist Osteoporose und welche Risikofaktoren gibt es?",
         a: "Osteoporose = Knochenschwund: Abnahme der Knochendichte, erhöhte Bruchgefahr. Risikofaktoren: Alter, Östrogenmangel (Frauen nach den Wechseljahren), Kalziummangel, Bewegungsmangel, Kortisontherapie.",
-        options: ["Entzündlicher Gelenkabbau durch fehlgeleitete Immunreaktionen","Knochenschwund mit erhöhtem Bruchrisiko; Risiken: Alter, Östrogenmangel, Kalziummangel","Degenerativer Knorpelabbau mit Gelenkspaltverschmälerung","Muskelabbau (Sarkopenie) durch Inaktivität und Protein­mangel"],
+        options: ["Entzündlicher Gelenkabbau durch Immunreaktionen; Risikofaktor ist vor allem weibliches Geschlecht","Knochenschwund mit erhöhtem Bruchrisiko; Risiken: Alter, Östrogenmangel, Kalziummangel","Degenerativer Knorpelabbau; Risikofaktoren sind Übergewicht und mechanische Überlastung","Muskelabbau (Sarkopenie) durch Inaktivität und Proteinmangel; erhöhtes Sturzrisiko als Folge"],
         correct: 1,
         fillTemplate: "Osteoporose bedeutet Abnahme der ___ mit erhöhtem Bruchrisiko. Typische Risikofaktoren sind Alter, ___ und Kalziummangel.",
         fillAnswers: ["Knochendichte","Östrogenmangel"],
@@ -519,7 +519,7 @@ const TOPICS_DE = {
       {
         q: "Welche Funktion hat die Haut als größtes Organ?",
         a: "Schutzfunktion (gegen Keime, Verletzungen), Wärmeregulation (Schwitzen, Blutgefäßerweiterung), Sinnesorgan (Tastsinn, Schmerz, Temperatur), Vitamin-D-Synthese, Kommunikation (Röte, Schweiß).",
-        options: ["Ausschließlich mechanischer Schutz und Vitamin-D-Synthese; keine Sinnesfunktionen","Schutz, Wärmeregulation, Sinnesorgan, Vitamin-D-Synthese","Hauptsächlich Abwehr von Krankheitserregern durch Immunzellen in der Dermis","Hauptsächlich Hormonproduktion über Talg- und Schweißdrüsen"],
+        options: ["Ausschließlich mechanischer Schutz und Vitamin-D-Synthese; Temperaturregulation erfolgt über das Blut","Schutz, Wärmeregulation, Sinnesorgan, Vitamin-D-Synthese","Hauptsächlich Immunabwehr durch Makrophagen und T-Lymphozyten in der Epidermis","Hauptsächlich Hormonproduktion über Talg- und Schweißdrüsen zur Steuerung des Hormonhaushalts"],
         correct: 1,
         fillTemplate: "Die Haut übernimmt Schutz-, ___ und Sinnesfunktionen. Sie ist auch zuständig für die ___-D-Synthese.",
         fillAnswers: ["Wärmeregulations","Vitamin"],
@@ -543,7 +543,7 @@ const TOPICS_DE = {
       {
         q: "Was ist der Unterschied zwischen Arterie und Vene?",
         a: "Arterien führen Blut vom Herzen weg (meistens sauerstoffreich). Venen führen Blut zum Herzen hin (meistens sauerstoffarm). Ausnahme: Lungenarterie/-vene.",
-        options: ["Arterien führen sauerstoffarmes, Venen sauerstoffreiches Blut (ohne Ausnahme)","Arterien führen Blut vom Herzen weg, Venen zum Herzen hin","Venen haben Klappen, Arterien nie – daher fließt das Blut nur in eine Richtung","Arterien liegen tiefer im Gewebe, Venen immer oberflächlich"],
+        options: ["Arterien führen immer sauerstoffarmes Blut und Venen immer sauerstoffreiches Blut (keine Ausnahmen)","Arterien führen Blut vom Herzen weg, Venen zum Herzen hin","Venen haben Klappen, Arterien hingegen nicht; beide führen sauerstoffreiches Blut","Arterien liegen immer tiefer im Gewebe und Venen liegen stets direkt unter der Haut"],
         correct: 1,
         fillTemplate: "___ führen Blut vom Herzen weg (meist sauerstoffreich). ___ führen Blut zum Herzen hin (meist sauerstoffarm).",
         fillAnswers: ["Arterien","Venen"],
@@ -622,7 +622,7 @@ const TOPICS_DE = {
       {
         q: "Was ist Diabetes mellitus Typ 2 und wie äußert er sich?",
         a: "Typ 2: Insulinresistenz und relative Insulinmangel. Symptome: Müdigkeit, Durst, häufiges Wasserlassen, langsame Wundheilung, Sehstörungen. Häufig bei Übergewicht, Bewegungsmangel, im Alter.",
-        options: ["Absoluter Insulinmangel durch Zerstörung der Betazellen; behandelt mit Insulin","Insulinresistenz; Symptome: Müdigkeit, Durst, häufiges Wasserlassen, langsame Wundheilung","Autoimmunerkrankung mit Antikörpern gegen Inselzellen, typisch bei Normalgewicht","Erhöhter Insulinspiegel durch Überproduktion der Betazellen im Pankreas"],
+        options: ["Absoluter Insulinmangel durch Betazellzerstörung; Symptome beginnen abrupt und erfordern sofort Insulin","Insulinresistenz; Symptome: Müdigkeit, Durst, häufiges Wasserlassen, langsame Wundheilung","Autoimmunerkrankung mit Antikörpern gegen Inselzellen; typisch bei schlanken jungen Erwachsenen","Überschuss an Insulin durch Betazellhyperplasie; Symptome: Zittern, Schwitzen, Hunger"],
         correct: 1,
         fillTemplate: "Diabetes Typ 2 entsteht durch Insulinresistenz. Typische Symptome sind Müdigkeit, ___ und langsame ___.",
         fillAnswers: ["Durst","Wundheilung"],
@@ -630,7 +630,7 @@ const TOPICS_DE = {
       {
         q: "Was ist Hypoglykämie und wie wird sie sofort behandelt?",
         a: "Hypoglykämie = Unterzuckerung (Blutzucker < 70 mg/dl). Symptome: Zittern, Schwitzen, Herzrasen, Verwirrtheit, Bewusstlosigkeit. Sofortmaßnahme: schnell wirkende Kohlenhydrate geben (Traubenzucker, Saft, Cola).",
-        options: ["Überzuckerung (>200 mg/dl); sofort Insulin spritzen lassen","Unterzuckerung; sofort schnell wirkende Kohlenhydrate (Traubenzucker, Saft) geben","Normoglykämie bei Diabetikern unter 80 mg/dl; langsam wirkende KH geben","Ketoazidose; Bewohner sofort hinlegen und Flüssigkeit reduzieren"],
+        options: ["Überzuckerung (>200 mg/dl); sofort Insulin spritzen und Flüssigkeitsaufnahme erhöhen","Unterzuckerung; sofort schnell wirkende Kohlenhydrate (Traubenzucker, Saft) geben","Blutzucker-Tiefpunkt bei Diabetikern unter 80 mg/dl; langsam wirkende KH reichen aus","Ketoazidose mit Azetongeruch; Bewohner sofort hinlegen und Flüssigkeit stark reduzieren"],
         correct: 1,
         fillTemplate: "Hypoglykämie bedeutet ___. Sofortmaßnahme: schnell wirkende ___ wie Traubenzucker geben.",
         fillAnswers: ["Unterzuckerung","Kohlenhydrate"],
@@ -678,7 +678,7 @@ const TOPICS_DE = {
       {
         q: "Was ist eine Harnwegsinfektion (HWI) und welche Symptome zeigen ältere Menschen?",
         a: "HWI = Infektion der Harnwege durch Bakterien (meist E. coli). Bei älteren Menschen oft atypische Symptome: Verwirrtheit, Unruhe, Stürze, Appetitlosigkeit. Klassisch: Brennen beim Wasserlassen, Häufigkeit.",
-        options: ["Immer mit starkem Brennen, Schmerzen und Fieber verbunden","Bakterieninfektion; bei Älteren oft Verwirrtheit, Unruhe, Stürze statt typischer Symptome","Virale Infektion der Harnwege, die mit Antibiotika nicht behandelbar ist","Ausschließlich durch Harnkatheter verursachte Infektionskomplikation"],
+        options: ["Immer mit starkem Brennen, Flankenschmerzen und hohem Fieber verbunden; stets Antibiose nötig","Bakterieninfektion; bei Älteren oft Verwirrtheit, Unruhe, Stürze statt typischer Symptome","Virale Infektion der Harnwege durch E. coli; Antibiotika zeigen keine Wirkung auf diesen Erreger","Ausschließlich Komplikation durch Blasenkatheter; ohne Katheter kein HWI-Risiko im Pflegealltag"],
         correct: 1,
         fillTemplate: "Bei einer Harnwegsinfektion zeigen ältere Menschen oft ___ Symptome wie Verwirrtheit und Unruhe statt des typischen ___.",
         fillAnswers: ["atypische","Brennens"],
@@ -702,7 +702,7 @@ const TOPICS_DE = {
       {
         q: "Was ist eine Thrombose und welche Prophylaxemaßnahmen gibt es?",
         a: "Thrombose = Blutgerinnsel in einem Blutgefäß (meist Beinvene). Prophylaxe: Bewegung/Mobilisation, Kompressionsstrümpfe, ausreichend Flüssigkeit, medikamentöse Antikoagulation, Hochlagern der Beine.",
-        options: ["Entzündung der Venenwände (Phlebitis) durch mechanische Reizung","Blutgerinnsel in einem Blutgefäß; Prophylaxe: Mobilisation, Kompressionsstrümpfe, Flüssigkeit","Arterieller Gefäßverschluss mit akutem Extremitätenschmerz","Varikosis (Krampfadern) durch Klappeninsuffizienz der Venen"],
+        options: ["Entzündung der Venenwände (Phlebitis); Prophylaxe: Kühlen, Kühlung und Ruhigstellen","Blutgerinnsel in einem Blutgefäß; Prophylaxe: Mobilisation, Kompressionsstrümpfe, Flüssigkeit","Arterieller Gefäßverschluss; Prophylaxe: Thrombozytenaggregationshemmer und Rauchverzicht","Varikosis (Krampfadern); Prophylaxe: Sklerosierungstherapie und Vermeidung von Stehberufen"],
         correct: 1,
         fillTemplate: "Eine Thrombose ist ein ___ in einem Blutgefäß. Zur Prophylaxe gehören Mobilisation und ___.",
         fillAnswers: ["Blutgerinnsel","Kompressionsstrümpfe"],
@@ -718,7 +718,7 @@ const TOPICS_DE = {
       {
         q: "Was sind typische Symptome eines Herzinfarkts?",
         a: "Heftiger Brustschmerz (Vernichtungsschmerz), Ausstrahlung in linken Arm/Kiefer/Rücken, Atemnot, Übelkeit, Schweißausbruch, Todesangst. Bei Frauen/älteren Menschen oft untypisch (Oberbauchschmerzen, Übelkeit).",
-        options: ["Stechende Brustschmerzen beim Einatmen, die sich im Liegen bessern","Vernichtungsschmerz, Ausstrahlung, Atemnot, Schweißausbruch; bei Frauen oft untypisch","Linksseitige Rückenschmerzen, die auf Opiate gut ansprechen","Krampfartige Oberbauchschmerzen mit Ausstrahlung in die Schulter"],
+        options: ["Stechende Brustschmerzen beim Einatmen, die sich im Liegen bessern; typisch für Pleuritis","Vernichtungsschmerz, Ausstrahlung, Atemnot, Schweißausbruch; bei Frauen oft untypisch","Linksseitige Rückenschmerzen mit Ausstrahlung bis ins Bein, die gut auf Opiate ansprechen","Krampfartige Oberbauchschmerzen mit Ausstrahlung in die Schulter; typisch für Gallenkolik"],
         correct: 1,
         fillTemplate: "Typische Symptome des Herzinfarkts sind ___ und Ausstrahlung in den linken Arm. Bei Frauen sind die Symptome oft ___.",
         fillAnswers: ["Vernichtungsschmerz","untypisch"],
@@ -726,7 +726,7 @@ const TOPICS_DE = {
       {
         q: "Was ist Dysphagie und welche Pflegemaßnahmen sind erforderlich?",
         a: "Dysphagie = Schluckstörung (häufig nach Schlaganfall, bei Demenz, Parkinson). Risiko: Aspiration (Eindringen von Speisen/Flüssigkeiten in die Lunge). Maßnahmen: Konsistenzanpassung (angedickte Flüssigkeiten), aufrechte Sitzposition, Logopädie.",
-        options: ["Schluckstörung primär nach Schlaganfall; flüssige Kost ist unbedenklicher als feste Nahrung","Schluckstörung mit Aspirationsrisiko; Konsistenzanpassung, aufrechte Haltung, Logopädie","Dysphagie tritt ausschließlich bei neurologischen Erkrankungen wie Schlaganfall und Parkinson auf","Konsistenzanpassung ist nur übergangsweise nötig und kann nach logopädischer Therapie entfallen"],
+        options: ["Schluckstörung nach Schlaganfall; flüssige Kost ist immer sicher, feste Nahrung zu meiden","Schluckstörung mit Aspirationsrisiko; Konsistenzanpassung, aufrechte Haltung, Logopädie","Dysphagie tritt nur bei neurologischen Erkrankungen auf; bei Demenz ist das Schlucken nie betroffen","Konsistenzanpassung nur übergangsweise; nach logopädischer Freigabe ist normale Kost möglich"],
         correct: 1,
         fillTemplate: "Dysphagie ist eine ___ mit Aspirationsrisiko. Pflegerische Maßnahmen sind ___ von Flüssigkeiten und aufrechte Sitzhaltung.",
         fillAnswers: ["Schluckstörung","Konsistenzanpassung"],
@@ -789,7 +789,7 @@ const TOPICS_DE = {
       {
         q: "Was ist Mangelernährung (Malnutrition) und wie erkennt man sie?",
         a: "Mangelernährung = unzureichende Aufnahme von Energie und Nährstoffen. Zeichen: Gewichtsverlust, Muskelschwund, trockene Haut, Müdigkeit, geschwächtes Immunsystem. Erfassung z.B. mit dem MNA (Mini Nutritional Assessment).",
-        options: ["Ausschließlicher Vitaminmangel ohne Auswirkung auf Körpergewicht oder Muskelkraft","Unzureichende Nährstoffaufnahme; Zeichen: Gewichtsverlust, Muskelschwund, Müdigkeit","Vorübergehender Gewichtsverlust durch Krankheit, der sich meist erholt","Ernährungsdefizit, das nur durch Blutuntersuchungen erkennbar ist"],
+        options: ["Ausschließlicher Vitaminmangel ohne Auswirkung auf Körpergewicht oder Muskelkraft","Unzureichende Nährstoffaufnahme; Zeichen: Gewichtsverlust, Muskelschwund, Müdigkeit","Vorübergehender Gewichtsverlust durch Erkrankung; erholt sich vollständig nach Genesungsphase","Ernährungsdefizit ausschließlich durch Blutuntersuchungen (Albumin, Ferritin) erkennbar"],
         correct: 1,
         fillTemplate: "Mangelernährung bedeutet unzureichende Aufnahme von Energie und ___. Sie wird z.B. mit dem ___ erfasst.",
         fillAnswers: ["Nährstoffen","MNA"],
@@ -805,7 +805,7 @@ const TOPICS_DE = {
       {
         q: "Welche besonderen Ernährungsrisiken haben ältere Menschen?",
         a: "Verminderter Appetit, Kau-/Schluckprobleme, Medikamentennebenwirkungen, verminderte Sinneswahrnehmung (Geschmack/Geruch), soziale Isolation, Depression, eingeschränkte Mobilität beim Einkaufen/Kochen.",
-        options: ["Kaum veränderte Ernährungsbedürfnisse im Vergleich zu jüngeren Erwachsenen","Verminderter Appetit, Kau-/Schluckprobleme, Medikamentenwirkungen, Isolation","Höherer Energiebedarf und verstärkter Appetit im Alter","Ausschließlich körperliche Einschränkungen beim Einkaufen und Kochen"],
+        options: ["Kaum veränderte Ernährungsbedürfnisse; Mangelernährung ist im Alter kein pflegerelevantes Thema","Verminderter Appetit, Kau-/Schluckprobleme, Medikamentenwirkungen, Isolation","Höherer Energiebedarf und gesteigerter Appetit im Alter durch erhöhten Grundumsatz","Ausschließlich körperliche Einschränkungen beim Einkaufen; geistige Faktoren spielen keine Rolle"],
         correct: 1,
         fillTemplate: "Besondere Ernährungsrisiken im Alter sind verminderter Appetit, ___ und Medikamentennebenwirkungen. Auch ___ spielt eine Rolle.",
         fillAnswers: ["Schluckprobleme","soziale Isolation"],
@@ -845,7 +845,7 @@ const TOPICS_DE = {
       {
         q: "Was sollte bei der Unterstützung bei der Nahrungsaufnahme beachtet werden?",
         a: "Würde und Selbstbestimmung des Bewohners wahren, angenehme Atmosphäre schaffen, Essen anpassen, Hunger-/Sättigungssignale beachten, ausreichend Zeit, Hilfestellung nur dort wo nötig (aktivierend), Lieblingsspeisen ermitteln.",
-        options: ["Essen effizient und zügig anreichen, um Pflegezeit zu minimieren","Würde wahren, Zeit lassen, Lieblingsspeisen, angenehme Atmosphäre, aktivierend unterstützen","Hilfe immer vollständig übernehmen, um Verschlucken sicher zu verhindern","Auf Wunsch des Bewohners die Mahlzeit stets allein im Zimmer servieren"],
+        options: ["Essen effizient und zügig anreichen; Lieblingsspeisen sind sekundär gegenüber dem Nährwert","Würde wahren, Zeit lassen, Lieblingsspeisen, angenehme Atmosphäre, aktivierend unterstützen","Hilfe immer vollständig übernehmen; Selbstständigkeit ist beim Essen kein realistisches Pflegeziel","Bewohner stets allein im Zimmer essen lassen; Gemeinschaftsräume erhöhen das Infektionsrisiko"],
         correct: 1,
         fillTemplate: "Bei der Nahrungsaufnahme muss die ___ des Bewohners gewahrt werden. Hilfe sollte ___ geleistet werden (nur wo nötig).",
         fillAnswers: ["Würde","aktivierend"],
@@ -885,7 +885,7 @@ const TOPICS_DE = {
       {
         q: "Wie erkennt man Exsikkose (Austrocknung) und was ist zu tun?",
         a: "Exsikkose: trockene Schleimhäute, verminderter Hautturgor (Hautfalte bleibt stehen), Verwirrtheit, Schwäche, konzentrierter Urin. Maßnahmen: Flüssigkeitsaufnahme dokumentieren, trinken animieren, ggf. ärztliche Anordnung für Infusion.",
-        options: ["Übermäßiges Schwitzen und gerötete Haut; kühlen und Elektrolytlösungen verabreichen","Trockene Schleimhäute, verminderter Hautturgor, Verwirrtheit; Flüssigkeit geben, Arzt informieren","Geschwollene Knöchel und erhöhter Blutdruck durch Wassereinlagerung","Fieberhaftes Erscheinungsbild mit erhöhter Urinproduktion"],
+        options: ["Übermäßiges Schwitzen und gerötete Haut; kühlen und Flüssigkeitszufuhr stark einschränken","Trockene Schleimhäute, verminderter Hautturgor, Verwirrtheit; Flüssigkeit geben, Arzt informieren","Geschwollene Knöchel und erhöhter Blutdruck durch Wassereinlagerung; Diuretika geben","Fieberhaftes Erscheinungsbild mit erhöhter Urinproduktion; Antipyretika verabreichen"],
         correct: 1,
         fillTemplate: "Exsikkose zeigt sich durch trockene ___ und verminderten ___. Sofortmaßnahme: Flüssigkeitsaufnahme fördern.",
         fillAnswers: ["Schleimhäute","Hautturgor"],
@@ -893,7 +893,7 @@ const TOPICS_DE = {
       {
         q: "Was ist bei der Arzneimittelgabe und Ernährung zu beachten?",
         a: "Viele Medikamente sollten mit ausreichend Wasser (mindestens 100–200 ml) eingenommen werden, einige nicht mit Milch oder Grapefruitsaft. Manche Medikamente beeinflussen Appetit, Geschmack oder Nährstoffresorption.",
-        options: ["Alle Medikamente sollten mit einem Glas Milch eingenommen werden","Mit ausreichend Wasser; Wechselwirkungen mit Milch/Grapefruitsaft; Einfluss auf Appetit/Resorption","Medikamente grundsätzlich zu den Mahlzeiten, um Magenprobleme zu vermeiden","Mahlzeiten verzögern immer die Aufnahme und sollten bei Medikamentengabe vermieden werden"],
+        options: ["Alle Medikamente sollten mit einem Glas Milch eingenommen werden; Wasser ist weniger geeignet","Mit ausreichend Wasser; Wechselwirkungen mit Milch/Grapefruitsaft; Einfluss auf Appetit/Resorption","Medikamente immer nüchtern einnehmen; Mahlzeiten verzögern die Aufnahme aller Wirkstoffe","Mahlzeiten verbessern immer die Verträglichkeit; Wasser ist bei oralen Medikamenten optional"],
         correct: 1,
         fillTemplate: "Medikamente sollten mit mindestens ___ ml Wasser eingenommen werden. Wechselwirkungen mit ___ oder Grapefruitsaft sind zu beachten.",
         fillAnswers: ["100–200","Milch"],
@@ -948,7 +948,7 @@ const TOPICS_DE = {
       {
         q: "Welche Sofortmaßnahmen gelten beim FAST-Verdacht auf Schlaganfall?",
         a: "Notruf 112 sofort. Patient beruhigen und hinlegen (Oberkörper leicht erhöht). Nichts zu essen/trinken geben (Aspirationsgefahr). Zeit notieren (für Lyse-Therapie wichtig). Patient nicht allein lassen.",
-        options: ["Bewohner aufrecht hinsetzen und Blutdruck messen, dann Arzt anrufen","Sofort 112, hinlegen, nichts zu essen/trinken, Zeit notieren, nicht allein lassen","Einen niedrig dosierten Blutdrucksenker geben, um Hirnblutung zu verhindern","Bewohner beruhigen und 30 Minuten beobachten, ob Symptome abklingen"],
+        options: ["Bewohner aufrecht hinsetzen und Blutdruck messen; erst wenn >180 mmHg Notarzt rufen","Sofort 112, hinlegen, nichts zu essen/trinken, Zeit notieren, nicht allein lassen","Niedrig dosierten Blutdrucksenker aus dem Pflegeschrank geben, um Hirnblutung zu verhindern","Bewohner beruhigen und 30 Minuten beobachten; bei Besserung ist kein Notruf erforderlich"],
         correct: 1,
         fillTemplate: "Bei Schlaganfallverdacht sofort ___ anrufen. Dem Patienten nichts zu ___ geben (Aspirationsgefahr).",
         fillAnswers: ["112","essen/trinken"],
@@ -964,7 +964,7 @@ const TOPICS_DE = {
       {
         q: "Was tun bei einem Sturz mit Verdacht auf Fraktur?",
         a: "Patient nicht bewegen (Fraktur kann sich verschlimmern). Notruf 112. Patient beruhigen, warmhalten. Betroffenes Körperteil ruhigstellen (nicht richten). Vitalzeichen beobachten. Sturzereignis dokumentieren.",
-        options: ["Patienten vorsichtig in stabile Seitenlage bringen, um Aspiration zu verhindern","Patient nicht bewegen, 112 rufen, ruhigstellen, beruhigen, Vitalzeichen beobachten","Fraktur kühlen, hochlagern und mit Druckverband versorgen","Patienten zum Aufstehen animieren, um eine Versteifung zu verhindern"],
+        options: ["Patienten vorsichtig in stabile Seitenlage bringen und dort halten, bis der Notarzt eintrifft","Patient nicht bewegen, 112 rufen, ruhigstellen, beruhigen, Vitalzeichen beobachten","Fraktur kühlen, hochlagern und mit Druckverband versorgen; danach Arzt benachrichtigen","Patienten zum Aufstehen animieren und die Belastungsfähigkeit des Glieds testen lassen"],
         correct: 1,
         fillTemplate: "Bei Sturz mit Frakturverdacht: Patient ___, 112 rufen und das Körperteil ___.",
         fillAnswers: ["nicht bewegen","ruhigstellen"],
@@ -972,7 +972,7 @@ const TOPICS_DE = {
       {
         q: "Was sind die Maßnahmen bei Bewusstlosigkeit mit normaler Atmung?",
         a: "Stabile Seitenlage. Notruf 112. Atemwege freimachen und sichern. Regelmäßige Atemkontrolle. Wärme erhalten. Patient nicht allein lassen. Nie etwas in den Mund geben.",
-        options: ["Bewohner wachrütteln und laut ansprechen, bis er reagiert","Stabile Seitenlage, 112 rufen, Atemwege sichern, Atmung kontrollieren","In Rückenlage belassen und Beine leicht erhöhen (Schocklagerung)","Sofort mit Herzdruckmassage beginnen, auch wenn Atmung noch vorhanden"],
+        options: ["Bewohner wachrütteln und laut ansprechen, bis er reagiert; erst dann Notruf erwägen","Stabile Seitenlage, 112 rufen, Atemwege sichern, Atmung kontrollieren","In Rückenlage belassen und Beine leicht erhöhen (Schocklagerung) bis Rettungsdienst kommt","Sofort mit Herzdruckmassage beginnen, auch wenn Atmung noch vorhanden ist"],
         correct: 1,
         fillTemplate: "Bei Bewusstlosigkeit mit normaler Atmung: ___ anlegen, ___ rufen und Atemwege sichern.",
         fillAnswers: ["Stabile Seitenlage","112"],
@@ -988,7 +988,7 @@ const TOPICS_DE = {
       {
         q: "Was sind die Maßnahmen bei einem Herzinfarkt bis der Rettungsdienst kommt?",
         a: "Notruf 112 sofort. Patient hinsetzen oder hinlegen (keine Anstrengung). Enge Kleidung lockern. Patient beruhigen. Vitalzeichen beobachten. Notfallkoffer/Defibrillator holen lassen. Bei Kreislaufstillstand: CPR.",
-        options: ["Nitro-Spray aus dem Medikamentenschrank geben und Hausarzt benachrichtigen","Sofort 112, hinsetzen, Kleidung lockern, beruhigen, Defi holen, bei Stillstand CPR","Patienten in stabile Seitenlage bringen und Atemwege freihalten","300 mg Aspirin geben und Patienten mit erhöhtem Oberkörper lagern"],
+        options: ["Nitro-Spray aus dem Medikamentenschrank geben und Hausarzt anrufen; auf Ruf des Hausarztes warten","Sofort 112, hinsetzen, Kleidung lockern, beruhigen, Defi holen, bei Stillstand CPR","Patienten in stabile Seitenlage bringen und Atemwege freihalten bis Rettungsdienst eintrifft","300 mg Aspirin aus dem Pflegeschrank geben und Patient in halbsitzender Position lagern"],
         correct: 1,
         fillTemplate: "Beim Herzinfarkt sofort ___ rufen, Patienten ___ und Kleidung lockern.",
         fillAnswers: ["112","hinsetzen"],
@@ -1004,7 +1004,7 @@ const TOPICS_DE = {
       {
         q: "Was sind Symptome eines Lungenembolismus und wie handelt man?",
         a: "Lungenembolie: plötzliche Atemnot, Brustschmerzen, Bluthusten, Herzrasen, Bewusstseinstrübung. Ursache: meist Blutgerinnsel (Thrombose). Sofort: Notruf 112, Ruhe, keine Belastung, aufrechte Position.",
-        options: ["Chronische Atemwegsentzündung mit zunehmendem Husten und Auswurf","Plötzliche Atemnot, Brustschmerzen, Bluthusten; Notruf 112, Ruhe, aufrechte Position","Symptome einer Pleuraerguss mit langsam zunehmender Atemnot","Herzinsuffizienz mit beidseitigen Knöchelödemen und Belastungsdyspnoe"],
+        options: ["Chronische Atemwegsentzündung mit zunehmendem Husten und Auswurf; Ruhe und Inhalation empfohlen","Plötzliche Atemnot, Brustschmerzen, Bluthusten; Notruf 112, Ruhe, aufrechte Position","Pleuraerguss mit langsam zunehmender Atemnot; Flüssigkeitsgabe und Lagerung auf betroffener Seite","Herzinsuffizienz mit beidseitigen Knöchelödemen und Belastungsdyspnoe; Diuretika anfordern"],
         correct: 1,
         fillTemplate: "Lungenembolie zeigt sich durch plötzliche ___ und Brustschmerzen. Sofort ___ rufen.",
         fillAnswers: ["Atemnot","112"],
@@ -1012,7 +1012,7 @@ const TOPICS_DE = {
       {
         q: "Was bedeutet die stabile Seitenlage und wann wird sie angewendet?",
         a: "Stabile Seitenlage sichert die Atemwege bei bewusstlosen, aber atmenden Personen. Verhindert Aspiration von Erbrochenem. Anwendung: Atemweg freimachen, Patient auf die Seite drehen, oben liegender Arm und Bein als Stütze.",
-        options: ["Lagerung bei bewusstlosen Patienten mit Verdacht auf Wirbelsäulenverletzung","Sicherung der Atemwege bei Bewusstlosigkeit mit Atmung; verhindert Aspiration","Standardlagerung für alle Notfallsituationen, auch bei Herzstillstand","Schocklagerung für kreislaufinstabile Patienten mit Beinerhöhung"],
+        options: ["Lagerung bei bewusstlosen Patienten mit Verdacht auf Wirbelsäulenverletzung; Kopf fixieren","Sicherung der Atemwege bei Bewusstlosigkeit mit Atmung; verhindert Aspiration","Standardlagerung für alle Notfallsituationen einschließlich Herzstillstand; ersetzt CPR nicht","Schocklagerung für kreislaufinstabile Patienten mit erhöhten Beinen und flachem Oberkörper"],
         correct: 1,
         fillTemplate: "Die stabile Seitenlage sichert die ___ bei bewusstlosen, aber atmenden Personen und verhindert ___.",
         fillAnswers: ["Atemwege","Aspiration"],
@@ -1020,7 +1020,7 @@ const TOPICS_DE = {
       {
         q: "Was ist bei einem Krampfanfall (Epilepsie) zu beachten?",
         a: "Verletzungen verhindern (Umgebung freimachen), nichts in den Mund stecken, Patienten nicht festhalten, nach dem Anfall stabile Seitenlage, Zeit messen, Notruf wenn Anfall >5 Min oder Patient sich nicht erholt. Ruhig bleiben.",
-        options: ["Kopf seitlich drehen und Zunge manuell nach vorne ziehen","Umgebung freimachen, nichts in den Mund, Zeit messen, danach Seitenlage, bei >5 Min 112","Weichen Gegenstand zwischen die Zähne legen, um Zungenbiss zu verhindern","Patienten festhalten, damit keine unkontrollierten Bewegungen entstehen"],
+        options: ["Kopf seitlich drehen und Zunge manuell nach vorne ziehen, um Erstickung zu verhindern","Umgebung freimachen, nichts in den Mund, Zeit messen, danach Seitenlage, bei >5 Min 112","Weichen Gegenstand zwischen die Zähne legen, damit die Zunge nicht gebissen wird","Patienten vorsichtig festhalten, damit keine unkontrollierten Bewegungen zu Verletzungen führen"],
         correct: 1,
         fillTemplate: "Beim Krampfanfall: Umgebung freimachen, nichts in den ___ stecken, ___ messen. Nach dem Anfall: Seitenlage.",
         fillAnswers: ["Mund","Zeit"],
@@ -1028,7 +1028,7 @@ const TOPICS_DE = {
       {
         q: "Was versteht man unter Schocklagerung und wann wird sie eingesetzt?",
         a: "Schocklagerung = Rückenlage mit erhöhten Beinen (ca. 30–45°) zur Verbesserung der Durchblutung lebenswichtiger Organe. Eingesetzt bei: Blutdruckabfall, Kreislaufschock (außer kardiogenem Schock und Lungenödem).",
-        options: ["Oberkörperhochlagerung bei 30° zur Verbesserung der Herzfüllung bei Kreislaufschwäche","Rückenlage mit erhöhten Beinen bei Kreislaufschock (nicht bei Herzschock/Lungenödem)","Stabile Seitenlage mit erhöhten Beinen, um Aspiration und Kreislaufversagen zu verhindern","Flache Rückenlage ohne Beinerhöhung, da Beinerhöhung die Atemarbeit erschwert"],
+        options: ["Oberkörperhochlagerung bei 30° verbessert Herzfüllung; immer auch bei Lungenödem geeignet","Rückenlage mit erhöhten Beinen bei Kreislaufschock (nicht bei Herzschock/Lungenödem)","Stabile Seitenlage mit erhöhten Beinen; schützt gleichzeitig vor Aspiration und Kreislaufversagen","Flache Rückenlage ohne Beinerhöhung; Beinerhöhung belastet Herzinsuffizienz-Patienten zu stark"],
         correct: 1,
         fillTemplate: "Schocklagerung bedeutet erhöhte ___ bei Rückenlage. Sie verbessert die Durchblutung und wird bei ___ eingesetzt.",
         fillAnswers: ["Beine","Kreislaufschock"],
@@ -1075,7 +1075,7 @@ const TOPICS_DE = {
       {
         q: "Was ist die Schweigepflicht in der Pflege und wann darf sie gebrochen werden?",
         a: "Pflegekräfte dürfen keine Patientendaten an Unbefugte weitergeben (§ 203 StGB). Ausnahmen: Einwilligung des Patienten, gesetzliche Auskunftspflichten (z.B. Meldepflicht bei Infektionskrankheiten), unmittelbare Gefahr für Dritte.",
-        options: ["Pflegebedürftige können die Schweigepflicht gegenüber Angehörigen nicht aufheben","Keine Weitergabe ohne Einwilligung; Ausnahme: gesetzliche Pflichten, akute Gefahr für Dritte","Schweigepflicht gilt nicht innerhalb eines Pflegeteams derselben Einrichtung","Bei Verdacht auf Misshandlung darf die Schweigepflicht nie gebrochen werden"],
+        options: ["Pflegebedürftige können die Schweigepflicht gegenüber Angehörigen nicht aufheben; gilt als absolute Pflicht","Keine Weitergabe ohne Einwilligung; Ausnahme: gesetzliche Pflichten, akute Gefahr für Dritte","Schweigepflicht gilt nicht innerhalb eines Pflegeteams; Kolleginnen dürfen alle Daten einsehen","Bei Misshandlungsverdacht darf die Schweigepflicht niemals gebrochen werden; Anzeige ist Sache der Leitung"],
         correct: 1,
         fillTemplate: "Die Schweigepflicht (§ 203 ___) verbietet die Weitergabe von Patientendaten. Ausnahmen sind gesetzliche Pflichten oder ___ für Dritte.",
         fillAnswers: ["StGB","akute Gefahr"],
@@ -1091,7 +1091,7 @@ const TOPICS_DE = {
       {
         q: "Was bedeutet 'freiheitsentziehende Maßnahmen' (FEM) und wann sind sie zulässig?",
         a: "FEM = Maßnahmen, die die Bewegungsfreiheit einschränken (Bettgitter, Fixierungen, abschließbare Türen). Zulässig nur mit richterlicher Genehmigung (Betreuungsgericht) oder als kurzfristige Notfallmaßnahme. Dokumentationspflicht.",
-        options: ["Zulässig, wenn Einwilligung des Bewohners oder eines Angehörigen vorliegt","Nur mit richterlicher Genehmigung oder im Notfall; Dokumentation notwendig","Erlaubt, wenn der Arzt schriftlich anordnet und die Pflegeleitung zustimmt","Erlaubt bei Pflegegrad 4 und 5 ohne richterliche Genehmigung"],
+        options: ["Zulässig, wenn Einwilligung des Bewohners oder eines bevollmächtigten Angehörigen schriftlich vorliegt","Nur mit richterlicher Genehmigung oder im Notfall; Dokumentation notwendig","Erlaubt, wenn der Arzt schriftlich anordnet und die Pflegedienstleitung schriftlich zustimmt","Erlaubt ab Pflegegrad 4 und 5 ohne richterliche Genehmigung aufgrund erhöhten Gefährdungsrisikos"],
         correct: 1,
         fillTemplate: "Freiheitsentziehende Maßnahmen sind nur mit ___ Genehmigung oder als ___ erlaubt.",
         fillAnswers: ["richterlicher","Notfallmaßnahme"],
@@ -1099,7 +1099,7 @@ const TOPICS_DE = {
       {
         q: "Was ist eine Patientenverfügung und was regelt sie?",
         a: "Schriftliche Vorausverfügung einer Person für den Fall, dass sie nicht mehr entscheidungsfähig ist. Regelt, welche medizinischen Maßnahmen gewünscht oder abgelehnt werden (z.B. keine Reanimation, keine künstliche Ernährung).",
-        options: ["Eine notarielle Verfügung über die Verteilung des Nachlasses","Vorausverfügung für medizinische Wünsche bei Entscheidungsunfähigkeit","Eine Vollmacht, die einem Arzt Entscheidungsbefugnis überträgt","Betreuungsverfügung, die das Gericht bei der Betreuerauswahl bindet"],
+        options: ["Eine notarielle Verfügung über Nachlassverteilung; kann auch medizinische Wünsche enthalten","Vorausverfügung für medizinische Wünsche bei Entscheidungsunfähigkeit","Eine Vollmacht, die einem Arzt alle Entscheidungsbefugnisse im Krankheitsfall überträgt","Betreuungsverfügung, die das Gericht rechtlich bei der Auswahl des Betreuers bindet"],
         correct: 1,
         fillTemplate: "Eine Patientenverfügung ist eine ___ Vorausverfügung für den Fall der ___. Sie regelt Wünsche zu medizinischen Maßnahmen.",
         fillAnswers: ["schriftliche","Entscheidungsunfähigkeit"],
@@ -1115,7 +1115,7 @@ const TOPICS_DE = {
       {
         q: "Was versteht man unter dem Stufenmodell der palliativen Pflege?",
         a: "Palliative Pflege zielt auf Lebensqualität, nicht auf Heilung. Stufen: allgemeine Palliativversorgung (überall), spezialisierte ambulante Palliativversorgung (SAPV), stationäre Palliativ-/Hospizversorgung. Symptomkontrolle, Würde, psychosoziale Begleitung.",
-        options: ["Maximaltherapie bis zum Tod, um das Leben so lange wie möglich zu erhalten","Lebensqualitätsorientierte Versorgung: allgemein, SAPV, stationär; Symptomkontrolle und Würde","Ausschließliche Schmerztherapie mit Opiaten in der Sterbephase","Aktive Sterbehilfe durch Verabreichen lebensverkürzender Medikamente"],
+        options: ["Maximaltherapie bis zum Tod; Lebensqualität wird erreicht durch optimale kurative Behandlung","Lebensqualitätsorientierte Versorgung: allgemein, SAPV, stationär; Symptomkontrolle und Würde","Ausschließliche Schmerztherapie mit Opiaten; Würde und psychosoziale Begleitung sind sekundär","Aktive Sterbehilfe durch dosierte Gabe lebensverkürzender Medikamente auf Patientenwunsch"],
         correct: 1,
         fillTemplate: "Palliative Pflege zielt auf ___, nicht auf Heilung. Die spezialisierte ambulante Variante heißt ___.",
         fillAnswers: ["Lebensqualität","SAPV"],
@@ -1123,7 +1123,7 @@ const TOPICS_DE = {
       {
         q: "Welche Dokumentationspflichten hat eine Pflegekraft?",
         a: "Dokumentation aller erbrachten Pflegemaßnahmen, Beobachtungen, Veränderungen des Zustands, besondere Ereignisse, Vitalzeichen, Medikamente. Zeitnah und wahrheitsgemäß. Kein Löschen, Fehler durchstreichen.",
-        options: ["Dokumentation ausschließlich am Ende der Schicht als Gesamtübersicht","Alle Maßnahmen, Beobachtungen, Ereignisse zeitnah und wahrheitsgemäß; keine Löschungen","Nur besondere Ereignisse und Abweichungen vom Pflegeplan dokumentieren","Medikamentengabe und Vitalzeichen; sonstige Pflege muss nicht dokumentiert werden"],
+        options: ["Dokumentation ausschließlich am Ende der Schicht als zusammenfassende Tagesübersicht","Alle Maßnahmen, Beobachtungen, Ereignisse zeitnah und wahrheitsgemäß; keine Löschungen","Nur besondere Ereignisse und Abweichungen dokumentieren; Routinemaßnahmen sind nicht nötig","Medikamentengabe und Vitalzeichen; sonstige Pflegemaßnahmen müssen nicht einzeln dokumentiert werden"],
         correct: 1,
         fillTemplate: "Pflegekräfte müssen alle Maßnahmen und ___ zeitnah dokumentieren. Fehler werden ___, nicht gelöscht.",
         fillAnswers: ["Beobachtungen","durchgestrichen"],
@@ -1131,7 +1131,7 @@ const TOPICS_DE = {
       {
         q: "Was ist der Unterschied zwischen Delegation und eigenverantwortlicher Tätigkeit in der Pflege?",
         a: "Eigenverantwortlich: Pflegekraft plant und führt selbst durch (z.B. Grundpflege). Delegation: Eine Pflegefachkraft überträgt eine Aufgabe an eine Hilfskraft. Der Delegierende trägt die Anordnungsverantwortung, der Ausführende die Durchführungsverantwortung.",
-        options: ["Eigenverantwortlich: auf Anweisung des Arztes; delegiert: auf Anweisung der Pflegeleitung","Eigenverantwortlich: selbst geplant und durchgeführt; Delegation: Aufgabe übertragen; Verantwortung geteilt","Bei der Delegation entfällt die Verantwortung vollständig auf den Ausführenden","Delegation bedeutet, dass der Delegierende die Aufgabe vollständig abgibt"],
+        options: ["Eigenverantwortlich: auf ärztliche Anweisung; delegiert: auf Anweisung der Pflegeleitung nach Plan","Eigenverantwortlich: selbst geplant und durchgeführt; Delegation: Aufgabe übertragen; Verantwortung geteilt","Bei Delegation entfällt die Verantwortung vollständig auf den Ausführenden; Delegierender haftet nicht mehr","Delegation bedeutet, dass der Delegierende Aufgabe und Verantwortung vollständig übergibt"],
         correct: 1,
         fillTemplate: "Bei einer Delegation trägt der Delegierende die ___, der Ausführende die ___.",
         fillAnswers: ["Anordnungsverantwortung","Durchführungsverantwortung"],
@@ -1163,7 +1163,7 @@ const TOPICS_DE = {
       {
         q: "Was ist eine Vorsorgevollmacht und wer darf sie ausstellen?",
         a: "Mit einer Vorsorgevollmacht bevollmächtigt man eine Vertrauensperson, im Falle der eigenen Entscheidungsunfähigkeit in bestimmten Bereichen (Gesundheit, Finanzen, Behörden) zu entscheiden. Jeder einwilligungsfähige Erwachsene kann sie ausstellen.",
-        options: ["Sie wird vom Gericht ausgestellt und einer Vertrauensperson übertragen","Schriftliche Vollmacht an Vertrauensperson; kann jeder einwilligungsfähige Erwachsene ausstellen","Sie muss notariell beglaubigt werden und gilt nur für gesundheitliche Entscheidungen","Sie ersetzt bei Bedarf automatisch eine bestehende Betreuungsverfügung"],
+        options: ["Sie wird vom Betreuungsgericht ausgestellt und einer geeigneten Vertrauensperson übertragen","Schriftliche Vollmacht an Vertrauensperson; kann jeder einwilligungsfähige Erwachsene ausstellen","Sie muss notariell beglaubigt werden und gilt dann nur für finanzielle und gesundheitliche Entscheidungen","Sie tritt automatisch in Kraft und ersetzt bei Bedarf eine bestehende Betreuungsverfügung sofort"],
         correct: 1,
         fillTemplate: "Mit einer Vorsorgevollmacht bevollmächtigt man eine ___, bei eigener Entscheidungsunfähigkeit zu handeln. Jeder ___ Erwachsene kann sie ausstellen.",
         fillAnswers: ["Vertrauensperson","einwilligungsfähige"],
@@ -1179,7 +1179,7 @@ const TOPICS_DE = {
       {
         q: "Welche Rechte haben Bewohner in einer stationären Pflegeeinrichtung?",
         a: "Recht auf Würde und Selbstbestimmung, individuelle Pflege, Privatsphäre, Informationsrecht, Beschwerderecht, Teilnahme an Heimmitwirkung (Heimbeirat), Wahlfreiheit bei Arzt/Krankenhaus.",
-        options: ["Ausschließlich Anspruch auf Pflege und Versorgung gemäß Pflegeplan","Würde, Selbstbestimmung, Privatsphäre, Informations- und Beschwerderecht, Heimbeirat","Rechte gelten nur, soweit sie mit dem Hausrecht der Einrichtung vereinbar sind","Bewohnerrechte können durch den Heimvertrag eingeschränkt werden"],
+        options: ["Ausschließlich Anspruch auf Pflege und Versorgung gemäß Pflegeplan; Beschwerderecht nicht verankert","Würde, Selbstbestimmung, Privatsphäre, Informations- und Beschwerderecht, Heimbeirat","Rechte gelten nur, soweit sie mit dem Hausrecht und den internen Einrichtungsregeln vereinbar sind","Bewohnerrechte können im Heimvertrag eingeschränkt werden; individuelle Regelungen sind zulässig"],
         correct: 1,
         fillTemplate: "Bewohner haben ein Recht auf ___ und Selbstbestimmung. Beschwerden können im ___ geäußert werden.",
         fillAnswers: ["Würde","Heimbeirat"],
@@ -1210,7 +1210,7 @@ const TOPICS_DE = {
       {
         q: "Welche drei häufigsten Demenzformen gibt es?",
         a: "1. Alzheimer-Demenz (60–70%, neurodegenerativ). 2. Vaskuläre Demenz (durch Durchblutungsstörungen). 3. Lewy-Körper-Demenz (mit Halluzinationen, Parkinsonzeichen). Mischformen möglich.",
-        options: ["Alzheimer, Parkinson-Demenz und frontotemporale Demenz","Alzheimer, vaskuläre Demenz, Lewy-Körper-Demenz","Alzheimer, Korsakow-Syndrom, senile Demenz als eigenständige Formen","Alzheimer, Multi-Infarkt-Demenz, Binswanger-Erkrankung"],
+        options: ["Alzheimer (50 %), Parkinson-Demenz (25 %) und frontotemporale Demenz (20 %)","Alzheimer, vaskuläre Demenz, Lewy-Körper-Demenz","Alzheimer (80 %), Korsakow-Syndrom und senile Demenz als drei eigenständige Hauptformen","Alzheimer, Multi-Infarkt-Demenz (identisch mit vaskulärer Demenz) und Binswanger-Erkrankung"],
         correct: 1,
         fillTemplate: "Die drei häufigsten Demenzformen sind Alzheimer, ___ Demenz und ___-Körper-Demenz.",
         fillAnswers: ["vaskuläre","Lewy"],
@@ -1218,7 +1218,7 @@ const TOPICS_DE = {
       {
         q: "Was sind typische Frühzeichen der Alzheimer-Demenz?",
         a: "Kurzeitgedächtnissprobleme (Gespräche vergessen, Termine verpassen), Wortfindungsstörungen, Orientierungsprobleme in neuen Umgebungen, Stimmungsveränderungen, Rückzug. Langzeitgedächtnis zunächst erhalten.",
-        options: ["Plötzlicher Verlust des Langzeitgedächtnisses mit erhaltener Kurzzeiterinnerung","Kurzzeitgedächtnis betroffen, Wortfindungsstörungen, Orientierungsprobleme; Langzeitgedächtnis zunächst erhalten","Auffällige Persönlichkeitsveränderungen und enthemmtes Verhalten als erste Zeichen","Halluzinationen und starke Schwankungen der Wachheit von Tag zu Tag"],
+        options: ["Plötzlicher Verlust des Langzeitgedächtnisses; Kurzzeitgedächtnis und Orientierung sind zunächst erhalten","Kurzzeitgedächtnis betroffen, Wortfindungsstörungen, Orientierungsprobleme; Langzeitgedächtnis zunächst erhalten","Persönlichkeitsveränderungen und enthemmtes Verhalten als erste Zeichen; Gedächtnis kaum betroffen","Visuelle Halluzinationen und starke Wachheitsschwankungen als früheste Alzheimer-Symptome"],
         correct: 1,
         fillTemplate: "Frühzeichen der Alzheimer-Demenz sind ___ und Wortfindungsstörungen. Das ___ ist zunächst noch erhalten.",
         fillAnswers: ["Kurzzeitgedächtnisprobleme","Langzeitgedächtnis"],
@@ -1226,7 +1226,7 @@ const TOPICS_DE = {
       {
         q: "Was ist Validation nach Naomi Feil und wie wird sie angewendet?",
         a: "Validation ist eine Kommunikationsmethode für Menschen mit Demenz. Grundprinzip: Gefühle und subjektive Realität der Person akzeptieren, nicht korrigieren, auf emotionaler Ebene begegnen. Technik: Augenkontakt, sanfte Stimme, eigene Sprache des Betroffenen aufgreifen.",
-        options: ["Realitätsorientierungstraining (ROT) mit Tagesstruktur und Orientierungstafeln","Akzeptanz der subjektiven Realität; keine Korrekturen; auf emotionaler Ebene begegnen","Reminiszenzarbeit mit Fotos und Musik zur Aktivierung des Langzeitgedächtnisses","Basale Stimulation mit sensorischen Reizen zur Wahrnehmungsförderung"],
+        options: ["Realitätsorientierungstraining (ROT): Person wird sanft auf Fehler hingewiesen und orientiert","Akzeptanz der subjektiven Realität; keine Korrekturen; auf emotionaler Ebene begegnen","Reminiszenzarbeit: Fotos und Musik aktivieren das Langzeitgedächtnis und fördern Orientierung","Basale Stimulation: sensorische Reize fördern Wahrnehmung und ersetzen die verbale Kommunikation"],
         correct: 1,
         fillTemplate: "Validation akzeptiert die ___ Realität der demenzerkrankten Person. Man ___ die Person nie, sondern begegnet ihr emotional.",
         fillAnswers: ["subjektive","korrigiert"],
@@ -1242,7 +1242,7 @@ const TOPICS_DE = {
       {
         q: "Wie unterscheidet man normales Altern von Demenz?",
         a: "Normales Altern: gelegentlich Dinge vergessen, aber Hauptereignis bleibt erinnerbar; Alltag bleibt bewältigbar. Demenz: ganze Erlebnisse vergessen; Alltagsaktivitäten zunehmend eingeschränkt; Persönlichkeitsveränderungen; kein Krankheitseinsicht.",
-        options: ["Demenz ist im Frühstadium kaum von normaler Vergesslichkeit zu unterscheiden","Normalerweise: Hauptereignis erinnerbar, Alltag bewältigbar. Demenz: alles vergessen, Alltag eingeschränkt, Persönlichkeitsveränderung","Normale Vergesslichkeit betrifft vor allem das Langzeitgedächtnis, Demenz das Kurzzeitgedächtnis","Demenz beginnt immer mit Persönlichkeitsveränderungen, normales Altern mit Merkfähigkeitsproblemen"],
+        options: ["Demenz im Frühstadium ist klinisch nicht von normaler Vergesslichkeit zu unterscheiden","Normalerweise: Hauptereignis erinnerbar, Alltag bewältigbar. Demenz: alles vergessen, Alltag eingeschränkt, Persönlichkeitsveränderung","Normale Vergesslichkeit betrifft das Langzeitgedächtnis; Demenz betrifft nur das Kurzzeitgedächtnis","Demenz beginnt immer mit Persönlichkeitsveränderungen; normales Altern immer mit Merkfähigkeitsproblemen"],
         correct: 1,
         fillTemplate: "Beim normalen Altern bleibt das ___ erinnerbar. Bei Demenz werden ganze ___ vergessen und der Alltag ist eingeschränkt.",
         fillAnswers: ["Hauptereignis","Erlebnisse"],
@@ -1258,7 +1258,7 @@ const TOPICS_DE = {
       {
         q: "Was versteht man unter 'herausforderndem Verhalten' bei Demenz und wie geht man damit um?",
         a: "Herausforderndes Verhalten: Agitation, Aggression, Weglaufen, Schreien, Schlafstörungen. Meist Ausdruck von unerfüllten Bedürfnissen, Schmerz oder Angst. Umgang: Auslöser suchen, Bedürfnis erfüllen, Ablenkung, ruhige Atmosphäre, keine Konfrontation.",
-        options: ["Medikamentöse Sedierung nach ärztlicher Absprache als erste Maßnahme bei Agitation","Ausdruck unerfüllter Bedürfnisse; Auslöser suchen, Bedürfnis erfüllen, ruhige Atmosphäre","Realitätsorientierungstraining einsetzen, um die Verwirrtheit direkt zu korrigieren","Freiheitsentziehende Maßnahmen zum vorübergehenden Schutz einsetzen, bis der Auslöser bekannt ist"],
+        options: ["Medikamentöse Sedierung nach ärztlicher Absprache als erste Maßnahme; kein weiteres Vorgehen nötig","Ausdruck unerfüllter Bedürfnisse; Auslöser suchen, Bedürfnis erfüllen, ruhige Atmosphäre","Realitätsorientierungstraining einsetzen, um die Verwirrtheit direkt zu korrigieren und zu reduzieren","Freiheitsentziehende Maßnahmen vorübergehend einsetzen, bis der Auslöser in der Fallbesprechung geklärt wird"],
         correct: 1,
         fillTemplate: "Herausforderndes Verhalten ist oft Ausdruck unerfüllter ___. Man sollte den ___ suchen und das Bedürfnis erfüllen.",
         fillAnswers: ["Bedürfnisse","Auslöser"],
@@ -1282,7 +1282,7 @@ const TOPICS_DE = {
       {
         q: "Wie kann die Sturzgefahr bei Menschen mit Demenz reduziert werden?",
         a: "Umgebungsanpassung (rutschfeste Böden, Handläufe, Nachtlicht), sichere Schuhe, Hilfsmittel bereitstellen, Toilettengang regelmäßig anbieten, Medikamente überprüfen (Sedativa!), Gleichgewichtstraining, Sturzrisiko regelmäßig erfassen.",
-        options: ["Frühzeitige Sedierung mit Neuroleptika zur Verbesserung des Gleichgewichts","Umgebungsanpassung, sichere Schuhe, Hilfsmittel, Toilettenangebot, Medikamentenkontrolle, Gleichgewichtstraining","Bettgitter als erste Schutzmaßnahme ohne weitere Anpassungen","Mobilität einschränken und Bewohner hauptsächlich im Rollstuhl führen"],
+        options: ["Frühzeitige Sedierung mit Neuroleptika; verbessert Gleichgewicht und reduziert Sturzrisiko","Umgebungsanpassung, sichere Schuhe, Hilfsmittel, Toilettenangebot, Medikamentenkontrolle, Gleichgewichtstraining","Bettgitter als erste Schutzmaßnahme; weitere Maßnahmen erst nach Sturzereignis nötig","Mobilität einschränken und Bewohner hauptsächlich im Rollstuhl sitzen lassen"],
         correct: 1,
         fillTemplate: "Sturzprophylaxe bei Demenz umfasst ___ (z.B. Handläufe), sichere Schuhe und Überprüfung von ___ (besonders Sedativa).",
         fillAnswers: ["Umgebungsanpassung","Medikamenten"],
@@ -1298,7 +1298,7 @@ const TOPICS_DE = {
       {
         q: "Was ist beim Sterbebegleitung in der Altenpflege wichtig?",
         a: "Würde und Selbstbestimmung bis zum Ende, Schmerzfreiheit (palliative Sedierung wenn nötig), spirituelle/religiöse Bedürfnisse berücksichtigen, Angehörige einbeziehen, Abschied ermöglichen, Wünsche aus Patientenverfügung beachten.",
-        options: ["Lebenserhaltende Maßnahmen bis zuletzt, um das Patientenwohl zu sichern","Würde, Schmerzfreiheit, spirituelle Bedürfnisse, Angehörige einbeziehen, Patientenverfügung beachten","Ausschließliche Schmerztherapie; spirituelle und soziale Bedürfnisse sind sekundär","Angehörige aus der Sterbephase heraushalten, um den Sterbenden nicht zu belasten"],
+        options: ["Lebenserhaltende Maßnahmen bis zuletzt; auf Schmerzfreiheit und Würde kann verzichtet werden","Würde, Schmerzfreiheit, spirituelle Bedürfnisse, Angehörige einbeziehen, Patientenverfügung beachten","Ausschließliche Schmerztherapie mit Opiaten; spirituelle und soziale Bedürfnisse sind zweitrangig","Angehörige grundsätzlich aus der Sterbephase heraushalten; sie belasten den Sterbenden unnötig"],
         correct: 1,
         fillTemplate: "In der Sterbebegleitung stehen ___ und Schmerzfreiheit im Mittelpunkt. Die ___ muss berücksichtigt werden.",
         fillAnswers: ["Würde","Patientenverfügung"],
@@ -1314,7 +1314,7 @@ const TOPICS_DE = {
       {
         q: "Welche sozialen Risiken begleiten das Altern häufig?",
         a: "Verlust des Lebenspartners (Trauer, Einsamkeit), Renteneintritt (Rollenveränderung), Einschränkung der Mobilität, Wegfall sozialer Netzwerke, finanzielle Einschränkungen, mögliche Pflegebedürftigkeit.",
-        options: ["Renteneintritt führt zu verstärkter sozialer Partizipation und reduziert Einsamkeitsrisiken","Verlust Partner, Rollenveränderung durch Rente, Mobilität, Netzwerkverlust, finanzielle Einschränkungen","Soziale Risiken wirken sich erst ab Pflegegrad 3 auf die Lebensqualität aus","Finanzielle Lage verbessert sich nach dem Renteneintritt durch Rentenzahlungen erheblich"],
+        options: ["Renteneintritt fördert soziale Partizipation; Einsamkeitsrisiken nehmen dadurch deutlich ab","Verlust Partner, Rollenveränderung durch Rente, Mobilität, Netzwerkverlust, finanzielle Einschränkungen","Soziale Risiken sind erst ab Pflegegrad 3 pflegerelevant; davor genügen ambulante Angebote","Finanzielle Lage verbessert sich nach dem Renteneintritt erheblich; Einschränkungen spielen keine Rolle"],
         correct: 1,
         fillTemplate: "Typische soziale Risiken im Alter sind Verlust des ___, Einsamkeit und eingeschränkte ___.",
         fillAnswers: ["Lebenspartners","Mobilität"],
@@ -1330,7 +1330,7 @@ const TOPICS_DE = {
       {
         q: "Was sind 'herausfordernde Verhaltensweisen' bei Demenz und wie begegnet man ihnen?",
         a: "Herausfordernde Verhaltensweisen: Aggression, Unruhe, Wandern, Rufen, Schlafstörungen. Meist Ausdruck unerfüllter Bedürfnisse, Schmerzen oder Angst. Reaktion: Auslöser finden, Bedürfnis erfüllen, Ablenkung, ruhige Atmosphäre, keine Konfrontation.",
-        options: ["Sedierung nach ärztlicher Absprache als erste Wahl, um Verletzungen zu vermeiden","Ausdruck unerfüllter Bedürfnisse; Auslöser suchen, Bedürfnis erfüllen, ruhige Atmosphäre","Sachlich erklären und Aussagen korrigieren, um eine realistische Orientierung herzustellen","Bettgitter oder Sitzhose als Schutzmaßnahme bis eine Fallbesprechung stattgefunden hat"],
+        options: ["Sedierung nach ärztlicher Absprache als erste Wahl; Ursachenforschung erst danach","Ausdruck unerfüllter Bedürfnisse; Auslöser suchen, Bedürfnis erfüllen, ruhige Atmosphäre","Sachlich erklären und Aussagen korrigieren; Realitätsorientierung beseitigt die Ursache des Verhaltens","Bettgitter oder Sitzhose als Sofortschutz bis eine Fallbesprechung über weitere Maßnahmen entscheidet"],
         correct: 1,
         fillTemplate: "Herausforderndes Verhalten ist oft Ausdruck unerfüllter ___. Man sucht den ___ und erfüllt das Bedürfnis.",
         fillAnswers: ["Bedürfnisse","Auslöser"],
@@ -1353,7 +1353,7 @@ const TOPICS_DE = {
       {
         q: "Was sind die sechs wichtigsten Prophylaxen in der stationären Altenpflege?",
         a: "Dekubitusprophylaxe, Sturzprophylaxe, Kontrakturprophylaxe, Thromboseprophylaxe, Pneumonieprophylaxe und Intertrigoprophylaxe. Alle dienen der Vorbeugung von Komplikationen durch Immobilität oder Pflegebedürftigkeit.",
-        options: ["Dekubitus-, Pneumonie- und Thromboseprophylaxe als die drei wichtigsten","Dekubitus, Sturz, Kontraktur, Thrombose, Pneumonie und Intertrigo","Prophylaxen erst ab Pflegegrad 3 erforderlich","Dekubitus- und Aspirationsprophylaxe als Pflichtmaßnahmen, Rest optional"],
+        options: ["Dekubitus-, Pneumonie- und Thromboseprophylaxe als die drei verpflichtenden Pflichtmaßnahmen","Dekubitus, Sturz, Kontraktur, Thrombose, Pneumonie und Intertrigo","Prophylaxen erst ab Pflegegrad 3 erforderlich; darunter reichen allgemeine Hygienestandards","Dekubitus- und Aspirationsprophylaxe als gesetzliche Pflichtmaßnahmen; Rest nach Ermessen"],
         correct: 1,
         fillTemplate: "Zu den wichtigsten Prophylaxen gehören Dekubitus, Sturz, Kontraktur, ___, ___ und Intertrigo.",
         fillAnswers: ["Thrombose","Pneumonie"],
@@ -1361,7 +1361,7 @@ const TOPICS_DE = {
       {
         q: "Was ist die Dekubitusprophylaxe und welche Maßnahmen umfasst sie?",
         a: "Prophylaxe gegen Druckgeschwüre. Maßnahmen: regelmäßige Umlagerung (alle 2 Std.), Druckentlastung (Spezialmatratzen), Hautinspektion, Hautzustand dokumentieren, Ernährungsoptimierung, Mobilisation.",
-        options: ["Antidekubitusmatratze ersetzt die Umlagerung bei Braden-Wert unter 18","Umlagerung alle 2 Std., Druckentlastung, Hautinspektion, Ernährung, Mobilisation","Umlagerung alle 4 Stunden, da Antidekubitusmatratzen ausreichend Schutz bieten","Hautpflege und Inkontinenzversorgung sind die einzigen pflegebezogenen Maßnahmen"],
+        options: ["Antidekubitusmatratze ersetzt die Umlagerung vollständig bei Braden-Wert unter 18","Umlagerung alle 2 Std., Druckentlastung, Hautinspektion, Ernährung, Mobilisation","Umlagerung alle 4 Stunden, da Antidekubitusmatratzen bei korrektem Einsatz ausreichend schützen","Hautpflege und Inkontinenzversorgung; Umlagerung und Spezialmatratze sind Aufgabe der Physiotherapie"],
         correct: 1,
         fillTemplate: "Dekubitusprophylaxe umfasst regelmäßige Umlagerung (alle ___ Stunden), ___ und Hautinspektion.",
         fillAnswers: ["2","Druckentlastung"],
@@ -1377,7 +1377,7 @@ const TOPICS_DE = {
       {
         q: "Was sind die Maßnahmen der Pneumonieprophylaxe?",
         a: "Pneumonieprophylaxe bei liegenden Patienten: Atemübungen (tiefes Ein- und Ausatmen, Lippenbremse), regelmäßige Mobilisation, Oberkörperhochlagerung, Inhalationen, Mundpflege, ausreichend Trinken, Rückklopfen/Vibrationsmassage.",
-        options: ["Pneumokokken-Schutzimpfung allein reicht als Hauptprävention für alle Pflegebedürftigen","Atemübungen, Mobilisation, Oberkörperhochlagerung, Mundpflege, Flüssigkeit","Inhalation ist die wichtigste Maßnahme; Atemübungen sind nur ergänzend durchzuführen","Mundpflege beugt nur Soor vor, nicht Pneumonie, und gehört daher nicht zur Pneumonieprophylaxe"],
+        options: ["Pneumokokken-Schutzimpfung allein ist ausreichend; pflegerische Maßnahmen sind dann nicht nötig","Atemübungen, Mobilisation, Oberkörperhochlagerung, Mundpflege, Flüssigkeit","Inhalation ist die wichtigste Maßnahme; alle anderen Maßnahmen sind ergänzend und optional","Mundpflege beugt nur Soor vor, nicht Pneumonie; sie zählt daher nicht zur Pneumonieprophylaxe"],
         correct: 1,
         fillTemplate: "Pneumonieprophylaxe umfasst ___, Mobilisation und ___. Der Oberkörper sollte erhöht gelagert werden.",
         fillAnswers: ["Atemübungen","Mundpflege"],
@@ -1393,7 +1393,7 @@ const TOPICS_DE = {
       {
         q: "Was ist die Intertrigoprophylaxe und welche Körperstellen sind besonders gefährdet?",
         a: "Intertrigo = Wundreiben in Hautfalten durch Feuchtigkeit und Reibung. Gefährdet: Leisten, unter Brüsten, Achseln, zwischen Zehen. Prophylaxe: Hautfalten trocken halten, luftdurchlässige Kleidung, Zinkpaste/Hautschutzprodukte, tägl. Inspektion.",
-        options: ["Fersen und Sakralbereich als einzige druckgefährdete Stellen","Hautfalten (Leisten, unter Brüsten, Achseln); trocken halten, Schutzmittel, tägl. Inspektion","Schleimhäute im Mund- und Analbereich durch erhöhte Feuchtigkeit","Nur die Ellenbogen und Schulterblätter bei bettlägerigen Patienten"],
+        options: ["Fersen und Sakralbereich sind die einzigen gefährdeten Stellen; diese erfordern Druckentlastung","Hautfalten (Leisten, unter Brüsten, Achseln); trocken halten, Schutzmittel, tägl. Inspektion","Schleimhäute im Mund- und Analbereich; Schutz durch Mundspülung und feuchte Wundauflagen","Ellenbogen und Schulterblätter bei bettlägerigen Patienten; verhindert durch Polsterung"],
         correct: 1,
         fillTemplate: "Intertrigo entsteht in ___ durch Feuchtigkeit und Reibung. Prophylaxe: ___ halten und täglich inspizieren.",
         fillAnswers: ["Hautfalten","trocken"],
@@ -1401,7 +1401,7 @@ const TOPICS_DE = {
       {
         q: "Was ist die Sturzprophylaxe und welche drei Risikobereiche unterscheidet man?",
         a: "Sturzprophylaxe verhindert Stürze durch: personenbezogene Faktoren (Gleichgewicht, Kraft, Sehvermögen, Medikamente), umgebungsbedingte Faktoren (Stolperfallen, schlechte Beleuchtung, nasse Böden), tätigkeitsbezogene Faktoren (Aufstehen ohne Hilfe, ungeeignetes Schuhwerk).",
-        options: ["Ausschließlich umgebungsbedingte Faktoren wie rutschige Böden und schlechte Beleuchtung","Personenbezogen (Gleichgewicht, Medikamente), umgebungsbedingt (Stolperfallen), tätigkeitsbezogen (Aufstehen)","Nur Medikamente und Hilfsmittel als beeinflussbare Risikofaktoren","Personenbezogene Faktoren sind nicht veränderbar; Fokus liegt auf der Umgebungsanpassung"],
+        options: ["Ausschließlich umgebungsbedingte Faktoren; personenbezogene und tätigkeitsbezogene spielen keine Rolle","Personenbezogen (Gleichgewicht, Medikamente), umgebungsbedingt (Stolperfallen), tätigkeitsbezogen (Aufstehen)","Nur Medikamente und Hilfsmittel als veränderbare Faktoren; andere Risiken sind nicht beeinflussbar","Personenbezogene Faktoren sind nicht veränderbar; daher liegt der Fokus auf Umgebungsanpassung"],
         correct: 1,
         fillTemplate: "Sturzrisikofaktoren umfassen personenbezogene (z.B. ___ und Medikamente), umgebungsbedingte und ___ Faktoren.",
         fillAnswers: ["Gleichgewicht","tätigkeitsbezogene"],
@@ -1433,7 +1433,7 @@ const TOPICS_DE = {
       {
         q: "Was ist eine Wechseldruck- oder Antidekubitusmatratze und wann wird sie eingesetzt?",
         a: "Spezialmatratzen, die durch Luftkammern (Wechseldruck) oder Schaumstoffkerne (Weichlagerung) Auflagedruck verteilen und Druckspitzen verringern. Eingesetzt bei erhöhtem Dekubitusrisiko (Braden < 18) als ergänzende Maßnahme zur Umlagerung.",
-        options: ["Weichere Standardmatratze, die bei vorhandenem Dekubitus eingesetzt wird","Spezialmatratze mit Druckentlastung; bei erhöhtem Dekubitusrisiko als Ergänzung zur Umlagerung","Matratze ersetzt bei Grad 1 und 2 vollständig die Notwendigkeit der Umlagerung","Nur bei Pflegegrad 4 und 5 und nach ärztlicher Verordnung einsetzbar"],
+        options: ["Weichere Standardmatratze die bei bestehendem Dekubitus die Wundheilung beschleunigt","Spezialmatratze mit Druckentlastung; bei erhöhtem Dekubitusrisiko als Ergänzung zur Umlagerung","Matratze ersetzt bei bestehender Rötung (Grad 1 und 2) vollständig die Umlagerung","Nur bei Pflegegrad 4 und 5 einsetzbar und immer nach ärztlicher Verordnung"],
         correct: 1,
         fillTemplate: "Antidekubitusmatratzen verteilen ___ und reduzieren Druckspitzen. Sie ergänzen die ___, ersetzen sie aber nicht.",
         fillAnswers: ["Auflagedruck","Umlagerung"],
@@ -1449,7 +1449,7 @@ const TOPICS_DE = {
       {
         q: "Was ist Kompressionstherapie (Kompressionsstrümpfe) und welche Hinweise sind zu beachten?",
         a: "Kompressionsstrümpfe üben Druck auf die Beine aus und fördern den venösen Rückfluss. Einsatz: Thrombose- und Ödemprophylaxe. Hinweise: korrekte Größe, täglich morgens anlegen (vor dem Aufstehen), auf Druckstellen achten, kontraindiziert bei Arterienerkrankungen.",
-        options: ["Verbesserung des arteriellen Zustroms durch gleichmäßigen Druck auf die Beinvenen","Druck auf Venen → venöser Rückfluss; morgens anlegen, Größe beachten, bei Arterienerkrankung kontraindiziert","Abends anlegen bevor man ins Bett geht, morgens nach dem Aufstehen ausziehen","Kompressionsstrümpfe sind bei jeder Form von Herzinsuffizienz ohne Einschränkung indiziert"],
+        options: ["Verbesserung des arteriellen Zustroms; kontraindiziert bei Venenschwäche und Krampfadern","Druck auf Venen → venöser Rückfluss; morgens anlegen, Größe beachten, bei Arterienerkrankung kontraindiziert","Abends anlegen bevor man ins Bett geht, morgens nach dem Aufstehen ausziehen und ersetzen","Bei jeder Form von Herzinsuffizienz indiziert; Arterienerkrankung stellt keine Kontraindikation dar"],
         correct: 1,
         fillTemplate: "Kompressionsstrümpfe fördern den ___ Rückfluss. Sie sollten ___ angelegt werden (vor dem Aufstehen).",
         fillAnswers: ["venösen","morgens"],
@@ -1657,7 +1657,7 @@ const TOPICS_EN = {
       {
         q: "What does the principle 'as much help as necessary, as little as possible' mean?",
         a: "It means promoting the independence of the person in care (activating care) rather than taking over all tasks. Only help where genuine support is needed.",
-        options: ["Provide maximum assistance so residents feel safe and well cared for at all times","Promote independence and only help where needed","Take over all tasks to make care more efficient and ensure consistent quality","Offer help only at the resident's explicit verbal request"],
+        options: ["Provide maximum assistance to prevent any risk of injury or falls at all times","Promote independence and only help where needed","Take over all tasks to make care more efficient and ensure consistent quality","Help only when the resident explicitly asks; otherwise do not offer support"],
         correct: 1,
         fillTemplate: "This principle means promoting the ___ of the person in care. Only help where genuine ___ is needed.",
         fillAnswers: ["independence","support"],
@@ -1665,7 +1665,7 @@ const TOPICS_EN = {
       {
         q: "How often should a bedridden patient be repositioned at minimum?",
         a: "Every 2 hours, unless an individual repositioning plan is in place. More frequently for high-risk patients.",
-        options: ["Every 4 hours when a pressure-relieving mattress is in use, which reduces the need for repositioning","Every 2 hours","Every 3 hours according to standard nursing home protocols for all care levels","Every 2 hours for high-risk patients only; others can wait up to 6 hours"],
+        options: ["Every 4 hours when a pressure-relieving mattress is in use, which reduces the need for turning","Every 2 hours","Every 3 hours as stated in the standard nursing home protocol for all care levels","Every 2 hours only for high-risk patients; low-risk patients may be repositioned every 6 hours"],
         correct: 1,
         fillTemplate: "A bedridden patient should be repositioned every ___ hours unless an individual ___ plan is in place.",
         fillAnswers: ["2","repositioning"],
@@ -1697,7 +1697,7 @@ const TOPICS_EN = {
       {
         q: "What are the four grades of pressure ulcers?",
         a: "Grade 1: non-blanchable redness. Grade 2: superficial skin defect to dermis. Grade 3: deep defect to subcutis. Grade 4: defect to bone/tendon/muscle.",
-        options: ["Two grades: superficial and deep, based on clinical appearance","Grades 1–4 by depth of tissue damage","Three grades: erythema, open wound, and deep tissue destruction","Five grades including a preliminary stage for at-risk skin"],
+        options: ["Two grades: redness and open wound, assessed by the physician at each dressing change","Grades 1–4 by depth of tissue damage","Three grades: redness, superficial wound and deep tissue damage to subcutis","Five grades including a preliminary stage of blanching erythema that is not yet an ulcer"],
         correct: 1,
         fillTemplate: "Grade 1 pressure ulcer shows non-blanchable ___. Grade 4 extends as deep as ___ or tendons.",
         fillAnswers: ["redness","bone"],
@@ -1705,7 +1705,7 @@ const TOPICS_EN = {
       {
         q: "What are the WHO's five moments of hand hygiene?",
         a: "1. Before patient contact. 2. Before aseptic procedures. 3. After body fluid contact. 4. After patient contact. 5. After contact with the patient's surroundings.",
-        options: ["Three moments: before patient contact, after body fluid exposure and after removing gloves","Before and after each direct care task, and after using the toilet","Five situations: before/after patient contact, before aseptic procedures, after body fluids","Only when hands are visibly soiled or after contact with high-risk patients"],
+        options: ["Three moments: before patient contact, before aseptic procedures, after body fluid exposure","Before and after each direct care task, and after using the toilet or bathroom","Five situations: before/after patient contact, before aseptic procedures, after body fluids","Only when hands are visibly soiled or after contact with infection-risk patients"],
         correct: 2,
         fillTemplate: "The five moments include: before ___, after body fluid contact, and after ___.",
         fillAnswers: ["patient contact","patient surroundings contact"],
@@ -1745,7 +1745,7 @@ const TOPICS_EN = {
       {
         q: "What are the most important prophylaxes in residential elderly care?",
         a: "Pressure ulcer, falls, contracture, thrombosis, pneumonia and intertrigoprophylaxis. All aim to prevent complications from immobility or care dependency.",
-        options: ["Falls and pressure ulcer prophylaxis only, as these are legally required","Pressure ulcer, falls, contracture, thrombosis, pneumonia prophylaxis and more","Thrombosis and pneumonia prophylaxis, which are prescribed exclusively by physicians","Incontinence and wound care only, since other prophylaxes are physiotherapy tasks"],
+        options: ["Falls and pressure ulcer prophylaxis only, as these are legally required by the care insurance","Pressure ulcer, falls, contracture, thrombosis, pneumonia prophylaxis and more","Thrombosis and pneumonia prophylaxis only, since these are ordered exclusively by physicians","Incontinence management and wound care only, as all other prophylaxes are physiotherapy tasks"],
         correct: 1,
         fillTemplate: "Key prophylaxes include pressure ulcer, falls, contracture, thrombosis and ___.",
         fillAnswers: ["pneumonia"],
@@ -1753,7 +1753,7 @@ const TOPICS_EN = {
       {
         q: "What does falls prophylaxis involve?",
         a: "Risk assessment (e.g. falls assessment tool), environmental adaptation (non-slip floors, handrails, lighting), mobility aids, checking footwear, reviewing medications, balance training.",
-        options: ["Using bed rails and fixed seating restraints to prevent unsupervised movement","Risk assessment, safe environment, aids, balance training","Ensuring 24-hour supervision so staff can physically support residents at all times","Administering sedating medication to reduce restlessness and wandering behaviour"],
+        options: ["Using bed rails and floor mats to prevent falls during unsupervised movement","Risk assessment, safe environment, aids, balance training","Ensuring 24-hour one-to-one supervision so staff can physically support residents at risk","Prescribing sedating medication to reduce restlessness and nighttime wandering"],
         correct: 1,
         fillTemplate: "Falls prophylaxis includes risk assessment, environmental adaptation (e.g. ___), and ___.",
         fillAnswers: ["handrails","balance training"],
@@ -1761,7 +1761,7 @@ const TOPICS_EN = {
       {
         q: "What principles guide incontinence care?",
         a: "Regular product changes, skin care to prevent maceration, preserving dignity, working towards activating continence promotion.",
-        options: ["Use continence products throughout the day and change them on a fixed schedule regardless of soiling","Regular changes, skin protection, dignity","Focus primarily on scheduled toileting every 4 hours; continence products are a last resort","Record continence events in the care report but defer skin care to the next morning wash"],
+        options: ["Use continence products around the clock and change them on a fixed schedule regardless of soiling","Regular changes, skin protection, dignity","Scheduled toileting every 4 hours is the primary approach; continence products are a last resort","Record continence events in the care report only; skin care is the responsibility of the morning team"],
         correct: 1,
         fillTemplate: "Incontinence care requires regular changes and ___ to prevent maceration. The resident's ___ must always be maintained.",
         fillAnswers: ["skin care","dignity"],
@@ -1769,7 +1769,7 @@ const TOPICS_EN = {
       {
         q: "What should be considered for oral care in people needing care?",
         a: "Teeth or dentures cleaned at least twice daily, mucous membranes kept moist, check for inflammation or oral thrush (fungal infection), aspiration protection for swallowing difficulties.",
-        options: ["Once daily in the morning is sufficient; dentures should be cleaned once per week","At least 2x daily, keep mucous membranes moist, watch for changes","Oral care is only necessary for residents who still have natural teeth","Rinsing the mouth with water after meals is sufficient for residents with dentures"],
+        options: ["Once daily in the morning is sufficient; dentures only need cleaning twice a week","At least 2x daily, keep mucous membranes moist, watch for changes","Oral care is only necessary for residents who still have natural teeth, not denture wearers","Rinsing with water after meals is sufficient; further oral care increases the risk of aspiration"],
         correct: 1,
         fillTemplate: "Oral care should be carried out at least ___ daily. For swallowing difficulties, ___ must be considered.",
         fillAnswers: ["twice","aspiration"],
@@ -1777,7 +1777,7 @@ const TOPICS_EN = {
       {
         q: "What is pneumonia prophylaxis and what measures does it include?",
         a: "Measures to prevent pneumonia in at-risk patients: deep breathing exercises, early mobilisation, encouraging coughing, adequate fluid intake, positioning (upper body elevated), oral care.",
-        options: ["Administering prophylactic antibiotics and corticosteroids for immobile residents","Breathing exercises, early mobilisation, coughing, fluids, upper body elevation, oral care","Inhalation therapy prescribed by the physician as the primary preventive measure","Isolation of at-risk residents to reduce exposure to respiratory pathogens"],
+        options: ["Prophylactic antibiotics and influenza vaccination as the only effective preventive measures","Breathing exercises, early mobilisation, coughing, fluids, upper body elevation, oral care","Inhalation therapy is the most important measure; all other measures are merely supportive","Isolating at-risk residents in single rooms to reduce exposure to respiratory pathogens"],
         correct: 1,
         fillTemplate: "Pneumonia prophylaxis includes ___ exercises, early mobilisation and ___ of the upper body.",
         fillAnswers: ["breathing","elevation"],
@@ -1785,7 +1785,7 @@ const TOPICS_EN = {
       {
         q: "What is a contracture and how is it prevented?",
         a: "Contracture = permanent shortening of muscles, tendons or joint capsules due to lack of movement. Prevention: regular active and passive movement exercises (mobilisation), correct positioning, early physiotherapy.",
-        options: ["Acute joint inflammation caused by infection or autoimmune processes, treated with anti-inflammatory medication","Permanent joint stiffening from immobility; prevented by mobilisation and positioning","Progressive degenerative joint disease similar to osteoarthritis, treated with physiotherapy","Fluid accumulation in joint capsules due to poor circulation, requiring compression therapy"],
+        options: ["Acute muscle inflammation from overuse; treated with anti-inflammatory medication and bed rest","Permanent joint stiffening from immobility; prevented by mobilisation and positioning","Degenerative joint disease similar to osteoarthritis; prevented by weight management and physiotherapy","Fluid accumulation in joint spaces due to poor circulation; treated with compression therapy"],
         correct: 1,
         fillTemplate: "A contracture develops from insufficient ___ and leads to permanent ___. Prevention: regular mobilisation.",
         fillAnswers: ["movement","joint stiffening"],
@@ -1793,7 +1793,7 @@ const TOPICS_EN = {
       {
         q: "When should a wound dressing be changed and what must be observed?",
         a: "According to medical orders or when the dressing is soaked, soiled or detached. Aseptic technique (sterile gloves, sterile materials), clean wound from inside outwards, observe and document wound appearance.",
-        options: ["On a fixed weekly schedule regardless of wound condition to maintain routine consistency","As medically ordered or when needed; aseptic technique, observe and document wound","Only when the wound shows signs of infection such as redness, swelling or discharge","Every 24 hours for all wound types, using clean rather than sterile technique"],
+        options: ["On a fixed weekly schedule regardless of wound condition or soiling","As medically ordered or when needed; aseptic technique, observe and document wound","Only when signs of infection are present such as redness, swelling or purulent discharge","Every 24 hours for all wound types, using clean rather than sterile gloves and materials"],
         correct: 1,
         fillTemplate: "A dressing change follows ___ orders or as needed. ___ technique must always be used.",
         fillAnswers: ["medical","Aseptic"],
@@ -1801,7 +1801,7 @@ const TOPICS_EN = {
       {
         q: "What is moist wound healing and what are its benefits?",
         a: "Moist wound healing keeps the wound bed moist, promotes granulation and epithelialisation, reduces pain and infection risk. Modern wound dressings (hydrocolloid, alginate) maintain the moist environment.",
-        options: ["Wounds heal fastest when kept dry and exposed to air to prevent bacterial growth","Moist wound healing promotes healing through a moist environment and modern dressings","Antiseptic solutions applied daily create the optimal wound environment for healing","Traditional gauze dressings with antiseptic cream remain the gold standard for all wounds"],
+        options: ["Wounds heal fastest when kept dry and exposed to air to prevent bacterial colonisation","Moist wound healing promotes healing through a moist environment and modern dressings","Daily antiseptic irrigation creates the optimal wound environment and reduces infection risk","Traditional gauze dressings changed daily remain the gold standard for all wound types"],
         correct: 1,
         fillTemplate: "Moist wound healing keeps the wound ___ moist and promotes ___. Modern dressings like hydrocolloid maintain this environment.",
         fillAnswers: ["bed","granulation"],
@@ -1823,7 +1823,7 @@ const TOPICS_EN = {
       {
         q: "How many steps does the nursing process model by Fiechter and Meier have?",
         a: "6 steps: 1. Information gathering, 2. Identifying problems and resources, 3. Setting nursing goals, 4. Planning nursing measures, 5. Implementation, 6. Evaluation.",
-        options: ["4 steps, matching the simpler WHO nursing process model (Yura & Walsh)","5 steps, as in the NANDA nursing process which includes a separate diagnosis step","6 steps","8 steps as described in the expanded Alfaro-LeFevre model with re-assessment phases"],
+        options: ["4 steps, as in the simpler WHO nursing process (Assessment, Planning, Implementation, Evaluation)","5 steps, as in the NANDA process which adds a nursing diagnosis step between assessment and planning","6 steps","8 steps as described in the expanded Alfaro-LeFevre model with re-assessment and reassignment phases"],
         correct: 2,
         fillTemplate: "The Fiechter and Meier nursing process model has ___ steps. It begins with ___ gathering and ends with evaluation.",
         fillAnswers: ["6","information"],
@@ -1831,7 +1831,7 @@ const TOPICS_EN = {
       {
         q: "What is the SIS® (Structured Information Collection)?",
         a: "The SIS® is the core element of the Structure Model in care documentation. It captures information about the resident's self-image, thematic areas and individual risks through a conversation.",
-        options: ["A standardised medical intake form completed by physicians at the time of admission","Core document for care assessment capturing individual needs through conversation","A risk assessment checklist covering pressure ulcers, falls and nutritional status","The central care plan document where nursing goals and measures are formally recorded"],
+        options: ["A standardised medical intake form completed by physicians and filed at the time of admission","Core document for care assessment capturing individual needs through conversation","A risk assessment checklist covering pressure ulcers, falls, nutritional status and cognition","The care plan document where nursing goals, measures and evaluation dates are formally recorded"],
         correct: 1,
         fillTemplate: "The SIS® is the core element of the ___ Model. It captures individual information through a ___ with the resident.",
         fillAnswers: ["Structure","conversation"],
@@ -1839,7 +1839,7 @@ const TOPICS_EN = {
       {
         q: "What are the AEDLs / ABEDLs according to Krohwinkel?",
         a: "ABEDLs = Activities, Relationships and Existential Experiences of Life (13 areas, e.g. communicating, breathing, washing, eating, sleeping). Foundation for holistic care planning.",
-        options: ["A nursing diagnosis classification based on standardised medical diagnostic criteria","13 areas of life as basis for care planning","A seven-step assessment model used to identify and prioritise complex nursing problems","A documentation system listing all legally required nursing interventions and their frequency"],
+        options: ["A medical diagnosis classification system based on standardised pathological criteria","13 areas of life as basis for care planning","A seven-step assessment model for identifying and prioritising complex nursing problems","A documentation system listing all legally required care interventions and their scheduled frequency"],
         correct: 1,
         fillTemplate: "ABEDLs stands for Activities, Relationships and ___ Experiences. There are ___ life areas as a basis for care planning.",
         fillAnswers: ["Existential","13"],
@@ -1863,7 +1863,7 @@ const TOPICS_EN = {
       {
         q: "What is the legal significance of care documentation?",
         a: "Documentation serves as evidence of services provided, proof in liability cases, communication tool within the team and basis for quality checks (inspection bodies).",
-        options: ["An internal administrative tool with no legal validity in liability proceedings","Legal proof, communication tool and quality basis for inspections","A communication aid for team handovers, but without legal standing in court","A record kept primarily for billing purposes, with limited relevance to care quality"],
+        options: ["An internal administrative tool with no legal validity in civil or criminal proceedings","Legal proof, communication tool and quality basis for inspections","A communication aid for team handovers only, without relevance to inspections or liability","A billing document with limited relevance to care quality or professional accountability"],
         correct: 1,
         fillTemplate: "Care documentation serves as legal ___ of services provided and is the basis for ___ checks.",
         fillAnswers: ["proof","quality"],
@@ -1871,7 +1871,7 @@ const TOPICS_EN = {
       {
         q: "What are 'resources' in care documentation?",
         a: "Resources are abilities and strengths the person in care can still use independently (inner resources: own abilities; outer resources: family, aids).",
-        options: ["Physical aids provided by the facility, such as walking frames, wheelchairs and orthotics","Abilities and strengths the patient can still use; inner and outer resources","The formal support entitlements under the care insurance level (Pflegegrad) assessment","Personal preferences and daily routines documented in the resident's biography"],
+        options: ["Physical aids supplied by the facility, such as walking frames, wheelchairs and orthotics","Abilities and strengths the patient can still use; inner and outer resources","The formal entitlements under the care insurance level assessment and annual review","Personal preferences and daily routines documented in the resident's biography sheet"],
         correct: 1,
         fillTemplate: "Resources are ___ and strengths of the patient they can still use. We distinguish ___ and outer resources.",
         fillAnswers: ["abilities","inner"],
@@ -1879,7 +1879,7 @@ const TOPICS_EN = {
       {
         q: "Which assessment tools are commonly used in elderly care?",
         a: "Braden Scale (pressure ulcer risk), Falls Assessment (e.g. Morse/Hendrich), Mini Mental State Examination (MMSE) for cognition, Mini Nutritional Assessment (MNA) for nutrition, pain scale (NRS).",
-        options: ["The Braden Scale alone covers all major risks and is sufficient as the sole assessment instrument","Braden Scale, Falls Assessment, MMSE, MNA, pain scale","Assessments are created exclusively by the Medical Review Board (MDK) and forwarded to the facility","A single assessment at admission is sufficient since stable care situations rarely change"],
+        options: ["The Braden Scale alone covers all major risks and is sufficient as the only assessment instrument","Braden Scale, Falls Assessment, MMSE, MNA, pain scale","Assessments are ordered exclusively by the Medical Review Board and forwarded to the nursing team","A single assessment at admission is sufficient since care needs in residential settings rarely change"],
         correct: 1,
         fillTemplate: "The ___ Scale assesses pressure ulcer risk. The MMSE assesses ___ function.",
         fillAnswers: ["Braden","cognitive"],
@@ -1887,7 +1887,7 @@ const TOPICS_EN = {
       {
         q: "What is a care plan and who creates it?",
         a: "A care plan sets out in writing the care problems, goals and measures for a resident. Created by the nursing professional, but the resident and family should be involved.",
-        options: ["A timetable showing which staff member is responsible for which resident during each shift","Written record of problems, goals and measures; created by nursing professional","A medical record written by the attending physician detailing diagnoses and treatment","A formal agreement between the facility and the resident's family about care scope"],
+        options: ["A duty timetable showing which staff member is responsible for each resident per shift","Written record of problems, goals and measures; created by nursing professional","A medical record written by the physician detailing diagnoses, treatments and medication","A formal care contract between the facility and the resident's family about services provided"],
         correct: 1,
         fillTemplate: "A care plan documents care ___, goals and measures. It is created by the ___ professional.",
         fillAnswers: ["problems","nursing"],
@@ -1895,7 +1895,7 @@ const TOPICS_EN = {
       {
         q: "What goes in a care report (care diary)?",
         a: "Date/time, name of carer, observations about the resident's condition, special events, measures taken, resident's reactions, changes.",
-        options: ["Name, date and completed care tasks only; further detail is recorded in the care plan","Date, observations, special events, measures and reactions","Only significant events such as falls, acute illness or family visits require documentation","Vital signs and medication administered; subjective observations are not part of the report"],
+        options: ["Name, date and completed care tasks only; further detail belongs in the care plan","Date, observations, special events, measures and reactions","Only significant events such as falls or acute deterioration require an entry in the report","Vital signs and medications; subjective observations are too unreliable to be documented"],
         correct: 1,
         fillTemplate: "A care report contains date, name, ___ about the resident, special events and ___.",
         fillAnswers: ["observations","reactions"],
@@ -1911,7 +1911,7 @@ const TOPICS_EN = {
       {
         q: "Why is evaluation important in the nursing process?",
         a: "Evaluation checks whether nursing goals were achieved. It is the basis for adjusting the care plan and ensures care quality.",
-        options: ["It documents completed nursing tasks for billing and is conducted at the end of each quarter","Checks goal achievement and is the basis for care plan adjustments","Evaluation is the responsibility of the medical review board during external inspections","It summarises the resident's progress for the annual case conference and family review"],
+        options: ["It documents completed care tasks for billing purposes and is conducted quarterly","Checks goal achievement and is the basis for care plan adjustments","Evaluation is the responsibility of the medical review board during their external audits","It summarises the resident's progress for the annual family review without changing the care plan"],
         correct: 1,
         fillTemplate: "Evaluation checks whether ___ were achieved and is the basis for ___ of the care plan.",
         fillAnswers: ["nursing goals","adjustments"],
@@ -1919,7 +1919,7 @@ const TOPICS_EN = {
       {
         q: "How long must care documentation be retained?",
         a: "Generally 10 years. For minors, until 10 years after coming of age. The exact period may vary by federal state.",
-        options: ["5 years, matching the standard civil law statute of limitations for contractual claims","6 years, following the commercial record-keeping requirements under tax law","10 years","30 years, because there is no time limit for medical negligence claims in Germany"],
+        options: ["5 years, in line with the civil law statute of limitations for contractual claims","6 years, following the commercial record-keeping period under German tax law","10 years","30 years, as liability claims in health care have no statutory limitation period"],
         correct: 2,
         fillTemplate: "Care documentation must generally be retained for ___ years. Special rules apply for ___.",
         fillAnswers: ["10","minors"],
@@ -1927,7 +1927,7 @@ const TOPICS_EN = {
       {
         q: "What is the WHO four-phase nursing process model (Yura & Walsh)?",
         a: "1. Assessment, 2. Planning, 3. Implementation, 4. Evaluation. It is a continuous cycle.",
-        options: ["Assessment, Nursing Diagnosis, Intervention, Outcome – matching the five-step NANDA model","Assessment, Planning, Implementation, Evaluation","Assessment, Planning, Intervention, Outcome – the APIO model by Alfaro-LeFevre","Information gathering, Problem identification, Care planning, Implementation – as in the Fiechter/Meier model"],
+        options: ["Assessment, Diagnosis, Intervention, Outcome – matching the four-step NANDA model","Assessment, Planning, Implementation, Evaluation","Assessment, Planning, Intervention, Outcome – the APIO model used in Alfaro-LeFevre","Information gathering, Problem identification, Care planning, Implementation, Evaluation – Fiechter/Meier"],
         correct: 1,
         fillTemplate: "The WHO model consists of four phases: Assessment, ___, Implementation and ___.",
         fillAnswers: ["Planning","Evaluation"],
@@ -1935,7 +1935,7 @@ const TOPICS_EN = {
       {
         q: "What is a nursing diagnosis (e.g. NANDA)?",
         a: "A nursing diagnosis describes a care state or problem in standardised form (e.g. 'Impaired Physical Mobility'). NANDA is an international classification system.",
-        options: ["A physician's medical diagnosis transferred into the care plan for nursing purposes","Standardised description of a care state (e.g. NANDA system)","A short-term nursing goal formulated in response to an acute change in the resident's condition","A specific care intervention documented in the action plan with frequency and responsible staff"],
+        options: ["A physician's medical diagnosis transferred into the care plan and adapted for nursing purposes","Standardised description of a care state (e.g. NANDA system)","A short-term nursing goal formulated in response to an acute change in the resident's condition","A specific care intervention listed in the action plan with responsible staff and frequency"],
         correct: 1,
         fillTemplate: "A nursing diagnosis describes a care state in ___ form. NANDA is an international ___ system.",
         fillAnswers: ["standardised","classification"],
@@ -1943,7 +1943,7 @@ const TOPICS_EN = {
       {
         q: "What phases make up a complete care review visit?",
         a: "Preparation (review documentation), implementation (resident conversation, assessment), follow-up (adjust care plan, document outcomes).",
-        options: ["An unannounced check conducted by the team leader to assess care quality without prior documentation review","Preparation, implementation with resident, and follow-up with plan adjustment","A family meeting to review the care plan and discuss the resident's needs and wishes","A formal audit conducted by the medical review board as part of the annual quality check"],
+        options: ["An unannounced check conducted by the team leader without reviewing documentation beforehand","Preparation, implementation with resident, and follow-up with plan adjustment","A family meeting to review the care plan and discuss individual needs and wishes together","A formal audit conducted by the medical review board as part of their annual inspection"],
         correct: 1,
         fillTemplate: "A care review visit includes ___, implementation with the resident and ___ with plan adjustment.",
         fillAnswers: ["preparation","follow-up"],
@@ -1951,7 +1951,7 @@ const TOPICS_EN = {
       {
         q: "What is the structural model (Strukturmodell) and how does it simplify documentation?",
         a: "The structural model (debureaucratisation) simplifies care documentation: the core is the SIS® (Structured Information Collection), supplemented by an individual action plan and reporting sheet. Fewer forms, more individuality.",
-        options: ["A digital care management system that standardises documentation across all German care facilities","Simplified documentation with SIS® as core – fewer forms, more individuality","An advanced version of the classical nursing process with additional mandatory assessment tools","A legal framework defining minimum documentation standards set by the Medical Review Board"],
+        options: ["A digital documentation platform that standardises care records across all German facilities","Simplified documentation with SIS® as core – fewer forms, more individuality","An enhanced version of the classical nursing process with additional mandatory assessment instruments","A legal framework for minimum documentation standards set by the Medical Review Board"],
         correct: 1,
         fillTemplate: "The structural model is based on the ___ (SIS®) and an individual action plan. It reduces ___.",
         fillAnswers: ["Structured Information Collection","documentation burden"],
@@ -1959,7 +1959,7 @@ const TOPICS_EN = {
       {
         q: "What is biography work (Biografiearbeit) in elderly care?",
         a: "Biography work records a resident's life history (origin, profession, preferences, important events, rituals). It forms the basis for individualised, needs-oriented care, especially in dementia.",
-        options: ["A therapeutic writing method used to help residents process grief and life transitions","Recording life history as the basis for individualised care","A reminiscence group activity facilitated by social workers for cognitively intact residents","A formal psychological assessment of personality development conducted at admission"],
+        options: ["A therapeutic writing method helping residents process grief, loss and life transitions","Recording life history as the basis for individualised care","A reminiscence group activity run by social workers for cognitively intact residents only","A formal psychological assessment of personality development conducted by a psychologist at admission"],
         correct: 1,
         fillTemplate: "Biography work records the ___ of the resident. It is especially important in ___ and for individualised care.",
         fillAnswers: ["life history","dementia"],
@@ -1967,7 +1967,7 @@ const TOPICS_EN = {
       {
         q: "What is quality assurance in elderly care and what external reviews exist?",
         a: "Quality assurance includes internal measures (care visits, case conferences, care standards) and external checks by the Medical Review Board (MD/MDK), home supervision authority and other bodies. Results are published.",
-        options: ["Annual resident satisfaction surveys evaluated by an independent external institute","Internal measures plus external checks by MD/MDK and home supervision","Inspections conducted exclusively by the health department when complaints are received","A voluntary certification process facilities can apply for to demonstrate quality standards"],
+        options: ["Annual resident satisfaction surveys evaluated by an independent external research institute","Internal measures plus external checks by MD/MDK and home supervision","Inspections conducted exclusively by the local health authority when a complaint is received","A voluntary ISO certification process that care facilities apply for to demonstrate quality"],
         correct: 1,
         fillTemplate: "External quality checks are carried out by the ___ (MD/MDK) and the ___.",
         fillAnswers: ["Medical Review Board","home supervision authority"],
@@ -1981,7 +1981,7 @@ const TOPICS_EN = {
       {
         q: "What is the main function of the cardiovascular system?",
         a: "Transport of oxygen, nutrients, hormones and waste products throughout the body. The heart acts as a pump driving blood through the circulation.",
-        options: ["Regulate body temperature primarily through skin blood vessel dilation and constriction","Transport oxygen and nutrients","Produce hormones and distribute them to target organs throughout the body","Filter metabolic waste from the blood via the hepatic portal system"],
+        options: ["Regulate body temperature through skin blood vessel dilation and contraction of sweat glands","Transport oxygen and nutrients","Produce and distribute hormones to target organs via the systemic circulation","Filter metabolic waste from the blood via the kidney and hepatic portal system"],
         correct: 1,
         fillTemplate: "The cardiovascular system transports ___, nutrients and waste products. The heart acts as a ___.",
         fillAnswers: ["oxygen","pump"],
@@ -1997,7 +1997,7 @@ const TOPICS_EN = {
       {
         q: "What are the four chambers of the heart and their functions?",
         a: "Right atrium and right ventricle pump deoxygenated blood to the lungs (pulmonary circulation). Left atrium and left ventricle pump oxygenated blood to the body (systemic circulation).",
-        options: ["All four chambers pump blood simultaneously into both the systemic and pulmonary circulations","Right side: blood to lungs; Left side: blood to body","The left ventricle pumps deoxygenated blood to the lungs; the right ventricle to the body","The heart has a single pumping chamber divided by the septum into right and left sections"],
+        options: ["All four chambers pump blood simultaneously in parallel into both the pulmonary and systemic circulations","Right side: blood to lungs; Left side: blood to body","The left ventricle pumps deoxygenated blood to the lungs via the pulmonary artery","The heart has one pumping chamber divided by the interventricular septum into two sections"],
         correct: 1,
         fillTemplate: "The right ventricle pumps deoxygenated blood to the ___. The left ventricle pumps oxygenated blood into the ___ circulation.",
         fillAnswers: ["lungs","systemic"],
@@ -2005,7 +2005,7 @@ const TOPICS_EN = {
       {
         q: "Which organs belong to the digestive system?",
         a: "Mouth, oesophagus, stomach, small intestine, large intestine, liver, gallbladder, pancreas, rectum and anus.",
-        options: ["Mouth, oesophagus, stomach, intestines, liver and gallbladder – without the pancreas","Mouth, stomach, intestines, liver, pancreas","Mouth, oesophagus, stomach, liver, pancreas – but the large intestine and rectum are not included","Oesophagus, stomach, small intestine and liver only; the large intestine belongs to the urinary system"],
+        options: ["Mouth, oesophagus, stomach, intestines, liver and gallbladder – the pancreas is part of the endocrine system","Mouth, stomach, intestines, liver, pancreas","Mouth, oesophagus, stomach, liver, pancreas and gallbladder – the large intestine is part of the urinary system","Oesophagus, stomach, small intestine and liver only; the large intestine is part of the excretory system"],
         correct: 1,
         fillTemplate: "The digestive system includes: mouth, ___, stomach, small intestine, large intestine, ___ and pancreas.",
         fillAnswers: ["oesophagus","liver"],
@@ -2013,7 +2013,7 @@ const TOPICS_EN = {
       {
         q: "What are the functions of the kidneys?",
         a: "Filtering blood, excreting urea and waste, regulating fluid balance and blood pressure, producing erythropoietin and renin.",
-        options: ["Produce bile salts and digestive enzymes to assist absorption of fats and fat-soluble vitamins","Filter blood, excrete waste, regulate fluid balance","Detoxify medications and metabolic by-products via the hepatic enzyme system","Regulate calcium and phosphate metabolism by activating vitamin D in the skin"],
+        options: ["Produce bile and digestive enzymes to support absorption of fats and fat-soluble vitamins","Filter blood, excrete waste, regulate fluid balance","Detoxify medications and metabolic by-products via the cytochrome P450 enzyme system","Regulate calcium metabolism by producing calcitonin and activating parathyroid hormone"],
         correct: 1,
         fillTemplate: "The kidneys filter the ___ and excrete urea. They also regulate the ___ and blood pressure.",
         fillAnswers: ["blood","fluid balance"],
@@ -2021,7 +2021,7 @@ const TOPICS_EN = {
       {
         q: "What is the autonomic (vegetative) nervous system?",
         a: "The part of the nervous system controlling involuntary functions (heartbeat, breathing, digestion). Consists of the sympathetic (activating) and parasympathetic (relaxing) divisions.",
-        options: ["The part of the nervous system controlling deliberate movement and sensory processing","The system for involuntary functions (sympathetic/parasympathetic)","The peripheral nervous system conducting sensory impulses from skin and muscles to the brain","The central nervous system consisting of the brain and spinal cord"],
+        options: ["The part of the nervous system controlling deliberate movement and conscious sensory processing","The system for involuntary functions (sympathetic/parasympathetic)","The peripheral nervous system transmitting sensory impulses from skin receptors to the brain","The central nervous system consisting of the brain, spinal cord and brainstem"],
         correct: 1,
         fillTemplate: "The autonomic nervous system controls ___ functions like heartbeat. It consists of the ___ and parasympathetic divisions.",
         fillAnswers: ["involuntary","sympathetic"],
@@ -2029,7 +2029,7 @@ const TOPICS_EN = {
       {
         q: "What is osteoporosis and what are its risk factors?",
         a: "Osteoporosis = bone loss: reduced bone density, increased fracture risk. Risk factors: age, oestrogen deficiency, calcium deficiency, lack of exercise, corticosteroid therapy.",
-        options: ["Progressive degeneration of joint cartilage leading to chronic pain and restricted mobility","Bone loss with increased fracture risk; risks: age, oestrogen deficiency, calcium deficiency","Autoimmune inflammation of joints causing swelling, pain and systemic symptoms","Muscle wasting due to reduced physical activity and reduced protein intake in old age"],
+        options: ["Progressive degeneration of joint cartilage causing pain and restricted mobility; treated with NSAIDs","Bone loss with increased fracture risk; risks: age, oestrogen deficiency, calcium deficiency","Autoimmune joint inflammation causing warmth, swelling and systemic symptoms; treated with methotrexate","Muscle wasting due to reduced physical activity and protein intake; risks: immobility and malnutrition"],
         correct: 1,
         fillTemplate: "Osteoporosis means reduced bone ___ with increased fracture risk. Typical risks are age, ___ deficiency and calcium deficiency.",
         fillAnswers: ["density","oestrogen"],
@@ -2037,7 +2037,7 @@ const TOPICS_EN = {
       {
         q: "What are normal vital signs for an adult?",
         a: "Blood pressure: 120/80 mmHg. Pulse: 60–80/min. Respiratory rate: 12–18/min. Body temperature: 36.5–37.4°C. SpO2: >95%.",
-        options: ["BP 130/85, Pulse 70–90, RR 16–20/min, Temp 36.8–37.8°C, SpO2 >93%","BP 120/80, Pulse 60–80, RR 12–18/min, Temp 36.5–37.4°C","BP 110/70, Pulse 50–70, RR 10–14/min, Temp 36.0–36.8°C, SpO2 >92%","BP 100/60 is normal resting value; anything higher indicates mild hypertension"],
+        options: ["BP 130/85 mmHg, Pulse 70–90/min, RR 16–20/min, Temp 36.8–37.8°C, SpO2 >93%","BP 120/80, Pulse 60–80, RR 12–18/min, Temp 36.5–37.4°C","BP 110/70 mmHg, Pulse 50–70/min, RR 10–14/min, Temp 36.0–36.8°C, SpO2 >92%","BP 100/60 mmHg is the normal resting value; readings above 120 indicate mild hypertension"],
         correct: 1,
         fillTemplate: "Normal blood pressure: ___/80 mmHg. Normal pulse: 60–___ beats/min. Normal body temperature: 36.5–37.4°C.",
         fillAnswers: ["120","80"],
@@ -2045,7 +2045,7 @@ const TOPICS_EN = {
       {
         q: "What is the difference between an artery and a vein?",
         a: "Arteries carry blood away from the heart (usually oxygenated). Veins carry blood towards the heart (usually deoxygenated). Exception: pulmonary artery/vein.",
-        options: ["Arteries carry deoxygenated blood from the tissues back to the heart; veins carry oxygenated blood from the lungs","Arteries carry blood away from heart; veins carry blood towards heart","Arteries carry blood at low pressure; veins carry blood at high pressure driven by the heart's force","Arteries are found only in the thorax and abdomen; veins supply the limbs and peripheral tissues"],
+        options: ["Arteries carry deoxygenated blood from tissues back to the heart; veins carry oxygenated blood to the body","Arteries carry blood away from heart; veins carry blood towards heart","Arteries carry blood at low pressure; veins carry blood at high pressure generated by the heart","Arteries are located exclusively in the thorax and abdomen; veins supply all peripheral tissues"],
         correct: 1,
         fillTemplate: "___ carry blood away from the heart (usually oxygenated). ___ carry blood towards the heart (usually deoxygenated).",
         fillAnswers: ["Arteries","Veins"],
@@ -2053,7 +2053,7 @@ const TOPICS_EN = {
       {
         q: "What age-related changes affect the musculoskeletal system?",
         a: "Reduced muscle mass (sarcopenia), reduced bone density (osteoporosis), joint wear (osteoarthritis), reduced mobility and balance impairment.",
-        options: ["Increased joint flexibility and improved proprioception due to lifelong physical activity","Sarcopenia, osteoporosis, osteoarthritis, reduced mobility","Bone density increases after age 60 as the body compensates by thickening cortical bone","Muscles become more efficient with age due to selective motor unit activation"],
+        options: ["Increased joint flexibility and improved proprioception due to lifelong physical training","Sarcopenia, osteoporosis, osteoarthritis, reduced mobility","Bone density increases after 60 as the body compensates by thickening the cortical bone layer","Muscles become more efficient with age through selective slow-twitch motor unit recruitment"],
         correct: 1,
         fillTemplate: "With age, muscle mass decreases (___)  and bone density decreases (___). Joint wear (osteoarthritis) is also common.",
         fillAnswers: ["sarcopenia","osteoporosis"],
@@ -2061,7 +2061,7 @@ const TOPICS_EN = {
       {
         q: "What hormones does the pancreas produce and what do they do?",
         a: "Insulin (lowers blood sugar), glucagon (raises blood sugar). Also digestive enzymes (exocrine part). In diabetes mellitus, insulin production is impaired.",
-        options: ["Glucagon lowers blood sugar and insulin raises it – opposite to what is commonly believed","Insulin (lowers blood sugar) and glucagon (raises blood sugar)","Insulin and amylase; amylase is the key blood sugar regulator in the endocrine pancreas","Somatostatin and gastrin, which coordinate digestion; insulin is produced by the liver"],
+        options: ["Glucagon lowers blood sugar; insulin raises it – the opposite of what most textbooks state","Insulin (lowers blood sugar) and glucagon (raises blood sugar)","Insulin and amylase; amylase regulates blood sugar as the main endocrine pancreas hormone","Somatostatin and gastrin regulate digestion; insulin is synthesised in the liver, not the pancreas"],
         correct: 1,
         fillTemplate: "The pancreas produces ___ (lowers blood sugar) and glucagon. In diabetes, ___ production is impaired.",
         fillAnswers: ["insulin","insulin"],
@@ -2069,7 +2069,7 @@ const TOPICS_EN = {
       {
         q: "How does breathing work and what is gas exchange?",
         a: "When inhaling, oxygen (O2) from the lungs enters the blood; when exhaling, carbon dioxide (CO2) is released. Gas exchange takes place in the alveoli (lung vesicles).",
-        options: ["Oxygen and carbon dioxide are both exchanged simultaneously in the bronchioles during each breath","O2 is inhaled and absorbed into the blood; CO2 is exhaled; gas exchange in the alveoli","Gas exchange occurs in the bronchi, where blood vessels absorb oxygen through the airway walls","O2 travels to cells via the lymphatic system; CO2 is removed by the kidneys and excreted in urine"],
+        options: ["O2 and CO2 are both exchanged simultaneously in the bronchioles during each respiratory cycle","O2 is inhaled and absorbed into the blood; CO2 is exhaled; gas exchange in the alveoli","Gas exchange occurs in the bronchi, where capillaries absorb oxygen through the airway mucosa","O2 is distributed via the lymphatic system; CO2 is filtered by the kidneys and excreted in urine"],
         correct: 1,
         fillTemplate: "When inhaling, ___ (O2) is absorbed into the blood. Gas exchange takes place in the ___.",
         fillAnswers: ["oxygen","alveoli"],
@@ -2077,7 +2077,7 @@ const TOPICS_EN = {
       {
         q: "What is hypertension and when does it require treatment?",
         a: "Hypertension = persistently elevated blood pressure. Treatment required from ≥140/90 mmHg (WHO). Risks: heart attack, stroke, kidney failure. Common in older people.",
-        options: ["Elevated blood pressure above 130/85 mmHg requiring immediate treatment and hospitalisation","Persistently elevated BP ≥140/90 mmHg with risks for heart, vessels, kidneys","A temporary blood pressure rise above 160/100 mmHg during physical exertion or stress","Systolic pressure above 180 mmHg only; readings below this are considered normal in older people"],
+        options: ["Elevated blood pressure above 130/85 mmHg requiring immediate treatment and cardiac monitoring","Persistently elevated BP ≥140/90 mmHg with risks for heart, vessels, kidneys","A temporary blood pressure rise above 160/100 mmHg during exertion, requiring no treatment","Systolic pressure above 180 mmHg only; readings below this threshold are normal in older adults"],
         correct: 1,
         fillTemplate: "Hypertension means persistently elevated blood pressure from ___ mmHg systolic. Risks include heart attack and ___.",
         fillAnswers: ["140","stroke"],
@@ -2085,7 +2085,7 @@ const TOPICS_EN = {
       {
         q: "What skin changes are typical with ageing?",
         a: "Reduced skin thickness and elasticity, reduced sebum production (dry skin), slower wound healing, increased sensitivity to pressure (pressure ulcer risk), reduced sweating.",
-        options: ["Increased skin thickness and collagen density as a natural protective response to ageing","Thinner/less elastic skin, drier, slower healing, increased pressure sensitivity","Skin becomes oilier due to increased sebaceous gland activity in advanced age","Improved wound healing due to thicker dermis and higher concentration of growth factors"],
+        options: ["Increased skin thickness and higher collagen density as a natural protective response to ageing","Thinner/less elastic skin, drier, slower healing, increased pressure sensitivity","Skin becomes oilier due to increased sebaceous gland activity in people over 70","Improved wound healing due to thicker dermis and elevated concentration of epidermal growth factors"],
         correct: 1,
         fillTemplate: "Aged skin is ___ and drier. Wound healing is ___ and pressure ulcer risk increases.",
         fillAnswers: ["thinner","slower"],
@@ -2093,7 +2093,7 @@ const TOPICS_EN = {
       {
         q: "What age-related changes affect digestion?",
         a: "Slower intestinal motility (constipation more common), reduced saliva production, reduced appetite, reduced stomach acid, swallowing difficulties (dysphagia) more frequent.",
-        options: ["Increased intestinal motility leading to more frequent bowel movements and looser stools","Slower motility, less saliva, constipation tendency, swallowing difficulties more common","Improved nutrient absorption due to longer food transit time in the small intestine","Increased gastric acid secretion causing higher rates of gastric ulcers in older adults"],
+        options: ["Increased intestinal motility leading to more frequent bowel movements and softer stools in old age","Slower motility, less saliva, constipation tendency, swallowing difficulties more common","Improved nutrient absorption due to the longer transit time through the small intestine","Increased gastric acid production leading to higher rates of peptic ulcers in older adults"],
         correct: 1,
         fillTemplate: "With age, intestinal motility slows, favouring ___. ___ (swallowing difficulties) also becomes more common.",
         fillAnswers: ["constipation","Dysphagia"],
@@ -2101,7 +2101,7 @@ const TOPICS_EN = {
       {
         q: "What is incontinence and what types exist?",
         a: "Incontinence = involuntary loss of urine. Types: stress incontinence (coughing, sneezing), urge incontinence (sudden urge), overflow incontinence, mixed incontinence. Common in older age due to weak pelvic floor muscles.",
-        options: ["Voluntary but frequent urination caused by urinary tract infections or diuretic medication","Involuntary urine loss; types: stress, urge, overflow, mixed","An age-related condition affecting only women due to pelvic floor weakness after childbirth","Reduced bladder capacity causing frequent but fully controlled urination in older adults"],
+        options: ["Voluntary but frequent urination caused by diuretics and urinary tract infections","Involuntary urine loss; types: stress, urge, overflow, mixed","An age-related condition affecting only women due to pelvic floor weakness after childbirth","Reduced bladder capacity causing frequent but fully controlled urination; treated with bladder training"],
         correct: 1,
         fillTemplate: "Incontinence means involuntary ___ loss. A common type in older age is ___ incontinence.",
         fillAnswers: ["urine","stress"],
@@ -2109,7 +2109,7 @@ const TOPICS_EN = {
       {
         q: "What is the difference between systolic and diastolic blood pressure?",
         a: "Systolic = pressure during the heartbeat (contraction) – upper value. Diastolic = pressure during the heart's relaxation phase – lower value. Normal: 120 (systolic) / 80 (diastolic) mmHg.",
-        options: ["Systolic is the lower value measured during the resting phase; diastolic is the peak pressure during contraction","Systolic = upper value (heartbeat), diastolic = lower value (relaxation)","Both values reflect cardiac output measured at different times during the respiratory cycle","The diastolic value is more clinically significant as it reflects baseline vascular pressure"],
+        options: ["Systolic is the lower value during the resting phase; diastolic is the peak pressure during contraction","Systolic = upper value (heartbeat), diastolic = lower value (relaxation)","Both values reflect cardiac output measured at different points during the respiratory cycle","Diastolic pressure is more clinically significant; systolic only matters during physical exertion"],
         correct: 1,
         fillTemplate: "___ blood pressure is the upper value during the heartbeat. ___ blood pressure is the lower value at rest.",
         fillAnswers: ["Systolic","Diastolic"],
@@ -2117,7 +2117,7 @@ const TOPICS_EN = {
       {
         q: "What are the effects of immobility on the body?",
         a: "Muscle wasting (sarcopaenia), increased pressure ulcer risk, thrombosis/embolism risk, pneumonia risk, contractures, constipation, psychological effects (depression), disorientation.",
-        options: ["Only muscle wasting and pressure ulcers are clinically relevant complications of immobility","Muscle wasting, pressure ulcers, thrombosis, pneumonia, contractures, constipation, depression","Exclusively physical consequences; immobility does not affect mental health or cognitive function","Immobility primarily causes cardiac arrhythmias due to reduced stimulation of the autonomic nervous system"],
+        options: ["Only muscle wasting and pressure ulcers are clinically relevant consequences of prolonged immobility","Muscle wasting, pressure ulcers, thrombosis, pneumonia, contractures, constipation, depression","Exclusively physical consequences occur; immobility does not affect mental health or orientation","Immobility primarily causes cardiac arrhythmias through reduced autonomic nervous system stimulation"],
         correct: 1,
         fillTemplate: "Immobility leads to muscle wasting, increased ___ risk and ___ risk. Psychological effects are also possible.",
         fillAnswers: ["pressure ulcer","thrombosis"],
@@ -2125,7 +2125,7 @@ const TOPICS_EN = {
       {
         q: "What is dementia from a neurological perspective?",
         a: "Dementia is a syndrome of progressive decline in cognitive functions (memory, thinking, orientation, language, judgement) due to brain disease or damage. It is not a normal part of ageing. The most common cause is Alzheimer's disease.",
-        options: ["An accelerated form of normal cognitive ageing that affects all people beyond age 80","Syndrome of progressive cognitive decline due to brain disease; not normal ageing","A psychiatric disorder caused by social isolation, depression or severe anxiety in older people","A reversible condition resulting from vitamin deficiency, medication side effects or hypothyroidism"],
+        options: ["An accelerated form of normal cognitive ageing affecting all people over 80 years of age","Syndrome of progressive cognitive decline due to brain disease; not normal ageing","A psychiatric condition caused by social isolation, depression or severe anxiety in later life","A reversible cognitive condition resulting from vitamin deficiency, medication or hypothyroidism"],
         correct: 1,
         fillTemplate: "Dementia is a ___ decline in cognitive functions caused by brain ___. It is not a normal part of ageing.",
         fillAnswers: ["progressive","disease"],
@@ -2139,7 +2139,7 @@ const TOPICS_EN = {
       {
         q: "What is type 2 diabetes and how does it present?",
         a: "Type 2: insulin resistance and relative insulin deficiency. Symptoms: fatigue, thirst, frequent urination, slow wound healing, visual disturbances. Common with obesity, inactivity, older age.",
-        options: ["Absolute insulin deficiency requiring immediate insulin therapy at onset, regardless of age","Insulin resistance; symptoms: fatigue, thirst, frequent urination, slow wound healing","A metabolic syndrome caused by excessive carbohydrate intake that is fully reversible with diet alone","An autoimmune destruction of insulin-producing beta cells, identical in mechanism to type 1 diabetes"],
+        options: ["Absolute insulin deficiency requiring insulin therapy from diagnosis; associated with obesity and inactivity","Insulin resistance; symptoms: fatigue, thirst, frequent urination, slow wound healing","A metabolic condition caused solely by carbohydrate intake; fully reversible with low-carb diet alone","An autoimmune destruction of beta cells identical in mechanism and treatment to type 1 diabetes"],
         correct: 1,
         fillTemplate: "Type 2 diabetes is caused by insulin ___. Typical symptoms are fatigue, ___ and slow wound healing.",
         fillAnswers: ["resistance","thirst"],
@@ -2147,7 +2147,7 @@ const TOPICS_EN = {
       {
         q: "What is hypoglycaemia and how is it treated immediately?",
         a: "Hypoglycaemia = low blood sugar (<70 mg/dl). Symptoms: trembling, sweating, rapid heartbeat, confusion, loss of consciousness. Immediate action: give fast-acting carbohydrates (glucose tablets, juice, cola).",
-        options: ["Elevated blood sugar causing dizziness; treated by withholding the next insulin dose","Low blood sugar; immediately give fast-acting carbohydrates (glucose, juice)","Low blood pressure from insulin overdose; treated by positioning flat with legs elevated","Dangerously high blood sugar requiring immediate administration of short-acting insulin"],
+        options: ["Elevated blood sugar causing dizziness and thirst; treated by withholding the next insulin dose","Low blood sugar; immediately give fast-acting carbohydrates (glucose, juice)","Low blood pressure from insulin overdose; treated by shock position with legs elevated","Dangerously elevated blood sugar requiring immediate administration of short-acting insulin"],
         correct: 1,
         fillTemplate: "Hypoglycaemia means low ___. Immediate action: give fast-acting ___ such as glucose tablets.",
         fillAnswers: ["blood sugar","carbohydrates"],
@@ -2155,7 +2155,7 @@ const TOPICS_EN = {
       {
         q: "What is a stroke and what are the warning signs (FAST)?",
         a: "Stroke = sudden loss of brain function due to impaired blood supply or bleeding. FAST: Face (facial drooping), Arms (arm weakness), Speech (speech problems), Time (call emergency immediately).",
-        options: ["A cardiac event causing severe chest pain and radiating discomfort to the arm and jaw","Sudden brain function loss; FAST: facial drooping, arm weakness, speech problems, call 999","A hypertensive crisis causing sudden headache, visual disturbances and neck stiffness","A transient ischaemic attack that causes brief symptoms resolving within 24 hours without treatment"],
+        options: ["A cardiac event causing sudden chest pain, sweating and radiation to the left arm and jaw","Sudden brain function loss; FAST: facial drooping, arm weakness, speech problems, call 999","A hypertensive crisis causing sudden severe headache, visual disturbances and neck stiffness","A transient ischaemic attack causing brief symptoms; resolves spontaneously within 24 hours"],
         correct: 1,
         fillTemplate: "For a stroke, use the FAST test: ___ (face), Arms, Speech and Time – call ___ immediately.",
         fillAnswers: ["Face","emergency services"],
@@ -2163,7 +2163,7 @@ const TOPICS_EN = {
       {
         q: "What is heart failure and what are typical symptoms?",
         a: "Heart failure = pump weakness of the heart. Symptoms: breathlessness (especially on exertion and lying flat), oedema (legs), fatigue, nocturnal urination, cough.",
-        options: ["Heart rhythm disturbances causing palpitations and syncope, requiring antiarrhythmic medication","Pump weakness; breathlessness on exertion/lying, leg oedema, fatigue, cough","Coronary artery disease causing angina pectoris but no fluid retention or breathlessness at rest","Hypertensive cardiomyopathy presenting only with elevated blood pressure and occasional headache"],
+        options: ["Heart rhythm disturbances causing palpitations and syncope; treated with antiarrhythmic medication","Pump weakness; breathlessness on exertion/lying, leg oedema, fatigue, cough","Coronary artery disease causing angina pectoris on exertion but no oedema or resting breathlessness","Hypertensive cardiomyopathy with elevated blood pressure and occasional headache only"],
         correct: 1,
         fillTemplate: "Heart failure is pump weakness of the heart. Typical signs are ___ on exertion, leg ___ and fatigue.",
         fillAnswers: ["breathlessness","oedema"],
@@ -2171,7 +2171,7 @@ const TOPICS_EN = {
       {
         q: "What is Parkinson's disease and what are its cardinal symptoms?",
         a: "Parkinson's = neurodegenerative disease caused by dopamine deficiency. Cardinal symptoms: tremor (resting tremor), rigidity (muscle stiffness), akinesia/hypokinesia (reduced movement), postural instability.",
-        options: ["A form of dementia causing progressive memory loss due to cortical Lewy body deposits","Neurodegenerative due to dopamine deficiency; tremor, rigidity, akinesia, balance impairment","A cerebellar disorder causing intention tremor, ataxia and coordination difficulties","A motor neurone disease causing progressive muscle weakness and paralysis"],
+        options: ["A form of dementia causing progressive memory loss due to cortical Lewy body accumulation","Neurodegenerative due to dopamine deficiency; tremor, rigidity, akinesia, balance impairment","A cerebellar disorder causing intention tremor, gait ataxia and fine motor coordination difficulties","A motor neurone disease causing progressive paralysis and muscle weakness without tremor"],
         correct: 1,
         fillTemplate: "Parkinson's is caused by ___ deficiency. The four cardinal symptoms are tremor, rigidity, ___ and postural instability.",
         fillAnswers: ["dopamine","akinesia"],
@@ -2179,7 +2179,7 @@ const TOPICS_EN = {
       {
         q: "What is COPD and what are the care considerations?",
         a: "COPD = chronic obstructive pulmonary disease (mostly from smoking). Symptoms: cough, sputum, breathlessness. Care: breathing exercises, upper body elevation, oxygen therapy awareness (do not give high O2).",
-        options: ["A reversible obstructive airways disease similar to asthma, fully reversible with bronchodilators","Chronic obstructive lung disease; breathing exercises, upper body elevation, careful with high O2","A restrictive lung disease caused by pulmonary fibrosis, where obstruction is not the primary problem","Chronic bronchial asthma with similar symptoms; high-flow oxygen is always safe in asthma"],
+        options: ["A fully reversible obstructive airways disease like asthma; treated with bronchodilators and no O2 restriction","Chronic obstructive lung disease; breathing exercises, upper body elevation, careful with high O2","A restrictive lung disease caused by pulmonary fibrosis; obstruction is not the primary problem","Chronic bronchial asthma with similar symptoms; high-flow oxygen is always safe and indicated"],
         correct: 1,
         fillTemplate: "COPD is a chronic ___ lung disease. In care, ___ exercises and upper body elevation are important.",
         fillAnswers: ["obstructive","breathing"],
@@ -2187,7 +2187,7 @@ const TOPICS_EN = {
       {
         q: "What are pressure ulcers (decubitus) and how are they graded?",
         a: "Pressure ulcers form from prolonged pressure reducing blood supply. Grades: 1 = non-blanchable redness (skin intact), 2 = superficial skin defect, 3 = deep defect into subcutaneous tissue, 4 = necrosis down to bone/muscle/tendon.",
-        options: ["A skin condition classified in 3 grades from superficial to deep, always requiring antibiotic treatment","Tissue damage from pressure; 4 grades from redness (1) to bone-deep necrosis (4)","A wound that only develops in bedridden patients and exclusively affects bony prominences","A skin reaction to moisture from incontinence, classified separately from pressure-related wounds"],
+        options: ["A skin condition in 3 grades from superficial to deep; always treated with antibiotic dressings","Tissue damage from pressure; 4 grades from redness (1) to bone-deep necrosis (4)","A wound that develops only in bedridden patients and exclusively affects bony prominences","A moisture-associated skin damage from incontinence, classified the same as pressure ulcers"],
         correct: 1,
         fillTemplate: "Pressure ulcer Grade 1 shows non-blanchable ___. Grade 4 reaches down to ___ or tendons.",
         fillAnswers: ["redness","bone"],
@@ -2195,7 +2195,7 @@ const TOPICS_EN = {
       {
         q: "What is a urinary tract infection (UTI) and how does it present in older people?",
         a: "UTI = infection of the urinary tract (usually E. coli). In older people, often atypical symptoms: confusion, restlessness, falls, reduced appetite. Classic: burning on urination, frequency.",
-        options: ["A viral inflammation of the kidney pelvis causing fever and flank pain, treated with antiviral agents","Bacterial infection; in older people often atypical: confusion, restlessness, falls","A fungal infection of the bladder common in elderly women with catheter care","A chronic inflammatory condition of the bladder requiring long-term antibiotic prophylaxis"],
+        options: ["A viral kidney pelvis inflammation causing fever and flank pain; treated with antiviral agents","Bacterial infection; in older people often atypical: confusion, restlessness, falls","A fungal bladder infection primarily affecting elderly women with long-term urinary catheters","A chronic bladder inflammation requiring lifelong low-dose antibiotic prophylaxis"],
         correct: 1,
         fillTemplate: "In older people, a UTI often causes ___ symptoms like confusion and restlessness rather than the typical ___.",
         fillAnswers: ["atypical","burning"],
@@ -2203,7 +2203,7 @@ const TOPICS_EN = {
       {
         q: "What is Arthritis and how does it differ from Arthrosis?",
         a: "Arthritis = inflammatory joint disease (e.g. rheumatoid arthritis, reactive arthritis), often systemic with warmth, swelling, redness. Arthrosis = non-inflammatory joint wear and tear (degenerative). Both common in older age, different treatment approaches.",
-        options: ["Arthritis is degenerative wear through cartilage breakdown; arthrosis is an autoimmune joint inflammation","Arthritis = inflammatory; Arthrosis = degenerative wear; different causes and treatment","Arthritis affects only small hand joints; arthrosis only affects large joints like the knee and hip","Arthrosis typically causes rest pain at night; arthritis causes pain only during physical activity"],
+        options: ["Arthritis is degenerative cartilage wear; arthrosis is an autoimmune inflammatory joint condition","Arthritis = inflammatory; Arthrosis = degenerative wear; different causes and treatment","Arthritis affects only small hand joints; arthrosis exclusively affects large joints like knee and hip","Arthrosis causes rest pain at night; arthritis causes pain only during physical activity"],
         correct: 1,
         fillTemplate: "Arthritis is ___ joint disease with warmth and swelling. Arthrosis is ___ wear and tear of the joint.",
         fillAnswers: ["inflammatory","degenerative"],
@@ -2211,7 +2211,7 @@ const TOPICS_EN = {
       {
         q: "What is pneumonia in a care context and what are the risk factors?",
         a: "Pneumonia = inflammation of lung tissue (usually bacterial). Care-related risk factors: immobility, swallowing difficulties (aspiration), immobilisation, older age, immunosuppression.",
-        options: ["A bronchial inflammation limited to the airways without involvement of the alveoli or lung tissue","Lung tissue inflammation; risks: immobility, swallowing difficulties, immunosuppression","Exclusively a viral infection that only affects immunocompromised residents in intensive care","A reversible obstructive lung condition triggered by allergens or cold air exposure"],
+        options: ["A bronchial inflammation limited to the airways without involving the alveoli or lung parenchyma","Lung tissue inflammation; risks: immobility, swallowing difficulties, immunosuppression","Exclusively a viral infection affecting only immunocompromised residents; not found in residential care","A reversible obstructive lung condition triggered by allergens or cold air; not related to care"],
         correct: 1,
         fillTemplate: "Pneumonia is ___ of lung tissue. Care-related risks include immobility and ___ difficulties.",
         fillAnswers: ["inflammation","swallowing"],
@@ -2219,7 +2219,7 @@ const TOPICS_EN = {
       {
         q: "What is a thrombosis and what prophylaxis measures are used?",
         a: "Thrombosis = blood clot in a blood vessel (usually leg vein). Prophylaxis: mobilisation, compression stockings, adequate fluid intake, anticoagulant medication, leg elevation.",
-        options: ["Inflammation of a superficial vein causing redness and localised pain, treated with ice packs","Blood clot in a vessel; prophylaxis: mobilisation, compression stockings, fluids","A blockage of a coronary artery caused by atherosclerotic plaque rupture","An arterial clot forming in the left heart chamber, detected by echocardiogram"],
+        options: ["Inflammation of a superficial vein causing localised redness and pain; treated with ice packs and NSAIDs","Blood clot in a vessel; prophylaxis: mobilisation, compression stockings, fluids","A coronary artery blockage caused by atherosclerotic plaque rupture; treated with percutaneous angioplasty","An arterial thrombus in the left heart chamber due to atrial fibrillation; detected by echocardiogram"],
         correct: 1,
         fillTemplate: "Thrombosis is a blood ___ in a vessel. Prophylaxis includes mobilisation and ___ stockings.",
         fillAnswers: ["clot","compression"],
@@ -2227,7 +2227,7 @@ const TOPICS_EN = {
       {
         q: "What is delirium and how does it differ from dementia?",
         a: "Delirium is acute, fluctuating (hours to days), often reversible (caused by infection, medication, dehydration). Dementia is chronic, gradual and progressive. Delirium is more common in people with dementia.",
-        options: ["Delirium develops slowly over weeks and is permanent, similar in progression to dementia","Delirium is acute and often reversible; dementia is chronic and gradual","Dementia is the underlying cause of every delirium episode; delirium cannot occur without dementia","Both require identical management: orientation training and minimising sensory stimulation"],
+        options: ["Delirium develops slowly over weeks and becomes permanent, similar in progression to dementia","Delirium is acute and often reversible; dementia is chronic and gradual","Dementia is the underlying cause of every delirium episode; delirium never occurs without dementia","Both conditions are managed identically with orientation training and sensory stimulation reduction"],
         correct: 1,
         fillTemplate: "Delirium is an ___ confusional state that is often ___. Dementia is chronic and gradual.",
         fillAnswers: ["acute","reversible"],
@@ -2235,7 +2235,7 @@ const TOPICS_EN = {
       {
         q: "What are the typical symptoms of a heart attack?",
         a: "Severe chest pain (crushing), radiating to left arm/jaw/back, breathlessness, nausea, sweating, sense of doom. In women/older people often atypical (upper abdominal pain, nausea).",
-        options: ["Sudden tearing chest pain radiating to the back, with equal pulse strength in both arms","Crushing chest pain, radiation, breathlessness, sweating; atypical in women","Intermittent chest tightness triggered by exertion that resolves with rest within 10 minutes","Pleuritic chest pain worsening on deep inspiration, combined with cough and fever"],
+        options: ["Sudden tearing chest pain radiating to the back with unequal pulses in both arms","Crushing chest pain, radiation, breathlessness, sweating; atypical in women","Intermittent chest tightness on exertion that fully resolves with rest within 10 minutes","Pleuritic chest pain worsening on inspiration, combined with productive cough and fever"],
         correct: 1,
         fillTemplate: "A heart attack typically causes ___ chest pain and radiation to the left ___. In women, symptoms are often atypical.",
         fillAnswers: ["crushing","arm"],
@@ -2243,7 +2243,7 @@ const TOPICS_EN = {
       {
         q: "What is dysphagia and what care measures are needed?",
         a: "Dysphagia = swallowing disorder (common after stroke, in dementia, Parkinson's). Risk: aspiration. Measures: texture-modified foods/thickened fluids, upright sitting, speech therapy.",
-        options: ["Swallowing difficulties primarily after stroke; liquid diets are always safe and require no thickening","Swallowing disorder with aspiration risk; texture modification, upright position, speech therapy","Dysphagia occurs exclusively in neurological conditions such as stroke and Parkinson's disease","Texture modification is only a temporary measure and can be discontinued after speech therapy"],
+        options: ["Swallowing difficulties after stroke only; liquid diets are always safe and require no modification","Swallowing disorder with aspiration risk; texture modification, upright position, speech therapy","Dysphagia occurs exclusively in neurological conditions; unrelated to dementia or medication effects","Texture modification is a temporary measure that should be discontinued after speech therapy ends"],
         correct: 1,
         fillTemplate: "Dysphagia is a ___ disorder with aspiration risk. Care includes ___ of fluids and upright sitting position.",
         fillAnswers: ["swallowing","thickening"],
@@ -2251,7 +2251,7 @@ const TOPICS_EN = {
       {
         q: "What is contracture prophylaxis and why is it important?",
         a: "Contracture prophylaxis prevents permanent shortening of muscles and tendons through regular movement exercises (active and passive), repositioning and physiotherapy.",
-        options: ["Prevents muscle atrophy (sarcopenia) through targeted strengthening exercises in bedridden patients","Prevents muscle/tendon shortening through regular movement exercises and repositioning","Treats existing contractures through passive stretching and heat therapy once they develop","Contracture prophylaxis is exclusively the physiotherapist's responsibility and not a nursing task"],
+        options: ["Prevents muscle atrophy (sarcopenia) through targeted strength training in bedridden patients","Prevents muscle/tendon shortening through regular movement exercises and repositioning","Treats existing contractures through passive stretching and heat therapy after they have developed","Contracture prophylaxis is exclusively the physiotherapist's task; nurses are not involved"],
         correct: 1,
         fillTemplate: "Contracture prophylaxis prevents permanent shortening of ___ and tendons through regular ___ exercises.",
         fillAnswers: ["muscles","movement"],
@@ -2259,7 +2259,7 @@ const TOPICS_EN = {
       {
         q: "What is moist wound treatment and why is it preferred?",
         a: "Moist wound treatment keeps the wound bed moist, promotes granulation and epithelialisation, reduces pain and infection risk. Modern dressings (hydrocolloid, alginate) maintain the moist environment.",
-        options: ["Wounds heal more reliably when kept dry and exposed to air to prevent bacterial colonisation","Moist treatment promotes healing; modern dressings maintain moist environment","Daily antiseptic irrigation is the gold standard for preventing wound infections in care settings","Saline-soaked gauze changed every 4 hours provides optimal moisture balance for wound healing"],
+        options: ["Wounds heal most reliably when kept dry and exposed to air to prevent bacterial colonisation","Moist treatment promotes healing; modern dressings maintain moist environment","Daily antiseptic irrigation is the gold standard for wound infection prevention in care settings","Saline-soaked gauze changed every 4 hours provides optimal moisture balance for granulation"],
         correct: 1,
         fillTemplate: "Moist wound treatment promotes ___ and epithelialisation. Modern ___ dressings maintain this environment.",
         fillAnswers: ["granulation","hydrocolloid"],
@@ -2267,7 +2267,7 @@ const TOPICS_EN = {
       {
         q: "What is heart failure and what are its symptoms?",
         a: "Heart failure = the heart cannot pump enough blood. Symptoms: breathlessness on exertion, breathlessness at rest, oedema (ankles, legs), exhaustion, waking at night with breathlessness.",
-        options: ["An acute myocardial infarction causing permanent damage to the heart muscle after arterial blockage","Heart weakness with breathlessness, oedema and exhaustion; pumping capacity insufficient","Hypertrophic cardiomyopathy causing thickening of the heart wall and obstruction of blood flow","Chronic coronary artery disease causing stable angina pectoris without fluid retention"],
+        options: ["An acute myocardial infarction causing permanent heart muscle damage after coronary artery blockage","Heart weakness with breathlessness, oedema and exhaustion; pumping capacity insufficient","Hypertrophic cardiomyopathy causing heart wall thickening and left ventricular outflow obstruction","Stable coronary artery disease with exertional angina pectoris; no oedema or breathlessness at rest"],
         correct: 1,
         fillTemplate: "In heart failure the heart's ___ capacity is insufficient. Typical signs are ___ (legs) and breathlessness.",
         fillAnswers: ["pumping","oedema"],
@@ -2275,7 +2275,7 @@ const TOPICS_EN = {
       {
         q: "What is Parkinson's disease and how does it affect care?",
         a: "Parkinson's disease = CNS condition from dopamine deficiency. Symptoms: rigidity (muscle stiffness), tremor (resting tremor), bradykinesia (slowness), postural instability. Care aspects: falls prophylaxis, swallowing difficulties, allow extra time.",
-        options: ["A cerebellar disorder causing intention tremor and gait ataxia without any cognitive impairment","CNS condition with rigidity, tremor, bradykinesia; care: falls prophylaxis, allow extra time","Lewy body dementia which presents with cognitive decline and visual hallucinations as primary symptoms","Multiple system atrophy with autonomic failure requiring mainly cardiovascular monitoring in care"],
+        options: ["A cerebellar disorder causing intention tremor and gait ataxia; no rigidity or resting tremor","CNS condition with rigidity, tremor, bradykinesia; care: falls prophylaxis, allow extra time","Lewy body dementia presenting with cognitive decline and visual hallucinations as primary symptoms","Multiple system atrophy with autonomic failure requiring cardiovascular monitoring and blood pressure care"],
         correct: 1,
         fillTemplate: "Parkinson's disease leads to rigidity, tremor and ___ due to ___ deficiency. Falls prophylaxis is especially important in care.",
         fillAnswers: ["bradykinesia","dopamine"],
@@ -2283,7 +2283,7 @@ const TOPICS_EN = {
       {
         q: "What is MRSA and how are staff and residents protected?",
         a: "MRSA = methicillin-resistant Staphylococcus aureus – antibiotic-resistant bacteria. Transmission: contact, droplets. Protection: strict contact precautions (gloves, gown, mask), room isolation, individual care equipment, hand disinfection.",
-        options: ["Methicillin-sensitive Staphylococcus aureus (MSSA) transmitted by contact like MRSA but treatable with penicillin","Antibiotic-resistant bacteria; protection through contact precautions, isolation, hand disinfection","A pathogen that only colonises wounds and is not transmissible through everyday skin contact","A multi-drug resistant gram-negative bacteria (MRGN) treated with vancomycin like MRSA"],
+        options: ["Methicillin-sensitive Staphylococcus aureus (MSSA); transmitted by contact but treatable with penicillin","Antibiotic-resistant bacteria; protection through contact precautions, isolation, hand disinfection","A pathogen that only colonises wounds; not transmissible through normal everyday skin contact","A multi-drug resistant gram-negative bacteria (MRGN); treated with vancomycin like MRSA"],
         correct: 1,
         fillTemplate: "MRSA is ___ resistant bacteria. Protection requires ___ contact precautions and strict hand disinfection.",
         fillAnswers: ["antibiotic","strict"],
@@ -2297,7 +2297,7 @@ const TOPICS_EN = {
       {
         q: "What is the daily fluid requirement for an adult?",
         a: "About 30–35 ml per kilogram of body weight, i.e. for 70 kg approximately 2,100–2,450 ml/day. More with fever, heat or increased activity.",
-        options: ["25–28 ml/kg body weight, as the requirement decreases in older adults due to reduced thirst sensation","20–25 ml/kg body weight, in line with German Nutrition Society recommendations for elderly","30–35 ml/kg body weight (approx. 2–2.5 l daily)","40–45 ml/kg body weight, since older kidneys need more fluid to excrete waste products"],
+        options: ["25–28 ml/kg body weight, as fluid needs decrease in older adults due to reduced thirst sensation","20–25 ml/kg body weight, as recommended by the German Nutrition Society for elderly people","30–35 ml/kg body weight (approx. 2–2.5 l daily)","40–45 ml/kg body weight, since ageing kidneys need more fluid to adequately excrete waste"],
         correct: 2,
         fillTemplate: "The daily fluid requirement is ___ ml per kilogram of body weight. For 70 kg this is approximately ___ ml.",
         fillAnswers: ["30–35","2100"],
@@ -2305,7 +2305,7 @@ const TOPICS_EN = {
       {
         q: "What is malnutrition and how is it recognised?",
         a: "Malnutrition = insufficient intake of energy and nutrients. Signs: weight loss, muscle wasting, dry skin, fatigue, weakened immune system. Assessed e.g. with the MNA (Mini Nutritional Assessment).",
-        options: ["Exclusive vitamin deficiency without impact on body weight or muscle strength","Insufficient nutrient intake; signs: weight loss, muscle wasting, fatigue","Temporary weight loss during illness that usually resolves on its own","Nutritional deficit detectable only through blood tests"],
+        options: ["Vitamin deficiency only, without any impact on body weight or muscle strength","Insufficient nutrient intake; signs: weight loss, muscle wasting, fatigue","Temporary weight loss during acute illness that resolves on its own without intervention","Nutritional deficit that can only be identified reliably through laboratory blood testing"],
         correct: 1,
         fillTemplate: "Malnutrition means insufficient intake of energy and ___. It is assessed with tools like the ___.",
         fillAnswers: ["nutrients","MNA"],
@@ -2313,7 +2313,7 @@ const TOPICS_EN = {
       {
         q: "What are the signs of dehydration in older people?",
         a: "Dry mouth, sunken eyes, reduced urine output (dark colour), confusion, dizziness, constipation, reduced skin elasticity (skin turgor test positive).",
-        options: ["Increased urine output with pale urine and moist mucous membranes","Dry mouth, dark urine, confusion, dizziness, reduced skin elasticity","Flushed skin and mildly elevated body temperature due to impaired heat dissipation","Swollen ankles and weight gain caused by fluid retention and oedema formation"],
+        options: ["Increased urine output with pale urine and moist mucous membranes indicating overhydration","Dry mouth, dark urine, confusion, dizziness, reduced skin elasticity","Flushed warm skin and mildly elevated body temperature due to impaired heat dissipation","Swollen ankles and weight gain due to fluid retention and peripheral oedema formation"],
         correct: 1,
         fillTemplate: "Signs of dehydration include dry mouth, ___ urine, confusion and reduced skin ___.",
         fillAnswers: ["dark","elasticity"],
@@ -2321,7 +2321,7 @@ const TOPICS_EN = {
       {
         q: "What nutrients are particularly important for older people?",
         a: "Proteins (muscle maintenance), calcium and vitamin D (bone protection), fibre (bowel health), B vitamins (nervous system), fluid. Older people often have insufficient protein and vitamin D.",
-        options: ["Carbohydrates and fats are sufficient since energy needs decrease with age","Proteins, calcium, vitamin D, fibre, B vitamins and adequate fluid","Only vitamins C and E as the relevant micronutrients in old age","Liquid diet and supplements replace solid meals most effectively"],
+        options: ["Carbohydrates and fats are sufficient in old age since protein requirements decrease","Proteins, calcium, vitamin D, fibre, B vitamins and adequate fluid","Only vitamins C and E are relevant micronutrients in older adults; others are adequately supplied","Liquid diet and nutritional supplements most effectively replace regular solid meals in old age"],
         correct: 1,
         fillTemplate: "Older people particularly need ___ for muscle maintenance and calcium plus ___ for bone protection.",
         fillAnswers: ["proteins","vitamin D"],
@@ -2329,7 +2329,7 @@ const TOPICS_EN = {
       {
         q: "What is enteral nutrition and what care considerations apply?",
         a: "Enteral nutrition = nutrient supply via tube (nasogastric, PEG) for people unable to eat orally sufficiently. Care: check tube position, hygiene, control residual volume, monitor aspiration risk.",
-        options: ["High-calorie oral nutritional supplements (ONS) taken in small sips to boost intake","Nutrient supply via tube for people unable to eat orally","Texture-modified thickened foods given orally to residents with swallowing difficulties","Parenteral nutrition via a central venous catheter when gastrointestinal function is absent"],
+        options: ["High-calorie oral nutritional supplements sipped between meals to boost energy intake","Nutrient supply via tube for people unable to eat orally","Texture-modified thickened foods given orally to residents with swallowing difficulties","Parenteral nutrition via a central venous catheter when gastrointestinal function is completely absent"],
         correct: 1,
         fillTemplate: "Enteral nutrition is delivered via a ___ (e.g. PEG). In care, ___ risk must be closely monitored.",
         fillAnswers: ["tube","aspiration"],
@@ -2337,7 +2337,7 @@ const TOPICS_EN = {
       {
         q: "How should feeding assistance be provided for people with swallowing difficulties?",
         a: "Upper body at least 45–90° upright, use thickened fluids, small bites/sips, no distractions, allow time, monitor for voice changes after swallowing, involve speech therapy.",
-        options: ["Thin liquids are easiest to swallow and should always be preferred","Upright position, thickened fluids, small sips, allow time, involve speech therapy","Position the patient at 30° reclined to reduce regurgitation risk","Withhold all oral food until a formal swallowing assessment is completed"],
+        options: ["Thin liquids are easiest to swallow and should always be preferred over thickened fluids","Upright position, thickened fluids, small sips, allow time, involve speech therapy","Position the patient at 30° reclined to reduce the risk of reflux and regurgitation","Withhold all oral nutrition until a formal speech therapy swallowing assessment is completed"],
         correct: 1,
         fillTemplate: "For dysphagia, the upper body should be ___ and ___ fluids used.",
         fillAnswers: ["upright","thickened"],
@@ -2345,7 +2345,7 @@ const TOPICS_EN = {
       {
         q: "What is the BMI and what values are used for adults?",
         a: "BMI = body weight (kg) / height² (m²). Underweight: <18.5. Normal: 18.5–24.9. Overweight: 25–29.9. Obesity: ≥30. Slightly higher values tolerated in people over 65.",
-        options: ["Ratio of waist circumference to height (waist-to-height ratio); normal value below 0.5","Weight/height²; normal weight 18.5–24.9; underweight <18.5; obesity ≥30","Percentage of body fat to muscle mass; normal range for older women is 25–35%","A blood-based albumin-to-transferrin ratio used to assess nutritional and metabolic status"],
+        options: ["Ratio of waist circumference to height squared; a value below 0.5 is considered normal","Weight/height²; normal weight 18.5–24.9; underweight <18.5; obesity ≥30","Percentage of body fat relative to lean muscle mass; normal for older women is 25–35%","A blood test combining albumin and transferrin levels to assess nutritional and metabolic status"],
         correct: 1,
         fillTemplate: "BMI = weight in kg divided by ___ in m². Normal weight is between 18.5 and ___.",
         fillAnswers: ["height²","24.9"],
@@ -2353,7 +2353,7 @@ const TOPICS_EN = {
       {
         q: "What is a nutrition protocol and when is it used?",
         a: "A nutrition protocol documents all meals and fluid amounts (type, amount, time). Used when there is a risk of malnutrition, to monitor intake and plan interventions.",
-        options: ["A medical document prescribing dietary restrictions and therapeutic diets","Documents meals and fluids when malnutrition risk is present","A care note recording food allergies and intolerances","A standardised weekly meal plan for balanced nutrition in the facility"],
+        options: ["A medical document prescribing dietary restrictions, portion sizes and therapeutic diets","Documents meals and fluids when malnutrition risk is present","A care note recording food allergies, intolerances and dietary preferences at admission","A standardised weekly meal plan for balanced nutrition, prepared by the facility kitchen staff"],
         correct: 1,
         fillTemplate: "A nutrition protocol documents meals and ___ amounts when there is a ___ risk.",
         fillAnswers: ["fluid","malnutrition"],
@@ -2361,7 +2361,7 @@ const TOPICS_EN = {
       {
         q: "What is aspiration pneumonia and how is it prevented?",
         a: "Aspiration pneumonia occurs when food or fluid enters the lungs. Prevention: upright sitting position during eating, texture modification, swallowing training, remain upright for 30 minutes after eating.",
-        options: ["Lung infection caused by oral bacteria due to poor mouth hygiene","Aspiration of food into lungs; prevented by upright position, texture modification","Inflammation of the oesophagus caused by stomach acid reflux","Pneumonia from insufficient fluid intake and mucus build-up"],
+        options: ["A lung infection caused by oral bacteria due to poor mouth hygiene and dry mucous membranes","Aspiration of food into lungs; prevented by upright position, texture modification","Oesophageal inflammation caused by gastric acid reflux; treated with proton pump inhibitors","Pneumonia from insufficient fluid intake causing mucus build-up and impaired ciliary clearance"],
         correct: 1,
         fillTemplate: "Aspiration pneumonia is caused by food entering the ___. Prevention: ___ sitting during eating and texture modification.",
         fillAnswers: ["lungs","upright"],
@@ -2369,7 +2369,7 @@ const TOPICS_EN = {
       {
         q: "What special nutritional risks do older people have?",
         a: "Reduced appetite, chewing/swallowing problems, medication side effects, reduced senses (taste/smell), social isolation, depression, reduced mobility for shopping/cooking.",
-        options: ["Nutritional needs change very little compared to younger adults","Reduced appetite, chewing/swallowing issues, medication effects, isolation","Increased appetite and higher energy requirements due to medication","Exclusively physical limitations with shopping and cooking"],
+        options: ["Nutritional needs in older adults change very little compared to younger people","Reduced appetite, chewing/swallowing issues, medication effects, isolation","Increased appetite and higher caloric requirements due to medication side effects","Exclusively physical limitations with shopping and cooking due to reduced mobility"],
         correct: 1,
         fillTemplate: "Nutritional risks in older age include reduced appetite, ___ problems and medication side effects. ___ isolation also plays a role.",
         fillAnswers: ["swallowing","Social"],
@@ -2377,7 +2377,7 @@ const TOPICS_EN = {
       {
         q: "How should assistance with eating be provided to preserve dignity?",
         a: "Preserve dignity and self-determination, create a pleasant atmosphere, respect food preferences, allow sufficient time, activating approach (only help where needed), identify favourite foods.",
-        options: ["Complete the meal efficiently to stay within scheduled care time","Preserve dignity, allow time, respect preferences, pleasant atmosphere, activating approach","Always take over completely to prevent any risk of choking","Leave the room at every meal when the resident requests privacy"],
+        options: ["Complete feeding efficiently within the scheduled care time; dignity is secondary to safety","Preserve dignity, allow time, respect preferences, pleasant atmosphere, activating approach","Always take over feeding completely to prevent any possible choking risk","Leave the room during every meal if the resident requests privacy, regardless of swallowing risk"],
         correct: 1,
         fillTemplate: "When assisting with eating, the resident's ___ must be preserved. Help should be provided in an ___ way (only where needed).",
         fillAnswers: ["dignity","activating"],
@@ -2385,7 +2385,7 @@ const TOPICS_EN = {
       {
         q: "What vitamins and minerals are commonly deficient in older care-dependent people?",
         a: "Vitamin D (lack of sunlight), vitamin B12 (reduced absorption), folate, calcium, magnesium, iron, zinc. Deficiency from reduced intake, sunlight restriction and medication interactions.",
-        options: ["Deficiencies rarely occur in older adults with a varied diet","Vitamin D, B12, calcium, magnesium; from lack of sunlight, reduced absorption, medications","Only vitamin C and iron from dietary habits","Vitamin deficiencies only affect those in full-time residential care"],
+        options: ["Deficiencies rarely occur in older adults who follow a varied and balanced diet","Vitamin D, B12, calcium, magnesium; from lack of sunlight, reduced absorption, medications","Only vitamin C and iron from dietary habits; all other vitamins are adequately supplied","Vitamin deficiencies only affect residents in full-time care; community-dwelling elderly are not at risk"],
         correct: 1,
         fillTemplate: "Older people often lack ___ due to reduced sunlight and ___ due to impaired absorption.",
         fillAnswers: ["vitamin D","vitamin B12"],
@@ -2393,7 +2393,7 @@ const TOPICS_EN = {
       {
         q: "How many meals are recommended per day in elderly care?",
         a: "5–6 meals daily (3 main meals + 2–3 snacks), intervals not longer than 4–6 hours, not longer than 11 hours without food overnight. Promotes blood sugar stability.",
-        options: ["3 main meals daily are sufficient; snacks increase the risk of overweight and dental problems","5–6 meals daily, intervals max 4–6 hours, max 11 hours overnight without food","4 meals per day at equal intervals of 5–6 hours provides optimal blood sugar stability","3 main meals daily; the length of the overnight fasting period has no clinical relevance"],
+        options: ["3 main meals daily are sufficient; snacks increase overweight risk and cause dental problems","5–6 meals daily, intervals max 4–6 hours, max 11 hours overnight without food","4 meals per day at equal 5–6 hour intervals provides optimal blood sugar stability","3 main meals; the overnight fasting period has no clinical relevance for older adults"],
         correct: 1,
         fillTemplate: "___ meals per day are recommended with intervals of maximum ___ hours.",
         fillAnswers: ["5–6","4–6"],
@@ -2401,7 +2401,7 @@ const TOPICS_EN = {
       {
         q: "How is dehydration (exsiccosis) identified and treated?",
         a: "Signs: dry mucous membranes, reduced skin turgor (skin fold remains), confusion, weakness, concentrated urine. Action: document fluid intake, encourage drinking, medical order for infusion if needed.",
-        options: ["Increased urine output, moist skin and weight gain from fluid overload","Dry mucous membranes, reduced skin turgor, confusion; encourage fluid intake, inform doctor","Swollen ankles and elevated blood pressure indicating fluid overload rather than deficit","Flushed warm skin and increased urine volume due to excessive perspiration"],
+        options: ["Increased urine output, moist mucous membranes and weight gain indicating fluid overload","Dry mucous membranes, reduced skin turgor, confusion; encourage fluid intake, inform doctor","Swollen ankles and elevated blood pressure indicating fluid overload rather than dehydration","Flushed warm skin and increased urine output due to excessive perspiration in warm weather"],
         correct: 1,
         fillTemplate: "Dehydration shows as dry ___ and reduced skin ___. Encourage fluid intake and inform the doctor.",
         fillAnswers: ["mucous membranes","turgor"],
@@ -2409,7 +2409,7 @@ const TOPICS_EN = {
       {
         q: "What should be considered when taking medication with food?",
         a: "Many medications should be taken with enough water (at least 100–200 ml); some not with milk or grapefruit juice. Some medications affect appetite, taste or nutrient absorption.",
-        options: ["All medications should be taken with a large glass of milk","With sufficient water; interactions with milk/grapefruit juice; effects on appetite/absorption","Medications should always be taken with meals to prevent stomach upset","Meals always delay absorption and should be avoided when taking medication"],
+        options: ["All medications should be taken with a large glass of milk to protect the stomach","With sufficient water; interactions with milk/grapefruit juice; effects on appetite/absorption","All medications must be taken with meals to prevent stomach irritation and gastric bleeding","Meals always delay drug absorption and should therefore be avoided when taking medication"],
         correct: 1,
         fillTemplate: "Medications should be taken with at least ___ ml of water. Interactions with ___ or grapefruit juice must be considered.",
         fillAnswers: ["100–200","milk"],
@@ -2417,7 +2417,7 @@ const TOPICS_EN = {
       {
         q: "What is dysphagia and what measures help?",
         a: "Dysphagia = difficulty or pain when swallowing, common in stroke, Parkinson's, dementia. Measures: upper body elevated, thicken fluids, small bites, slow eating, speech therapy, monitor aspiration risk.",
-        options: ["Swallowing difficulties only with solid food; liquids are always safe and require no modification","Swallowing difficulties; help: elevate upper body, thicken fluids, speech therapy, slow eating","Painful swallowing caused by oesophageal spasm, diagnosed exclusively by endoscopy","Temporary swallowing discomfort during a sore throat episode, with no aspiration risk"],
+        options: ["Swallowing difficulties with solid food only; liquids are always safe and need no modification","Swallowing difficulties; help: elevate upper body, thicken fluids, speech therapy, slow eating","Painful swallowing from oesophageal spasm; diagnosed by endoscopy and treated with calcium blockers","Temporary swallowing discomfort from sore throat; resolves spontaneously with no aspiration risk"],
         correct: 1,
         fillTemplate: "With dysphagia the upper body should be ___ positioned. Fluids are often ___ and given in small portions.",
         fillAnswers: ["upright","thickened"],
@@ -2425,7 +2425,7 @@ const TOPICS_EN = {
       {
         q: "What are the five main nutrient groups and their functions?",
         a: "Carbohydrates (energy), protein (building/repair), fats (energy, hormone synthesis), vitamins (regulatory functions), minerals/trace elements (bones, nerve function). Water is also essential.",
-        options: ["Only macronutrients count; vitamins are synthesised by the body itself","Carbohydrates, protein, fats, vitamins, minerals – each with specific functions","Four groups: carbohydrates, protein, fats and fluids","Six groups including alcohol and caffeine as energy sources"],
+        options: ["Only macronutrients count; all vitamins and minerals are synthesised by the body itself","Carbohydrates, protein, fats, vitamins, minerals – each with specific functions","Four groups: carbohydrates, protein, fats and fluids; vitamins are supplied by supplementation","Six groups including alcohol and caffeine as recognised energy and micronutrient sources"],
         correct: 1,
         fillTemplate: "___ provide energy. ___ are important for building and repairing tissue.",
         fillAnswers: ["Carbohydrates","Protein"],
@@ -2439,7 +2439,7 @@ const TOPICS_EN = {
       {
         q: "How long at most should breathing be checked before starting resuscitation?",
         a: "Maximum 10 seconds. If the person is unconscious and not breathing normally → call emergency services immediately and begin chest compressions.",
-        options: ["30 seconds to distinguish agonal breathing from normal breathing patterns","60 seconds, applying the look-listen-feel technique at the airway and chest","10 seconds","20 seconds, including a manual pulse check at the carotid artery"],
+        options: ["30 seconds to distinguish agonal breathing from normal respiratory patterns","60 seconds, applying the look-listen-feel technique at the patient's airway","10 seconds","20 seconds, which must include a simultaneous manual pulse check at the carotid artery"],
         correct: 2,
         fillTemplate: "Breathing is checked for a maximum of ___ seconds. For unconsciousness with no breathing → call ___ immediately.",
         fillAnswers: ["10","emergency services"],
@@ -2447,7 +2447,7 @@ const TOPICS_EN = {
       {
         q: "What is the correct technique for chest compressions (CPR)?",
         a: "Compression point: centre of the chest. Depth: 5–6 cm. Rate: 100–120/min. Ratio: 30 compressions : 2 breaths (30:2). Arms straight, transfer force through arms.",
-        options: ["Centre of chest, 3–4 cm deep, 80–100/min, 15:2 as used in paediatric resuscitation","Compression point centre of chest, 5–6 cm deep, 100–120/min, 30:2","Centre of chest, 5–6 cm deep, 100–120/min, 15:2 following the older ERC guidelines","Centre of chest, 4–5 cm deep, 100–120/min, 30:2 – depth should be reduced in elderly patients"],
+        options: ["Centre of chest, 3–4 cm deep, 80–100/min, ratio 15:2 as used in paediatric CPR","Compression point centre of chest, 5–6 cm deep, 100–120/min, 30:2","Centre of chest, 5–6 cm deep, 100–120/min, ratio 15:2 following the older ERC guidelines","Centre of chest, 4–5 cm deep, 100–120/min, ratio 30:2 – depth reduced in frail elderly patients"],
         correct: 1,
         fillTemplate: "CPR: centre of chest, depth ___ cm, rate ___/min, ratio 30:2.",
         fillAnswers: ["5–6","100–120"],
@@ -2455,7 +2455,7 @@ const TOPICS_EN = {
       {
         q: "What does the ABCDE scheme mean in emergency assessment?",
         a: "A = Airway, B = Breathing, C = Circulation, D = Disability (consciousness/neurology), E = Exposure. Systematic first assessment.",
-        options: ["Assessment, Blood pressure, Cardiac output, Diagnosis, Emergency plan","Airway, Breathing, Circulation, Disability, Exposure","Alert, Breathing, Cardiovascular, Distress, Extremities","Appearance, Breathing, Colour, Decisiveness, Evaluation"],
+        options: ["Assessment, Blood pressure, Cardiac output, Diagnosis, Exposure","Airway, Breathing, Circulation, Disability, Exposure","Alert, Breathing, Cardiovascular, Disability, Extremities","Appearance, Breathing, Colour, Decisiveness, Evaluation"],
         correct: 1,
         fillTemplate: "ABCDE stands for Airway, ___, Circulation, ___ and Exposure.",
         fillAnswers: ["Breathing","Disability"],
@@ -2463,7 +2463,7 @@ const TOPICS_EN = {
       {
         q: "What immediate actions are taken for suspected stroke (FAST)?",
         a: "Call emergency services immediately. Reassure and lay patient down (upper body slightly elevated). Nothing to eat/drink (aspiration risk). Note the time (important for thrombolysis). Do not leave alone.",
-        options: ["Administer aspirin and monitor blood pressure while awaiting spontaneous recovery","Call emergency services, lay down, nothing to eat/drink, note time, don't leave alone","Give the patient water and reassure them; symptoms of a TIA often resolve within hours","Position the patient flat on their back and massage the affected side to restore blood flow"],
+        options: ["Administer aspirin and monitor blood pressure while the patient waits for symptoms to resolve","Call emergency services, lay down, nothing to eat/drink, note time, don't leave alone","Give the patient water and reassure them; stroke symptoms usually resolve within a few hours","Position the patient flat on their back and massage the affected face and arm to restore blood flow"],
         correct: 1,
         fillTemplate: "For suspected stroke, call ___ immediately. Give nothing to ___ (aspiration risk).",
         fillAnswers: ["emergency services","eat/drink"],
@@ -2471,7 +2471,7 @@ const TOPICS_EN = {
       {
         q: "How is anaphylaxis recognised and what should be done?",
         a: "Anaphylaxis: sudden allergic reaction. Symptoms: rash/hives, breathlessness, swelling (face/mouth), blood pressure drop, unconsciousness. Immediately: emergency services, stable side position or shock position, remove allergen.",
-        options: ["Localised urticaria from food allergy without systemic symptoms; treat with oral antihistamine","Life-threatening reaction: rash, breathlessness, BP drop; call emergency services, side position","An allergic reaction with skin redness and itching; cool the skin and prepare the adrenalin pen","A vasovagal syncope triggered by pain or fright causing brief loss of consciousness"],
+        options: ["Localised urticaria from food allergy without systemic symptoms; treated with oral antihistamine","Life-threatening reaction: rash, breathlessness, BP drop; call emergency services, side position","An allergic skin reaction with redness and itching; cool the skin and administer an antihistamine","A vasovagal syncope triggered by pain or fright causing brief loss of consciousness"],
         correct: 1,
         fillTemplate: "Anaphylaxis presents with rash, ___ and blood pressure drop. Call ___ immediately.",
         fillAnswers: ["breathlessness","emergency services"],
@@ -2479,7 +2479,7 @@ const TOPICS_EN = {
       {
         q: "What to do after a fall with suspected fracture?",
         a: "Do not move the patient (fracture may worsen). Call emergency services. Reassure, keep warm. Immobilise the affected area (do not realign). Monitor vital signs. Document the fall.",
-        options: ["Carefully assist the patient to sit upright to prevent pressure sores from lying on hard floor","Do not move patient, call emergency services, immobilise, monitor vital signs","Gently realign the limb and apply an improvised splint to reduce pain before help arrives","Apply ice packs to reduce swelling and offer pain relief medication from the care trolley"],
+        options: ["Assist the patient to sit upright to prevent pressure sores from lying on a hard floor","Do not move patient, call emergency services, immobilise, monitor vital signs","Gently realign the limb and apply an improvised splint before the ambulance arrives","Apply ice packs and give pain relief medication from the care trolley to reduce discomfort"],
         correct: 1,
         fillTemplate: "After a fall with fracture suspicion: do not ___ the patient, call emergency services and ___ the limb.",
         fillAnswers: ["move","immobilise"],
@@ -2487,7 +2487,7 @@ const TOPICS_EN = {
       {
         q: "What should be done for unconsciousness with normal breathing?",
         a: "Recovery position. Call emergency services. Open and maintain airway. Regular breathing checks. Keep warm. Do not leave alone. Never give anything by mouth.",
-        options: ["Leave on their back and place a pillow under the head to keep the airway in a neutral position","Recovery position, call emergency services, maintain airway, check breathing","Begin chest compressions since consciousness is lost and circulation may be compromised","Wake the patient by calling their name loudly and applying a sternal rub every 30 seconds"],
+        options: ["Leave on their back and place a pillow under the head to maintain the airway in a neutral position","Recovery position, call emergency services, maintain airway, check breathing","Begin chest compressions immediately since consciousness is lost and circulation may be impaired","Rouse the patient by calling their name and applying a sternal rub repeatedly every 30 seconds"],
         correct: 1,
         fillTemplate: "For unconsciousness with normal breathing: apply ___ position, call ___ and maintain airway.",
         fillAnswers: ["recovery","emergency services"],
@@ -2495,7 +2495,7 @@ const TOPICS_EN = {
       {
         q: "How is hypoglycaemia recognised and how should a carer respond?",
         a: "Symptoms: trembling, sweating, pallor, rapid heartbeat, confusion, hunger. BG <70 mg/dl. Immediately: fast-acting carbohydrates (glucose tablets, sweet juice) if patient can swallow. If unconscious: call emergency services.",
-        options: ["Give slow-acting carbohydrates such as bread to prevent rapid blood sugar fluctuation","Give glucose if able to swallow; call emergency services if unconscious","Skip the next insulin dose and bring forward the main meal to stabilise blood glucose","Check blood sugar; only give emergency glucose if the level drops below 50 mg/dl"],
+        options: ["Give slow-acting carbohydrates like bread to prevent rapid blood sugar swings","Give glucose if able to swallow; call emergency services if unconscious","Skip the next insulin dose and bring forward the main meal to normalise blood glucose","Check blood glucose first; give emergency glucose only if the level is below 50 mg/dl"],
         correct: 1,
         fillTemplate: "For hypoglycaemia (trembling, sweating), immediately give ___ if the patient can swallow. If unconscious, call ___.",
         fillAnswers: ["glucose","emergency services"],
@@ -2503,7 +2503,7 @@ const TOPICS_EN = {
       {
         q: "What measures are taken for a heart attack while waiting for emergency services?",
         a: "Call emergency services immediately. Seat or lay patient (no exertion). Loosen tight clothing. Reassure. Monitor vital signs. Fetch emergency kit/defibrillator. If cardiac arrest: CPR.",
-        options: ["Administer an aspirin tablet from the medication trolley as first aid before calling the doctor","Call emergency services, seat/lay, loosen clothing, reassure, fetch defibrillator, CPR if needed","Have the patient walk slowly to a chair to reduce anxiety and lower heart rate","Monitor blood pressure every 5 minutes and only call emergency services if systolic drops below 90"],
+        options: ["Give an aspirin tablet from the medication trolley as first aid before calling the doctor","Call emergency services, seat/lay, loosen clothing, reassure, fetch defibrillator, CPR if needed","Have the patient walk slowly to a chair to reduce anxiety and bring heart rate down gradually","Monitor blood pressure every 5 minutes; call emergency services only if systolic drops below 90"],
         correct: 1,
         fillTemplate: "For a heart attack: call ___ immediately, ___ the patient and loosen clothing.",
         fillAnswers: ["emergency services","seat/lay"],
@@ -2511,7 +2511,7 @@ const TOPICS_EN = {
       {
         q: "What is an AED and how is it used?",
         a: "AED = Automated External Defibrillator. Detects heart rhythm disturbances and delivers an electric shock. Use: turn on, attach pads (as illustrated), follow voice instructions, make sure everyone stands clear before shock.",
-        options: ["A portable cardiac monitor that displays the ECG and alerts staff to abnormal rhythms","Device for treating heart rhythm disturbances; attach pads, follow instructions","A device exclusively operated by emergency physicians that delivers timed synchronised shocks","A defibrillator used only for ventricular tachycardia and requires specialist training to operate"],
+        options: ["A portable ECG monitor that displays heart rhythm and alerts staff to abnormal patterns","Device for treating heart rhythm disturbances; attach pads, follow instructions","A device used exclusively by emergency physicians to deliver timed synchronised defibrillation shocks","A defibrillator used only for ventricular tachycardia; requires specialist paramedic training to operate"],
         correct: 1,
         fillTemplate: "An AED detects heart ___ and delivers electric shocks. Before the shock, everyone must ___ back.",
         fillAnswers: ["rhythm disturbances","stand"],
@@ -2519,7 +2519,7 @@ const TOPICS_EN = {
       {
         q: "What are the symptoms of pulmonary embolism and how should one respond?",
         a: "Pulmonary embolism: sudden breathlessness, chest pain, coughing blood, rapid heartbeat, impaired consciousness. Usually caused by a blood clot (thrombosis). Immediately: call emergency services, rest, no exertion, upright position.",
-        options: ["A gradual worsening of breathlessness over days due to fluid accumulation in the lungs","Sudden breathlessness, chest pain, blood cough; call emergency services, rest, upright","A tension pneumothorax causing tracheal deviation and absent breath sounds on one side","A deep vein thrombosis presenting with leg swelling, warmth and Homan's sign"],
+        options: ["Gradually worsening breathlessness over days due to fluid accumulation in the pleural space","Sudden breathlessness, chest pain, blood cough; call emergency services, rest, upright","A tension pneumothorax causing tracheal deviation and absent breath sounds on one side","A deep vein thrombosis presenting with unilateral leg swelling, warmth and Homan's sign"],
         correct: 1,
         fillTemplate: "Pulmonary embolism causes sudden ___ and chest pain. Call ___ immediately.",
         fillAnswers: ["breathlessness","emergency services"],
@@ -2527,7 +2527,7 @@ const TOPICS_EN = {
       {
         q: "What is the recovery position and when is it used?",
         a: "The recovery position keeps the airway safe in unconscious people who are still breathing. Prevents aspiration of vomit. Application: open airway, roll patient onto side, use upper arm and leg as support.",
-        options: ["A semi-recumbent position at 30° used for pneumonia prophylaxis and tube feeding patients","Keeps airway safe in unconscious breathing persons; prevents aspiration","A supine position with elevated legs used to maintain cerebral perfusion in fainting episodes","A positioning technique used during CPR to optimise chest compression depth and recoil"],
+        options: ["A semi-recumbent 30° position used for pneumonia prophylaxis and tube-fed patients","Keeps airway safe in unconscious breathing persons; prevents aspiration","A supine position with elevated legs used to maintain cerebral perfusion in fainting episodes","A positioning technique applied during CPR to optimise chest compression depth and recoil"],
         correct: 1,
         fillTemplate: "The recovery position keeps the ___ safe in unconscious persons who are breathing and prevents ___.",
         fillAnswers: ["airway","aspiration"],
@@ -2535,7 +2535,7 @@ const TOPICS_EN = {
       {
         q: "What must be considered during a seizure (epilepsy)?",
         a: "Prevent injury (clear surroundings), do not put anything in the mouth, do not hold down, recovery position after seizure, time the seizure, call emergency services if >5 min or patient does not recover. Stay calm.",
-        options: ["Firmly hold the patient's limbs down to prevent injury from uncontrolled jerking movements","Clear surroundings, nothing in mouth, time seizure, recovery position after, call if >5 min","Insert a bite block or padded object between the teeth to prevent tongue biting","Administer emergency anti-epileptic medication from the care trolley immediately"],
+        options: ["Hold the patient's limbs down firmly to prevent injury from uncontrolled jerking movements","Clear surroundings, nothing in mouth, time seizure, recovery position after, call if >5 min","Insert a bite block between the teeth immediately to prevent tongue biting and airway injury","Administer emergency anti-epileptic medication from the care trolley without delay"],
         correct: 1,
         fillTemplate: "During a seizure: clear surroundings, nothing in the ___, ___ the seizure. After: recovery position.",
         fillAnswers: ["mouth","time"],
@@ -2543,7 +2543,7 @@ const TOPICS_EN = {
       {
         q: "What is the shock position and when is it used?",
         a: "Shock position = supine with legs elevated (approx. 30–45°) to improve blood flow to vital organs. Used for: blood pressure drop, circulatory shock (but not cardiogenic shock or pulmonary oedema).",
-        options: ["Upper body elevation at 30° to improve cardiac filling and reduce preload in circulatory weakness","Supine with raised legs for circulatory shock (not for cardiac shock/pulmonary oedema)","Recovery position with raised legs to prevent both aspiration and circulatory collapse","Flat supine without leg elevation, since raising the legs impairs respiratory effort"],
+        options: ["Upper body elevation at 30° to improve cardiac filling and reduce preload in shock","Supine with raised legs for circulatory shock (not for cardiac shock/pulmonary oedema)","Recovery position with raised legs to prevent both aspiration and circulatory collapse","Flat supine without leg elevation, as raising the legs impairs ventilation and breathing effort"],
         correct: 1,
         fillTemplate: "The shock position means raised ___ in supine. It improves circulation and is used for ___ shock.",
         fillAnswers: ["legs","circulatory"],
@@ -2551,7 +2551,7 @@ const TOPICS_EN = {
       {
         q: "Why is correct reporting when calling emergency services important?",
         a: "5 W Rule: Where is the emergency? What happened? How many casualties? Which injuries/symptoms? Wait for questions. Never hang up before the dispatcher.",
-        options: ["Give your facility name and postcode only; the dispatcher will ask follow-up questions","5-W Rule: Where, What, How many, Which injuries, Wait; don't hang up before dispatcher","State the patient's age, care level and current medications as the most important first information","Describe the symptoms first and only give the address if asked by the dispatcher"],
+        options: ["Give your facility name and postcode only; the dispatcher will ask all necessary follow-up questions","5-W Rule: Where, What, How many, Which injuries, Wait; don't hang up before dispatcher","State the patient's age, care level and current medications as the most critical first information","Describe symptoms first and only provide the address if the dispatcher specifically asks for it"],
         correct: 1,
         fillTemplate: "When calling emergency services, use the 5-W rule: ___, What, How many, Which injuries, ___.",
         fillAnswers: ["Where","Wait"],
@@ -2559,7 +2559,7 @@ const TOPICS_EN = {
       {
         q: "How is a stroke recognised using the FAST method?",
         a: "F = Face (facial drooping, asymmetric smile), A = Arms (one arm drifts down when raised), S = Speech (slurred or strange speech), T = Time (call emergency services immediately). Every minute counts.",
-        options: ["FAST: Fever, Arm pain, Sudden headache, Tingling – indicators of a hypertensive emergency","FAST: Face (drooping), Arms (drifts), Speech (slurred), Time (call immediately)","FAST: Fatigue, Altered consciousness, Sweating, Tachycardia – typical of cardiac events","FAST: Facial pallor, Ataxia, Syncope, Tinnitus – key signs of a posterior circulation stroke"],
+        options: ["FAST: Fever, Arm pain, Sudden headache, Tingling – signs of a hypertensive emergency","FAST: Face (drooping), Arms (drifts), Speech (slurred), Time (call immediately)","FAST: Fatigue, Altered consciousness, Sweating, Tachycardia – signs of a cardiac event","FAST: Facial pallor, Ataxia, Syncope, Tinnitus – signs of a posterior circulation stroke"],
         correct: 1,
         fillTemplate: "FAST: Face (___, Arms, Speech (___ speech), Time – call emergency services immediately.",
         fillAnswers: ["drooping)","slurred"],
@@ -2567,7 +2567,7 @@ const TOPICS_EN = {
       {
         q: "What should be done in a diabetic emergency with unconsciousness?",
         a: "If unconscious NEVER give anything by mouth (choking risk). Call emergency services immediately. Recovery position. Monitor vital signs. The paramedic injects glucose or glucagon i.v./s.c.",
-        options: ["Dissolve glucose tablets in a small amount of water and administer carefully via teaspoon","Call emergency services immediately, recovery position, nothing by mouth, monitor vital signs","Administer the prescribed insulin dose to counteract potential hyperglycaemia","Apply glucagon nasal spray, which is routinely available in all care facilities"],
+        options: ["Dissolve glucose tablets in water and administer carefully via teaspoon to the unconscious patient","Call emergency services immediately, recovery position, nothing by mouth, monitor vital signs","Administer the prescribed insulin dose to counteract possible concurrent hyperglycaemia","Apply glucagon nasal spray, which is routinely kept in all residential care facilities"],
         correct: 1,
         fillTemplate: "For unconsciousness due to diabetes: call ___, apply ___ position and give NOTHING by mouth.",
         fillAnswers: ["emergency services","recovery"],
@@ -2581,7 +2581,7 @@ const TOPICS_EN = {
       {
         q: "What are the five care levels (Pflegegrade) in Germany?",
         a: "Care level 1 (minor impairment) to care level 5 (most severe impairment with special care needs). Based on the New Assessment Tool (NBA) measuring independence in six areas of life.",
-        options: ["3 care stages (mild, moderate, severe) which were replaced in 2017","5 care levels (1 = minor, 5 = most severe); based on the NBA","6 levels including a Level 0 for people with limited everyday competence only","4 levels, as care level 5 is reserved exclusively for people in a persistent vegetative state"],
+        options: ["3 care stages (mild, moderate, severe) which were replaced by the current system in 2017","5 care levels (1 = minor, 5 = most severe); based on the NBA","6 levels including a Level 0 for people with limited everyday competence and no physical impairment","4 levels, as care level 5 is only accessible to people in a persistent vegetative state"],
         correct: 1,
         fillTemplate: "There are ___ care levels from 1 (minor) to 5 (most severe). They are assessed using the ___.",
         fillAnswers: ["5","NBA"],
@@ -2589,7 +2589,7 @@ const TOPICS_EN = {
       {
         q: "What is professional confidentiality in care and when may it be breached?",
         a: "Carers may not share patient data with unauthorised persons (§ 203 StGB). Exceptions: patient's consent, statutory reporting duties (e.g. infectious diseases), imminent danger to third parties.",
-        options: ["Confidentiality applies only to external parties; all team members may access all patient data freely","No sharing without consent; exceptions: statutory duties, imminent danger to others","Confidentiality can be waived by family members acting as legal representatives","Confidentiality only protects medical diagnoses, not general care observations or behaviour"],
+        options: ["Confidentiality only applies to external parties; all team members may access all resident data","No sharing without consent; exceptions: statutory duties, imminent danger to others","Confidentiality can always be waived by family members acting as legal representatives","Confidentiality protects only medical diagnoses, not general care observations or behaviour"],
         correct: 1,
         fillTemplate: "Confidentiality prohibits sharing patient data without ___. Exceptions include statutory duties or ___ danger to others.",
         fillAnswers: ["consent","imminent"],
@@ -2597,7 +2597,7 @@ const TOPICS_EN = {
       {
         q: "What is the Nursing Professions Act (PflBG) and what did it change?",
         a: "The PflBG (2020) unified training for adult nursing, general nursing and children's nursing into a 3-year generalist 'nursing professional' qualification with optional specialisation in the third year.",
-        options: ["Regulates the staffing ratios in residential elderly care facilities across all German federal states","Unified 3 nursing training programmes into a generalist 3-year qualification","Established a national pay scale for nurses working in publicly funded care institutions","Defined mandatory continuing education requirements for nursing professionals every 5 years"],
+        options: ["Regulates mandatory staffing ratios in residential elderly care facilities across all federal states","Unified 3 nursing training programmes into a generalist 3-year qualification","Established a national pay scale for all nurses working in publicly funded care institutions","Defined mandatory continuing education requirements for nursing professionals every 5 years"],
         correct: 1,
         fillTemplate: "The PflBG unified the nursing training programmes into a ___ qualification. Optional ___ is possible in the third year.",
         fillAnswers: ["generalist","specialisation"],
@@ -2605,7 +2605,7 @@ const TOPICS_EN = {
       {
         q: "What are liberty-restricting measures and when are they permitted?",
         a: "Measures restricting freedom of movement (bed rails, restraints, locked doors). Permitted only with court authorisation (guardianship court) or as a short-term emergency measure. Documentation required.",
-        options: ["Permitted at any time if the nursing professional documents the clinical justification in the care plan","Only with court authorisation or as an emergency; documentation required","Allowed with the written consent of the resident's family member or power of attorney holder","Permitted under the nursing home contract without additional legal authorisation needed"],
+        options: ["Permitted at any time provided the nursing professional documents the clinical justification","Only with court authorisation or as an emergency; documentation required","Allowed with written consent of the resident's family member or power of attorney holder","Permitted under the nursing home care contract without additional legal authorisation"],
         correct: 1,
         fillTemplate: "Liberty-restricting measures require ___ authorisation or are only permitted as an ___.",
         fillAnswers: ["court","emergency"],
@@ -2613,7 +2613,7 @@ const TOPICS_EN = {
       {
         q: "What is an advance directive and what does it cover?",
         a: "A written advance statement of a person's wishes in case they can no longer decide for themselves. Specifies which medical measures are desired or refused (e.g. no resuscitation, no artificial nutrition).",
-        options: ["A legal document assigning financial and property decisions to a trusted family member","Written advance wishes for medical measures when unable to decide","A medical order issued by the physician specifying treatments in the event of incapacity","A formal declaration signed by a notary granting a family member authority to make all decisions"],
+        options: ["A legal document assigning financial and property management to a trusted family member","Written advance wishes for medical measures when unable to decide","A medical directive issued by the physician specifying treatments in the event of incapacity","A formal notarised declaration granting a family member authority to make all decisions"],
         correct: 1,
         fillTemplate: "An advance directive is a ___ statement of medical wishes in case of ___.",
         fillAnswers: ["written","incapacity"],
@@ -2621,7 +2621,7 @@ const TOPICS_EN = {
       {
         q: "What does the principle of autonomy mean in care?",
         a: "Autonomy = right to self-determination. Patients have the right to make their own decisions about their care and treatment, even against the carer's advice. Care should inform and advise.",
-        options: ["The right of care professionals to define care goals independently based on clinical evidence","The patient's right to self-determination, even against the carer's advice","The responsibility of family members to make care decisions when the resident is elderly","The principle that physicians have final authority over all care and treatment decisions"],
+        options: ["The right of care professionals to define goals independently based on evidence-based guidelines","The patient's right to self-determination, even against the carer's advice","The responsibility of family members to make care decisions on behalf of elderly residents","The principle that physicians have final authority over all care and treatment decisions"],
         correct: 1,
         fillTemplate: "Autonomy means the right to ___. Patients may make decisions themselves; care should support them ___.",
         fillAnswers: ["self-determination","advisorily"],
@@ -2629,7 +2629,7 @@ const TOPICS_EN = {
       {
         q: "What is palliative care and what are its key principles?",
         a: "Palliative care focuses on quality of life, not cure. Symptom control, dignity, psychosocial support, including family. Covers general palliative care, SAAPC (specialised ambulatory), and inpatient hospice care.",
-        options: ["Curative treatment aimed at slowing disease progression and extending life expectancy","Quality-of-life focused care: symptom control, dignity, psychosocial support, family involvement","Specialised medical care focused exclusively on pain management through opioid medication","Withdrawal of all active treatment and transition to comfort-only sedation in the final days"],
+        options: ["Curative treatment aimed at slowing disease progression and extending the patient's life expectancy","Quality-of-life focused care: symptom control, dignity, psychosocial support, family involvement","Specialised medical care focused exclusively on pain management through opioid medication","Withdrawal of all active treatment and transition to continuous sedation in the final phase"],
         correct: 1,
         fillTemplate: "Palliative care focuses on ___, not cure. Symptom control and ___ are central.",
         fillAnswers: ["quality of life","dignity"],
@@ -2637,7 +2637,7 @@ const TOPICS_EN = {
       {
         q: "What documentation obligations does a carer have?",
         a: "Document all care measures, observations, changes in condition, special events, vital signs, medications. Promptly and accurately. No deletions, cross out errors.",
-        options: ["Only significant events such as falls, acute illness and family contact require documentation","All measures and observations promptly and accurately; no deletions, cross out errors","Routine care measures are documented in the weekly summary; individual events in the incident report","Vital signs and medications must be documented; subjective observations are optional"],
+        options: ["Only significant events such as falls, acute illness and family visits require documentation","All measures and observations promptly and accurately; no deletions, cross out errors","Routine care measures belong in the weekly summary; individual events go in the incident report","Vital signs and medications must be documented; subjective observations are not required"],
         correct: 1,
         fillTemplate: "Carers must document all measures and ___ promptly. Errors are ___ out, not deleted.",
         fillAnswers: ["observations","crossed"],
@@ -2645,7 +2645,7 @@ const TOPICS_EN = {
       {
         q: "What is the difference between delegation and independent nursing action?",
         a: "Independent: the nursing professional plans and carries out themselves (e.g. basic care). Delegation: a nursing professional transfers a task to an auxiliary; the delegating person bears instruction responsibility, the executor bears implementation responsibility.",
-        options: ["Both refer to tasks initiated by the physician and carried out under their instruction and supervision","Independent: planned and done by professional; delegation: task transferred, responsibility shared","Independent nursing action means any task a care assistant carries out without asking for help","Delegation requires written consent from the resident before any task can be transferred"],
+        options: ["Both describe physician-initiated tasks carried out under direct medical instruction and supervision","Independent: planned and done by professional; delegation: task transferred, responsibility shared","Independent nursing action means any task a care assistant performs without asking for assistance","Delegation always requires written resident consent before any task can be legally transferred"],
         correct: 1,
         fillTemplate: "In delegation, the delegating person bears ___ responsibility; the person carrying it out bears ___ responsibility.",
         fillAnswers: ["instruction","implementation"],
@@ -2653,7 +2653,7 @@ const TOPICS_EN = {
       {
         q: "What are DNQP expert standards and what do they cover?",
         a: "DNQP (German Network for Quality Development in Nursing) develops evidence-based standards for key nursing topics (e.g. pressure ulcer prevention, falls prevention, pain management). They define minimum requirements for good care.",
-        options: ["A government authority that issues legally binding care quality norms under the SGB XI","Evidence-based minimum standards for care topics (e.g. pressure ulcers, falls, pain)","An MDK subunit responsible for reviewing and approving nursing care documentation","A mandatory certification system that all SGB XI-approved care facilities must complete"],
+        options: ["A government authority that issues legally binding care quality norms under SGB XI","Evidence-based minimum standards for care topics (e.g. pressure ulcers, falls, pain)","An MDK subunit responsible for reviewing and approving all nursing care documentation","A mandatory certification system that all SGB XI-approved care facilities must complete regularly"],
         correct: 1,
         fillTemplate: "DNQP expert standards are ___ minimum requirements for care, e.g. for pressure ulcer and ___ prevention.",
         fillAnswers: ["evidence-based","falls"],
@@ -2661,7 +2661,7 @@ const TOPICS_EN = {
       {
         q: "What is professional communication in care?",
         a: "Active listening, showing empathy, clear understandable language, noting non-verbal communication, no judgements, I-messages, considering cultural differences, maintaining confidentiality.",
-        options: ["Using clinical terminology so residents can properly assess the seriousness of the situation","Active listening, empathy, clear language, non-verbal awareness, I-messages","Addressing problems directly and firmly to reach resolution without ambiguity","Maintaining professional distance by keeping emotions out of all care conversations"],
+        options: ["Using clinical terminology so that residents can accurately assess the seriousness of their situation","Active listening, empathy, clear language, non-verbal awareness, I-messages","Addressing problems directly and firmly without ambiguity to reach rapid resolution","Maintaining professional distance by keeping emotions entirely out of care conversations"],
         correct: 1,
         fillTemplate: "Professional communication involves ___ listening, empathy and the use of ___-messages.",
         fillAnswers: ["active","I"],
@@ -2669,7 +2669,7 @@ const TOPICS_EN = {
       {
         q: "What are the principles of ethical decision-making in care?",
         a: "Four principles (Beauchamp & Childress): 1. Autonomy (self-determination), 2. Non-maleficence (do no harm), 3. Beneficence (do good), 4. Justice (fairness/equal treatment).",
-        options: ["Safety, efficiency, evidence-based practice and resident satisfaction as core ethical values","Autonomy, non-maleficence, beneficence and justice (Beauchamp & Childress)","Care quality, documentation, team communication and cost-effectiveness as key ethical priorities","Respect, compassion, advocacy and accountability as defined in the nursing code of conduct"],
+        options: ["Safety, efficiency, evidence-based practice and resident satisfaction are the four ethical principles","Autonomy, non-maleficence, beneficence and justice (Beauchamp & Childress)","Care quality, documentation, team communication and cost-effectiveness are the core ethical values","Respect, compassion, advocacy and accountability as defined in the international nursing code"],
         correct: 1,
         fillTemplate: "The four ethical principles are autonomy, non-maleficence, ___ and ___.",
         fillAnswers: ["beneficence","justice"],
@@ -2677,7 +2677,7 @@ const TOPICS_EN = {
       {
         q: "What is a power of attorney (Vorsorgevollmacht) and who can issue one?",
         a: "A power of attorney authorises a trusted person to make decisions in defined areas (health, finances, authorities) if the person becomes incapacitated. Any capable adult can issue one.",
-        options: ["A document issued by a physician authorising family members to receive medical information","Written authority to a trusted person; any capable adult can issue it","A formal arrangement requiring notarisation and approval by a guardianship court to be valid","A legal document that takes effect immediately upon signing, even if the person remains capable"],
+        options: ["A document issued by a physician authorising family members to receive and act on medical information","Written authority to a trusted person; any capable adult can issue it","A formal arrangement requiring notarisation and guardianship court approval to become legally valid","A legal document that takes effect immediately on signing, even while the person remains fully capable"],
         correct: 1,
         fillTemplate: "A power of attorney authorises a ___ to act when the person becomes incapacitated. Any ___ adult can issue it.",
         fillAnswers: ["trusted person","capable"],
@@ -2685,7 +2685,7 @@ const TOPICS_EN = {
       {
         q: "What is the principle of proportionality in care?",
         a: "Care measures must be proportionate to the care goal. Burdens/risks of a measure must not exceed its benefit. Particularly important at end of life.",
-        options: ["The more care measures applied, the better the outcome for the resident regardless of burden","Measures must be proportionate; risks must not exceed benefit; especially important at end of life","Proportionality means all residents receive identical care irrespective of individual needs","Proportionality applies only to medication doses, not to nursing interventions or care planning"],
+        options: ["The more care measures applied, the better the outcome for the resident regardless of burden or risk","Measures must be proportionate; risks must not exceed benefit; especially important at end of life","Proportionality means all residents receive the same standard of care regardless of individual needs","Proportionality applies only to medication dosage, not to nursing interventions or care planning"],
         correct: 1,
         fillTemplate: "___ of a measure must not exceed its benefit. This is particularly important at the ___.",
         fillAnswers: ["Risks","end of life"],
@@ -2693,7 +2693,7 @@ const TOPICS_EN = {
       {
         q: "What rights do residents have in a care home?",
         a: "Right to dignity and self-determination, individual care, privacy, right to information, right to complain, participation in the residents' council, free choice of doctor/hospital.",
-        options: ["Basic care services only; additional rights must be negotiated individually in the care contract","Dignity, self-determination, privacy, information rights, right to complain, residents' council","Rights apply only to legally competent residents; those with legal guardians are represented by their guardian","The right to a single room, personalised meal choices and unrestricted visiting hours at all times"],
+        options: ["Basic care services only; all additional rights must be negotiated in the individual care contract","Dignity, self-determination, privacy, information rights, right to complain, residents' council","Rights apply only to legally competent residents; incapacitated residents have no independent rights","The right to a single room, personalised meal choices and unrestricted visiting hours at all times"],
         correct: 1,
         fillTemplate: "Residents have a right to ___ and self-determination. Complaints can be raised through the ___ council.",
         fillAnswers: ["dignity","residents'"],
@@ -2701,7 +2701,7 @@ const TOPICS_EN = {
       {
         q: "What is the difference between legal guardianship and a power of attorney?",
         a: "Power of attorney: issued by the person themselves while still capable. Legal guardianship: ordered by a court when no power of attorney exists and a guardian is appointed. The guardian acts in the person's best interests.",
-        options: ["Both are identical documents created by a court to protect a person with legal incapacity","Power of attorney issued by self; guardianship ordered by court when no POA exists","A power of attorney is issued by the court proactively to protect vulnerable elderly people","Guardianship and power of attorney both require annual renewal through the guardianship court"],
+        options: ["Both are identical legal instruments created by a court to protect a person with incapacity","Power of attorney issued by self; guardianship ordered by court when no POA exists","A power of attorney is issued by the court proactively to protect vulnerable older adults","Both guardianship and power of attorney must be renewed annually through the guardianship court"],
         correct: 1,
         fillTemplate: "A power of attorney is issued ___ by the person. If none exists, a ___ can appoint a legal guardian.",
         fillAnswers: ["personally","court"],
@@ -2709,7 +2709,7 @@ const TOPICS_EN = {
       {
         q: "What is the principle of informed consent?",
         a: "Informed consent = patients must have received sufficient information before any care or medical procedure and have agreed freely. Consent can be withdrawn at any time. Applies to nursing care as well.",
-        options: ["Consent given once at admission covers all subsequent care measures throughout the stay","Patients must be informed and agree freely; consent can be withdrawn at any time","Informed consent is only required for medical procedures; routine care does not require it","Written consent signed by a legal representative is always required before any care measure"],
+        options: ["Consent given at admission covers all subsequent care and medical measures throughout the stay","Patients must be informed and agree freely; consent can be withdrawn at any time","Informed consent is only required for medical procedures; routine nursing care does not require it","Written consent by a legal representative is always required before any care measure can begin"],
         correct: 1,
         fillTemplate: "Informed consent requires that patients are sufficiently ___ and agree ___.",
         fillAnswers: ["informed","freely"],
@@ -2723,7 +2723,7 @@ const TOPICS_EN = {
       {
         q: "What are the three most common types of dementia?",
         a: "1. Alzheimer's dementia (60–70%, neurodegenerative). 2. Vascular dementia (due to impaired blood supply). 3. Lewy body dementia (with hallucinations, Parkinson features). Mixed forms possible.",
-        options: ["Alzheimer's, Parkinson's dementia and frontotemporal dementia as the primary forms","Alzheimer's, vascular dementia, Lewy body dementia","Alzheimer's, Korsakoff syndrome and senile dementia as independent diagnostic categories","Alzheimer's, multi-infarct dementia and Binswanger's disease as the three main subtypes"],
+        options: ["Alzheimer's (60%), Parkinson's dementia (20%) and frontotemporal dementia (10%) as the main forms","Alzheimer's, vascular dementia, Lewy body dementia","Alzheimer's, Korsakoff syndrome (60%) and senile dementia as independent diagnostic categories","Alzheimer's, multi-infarct dementia and Binswanger's disease as the three primary vascular subtypes"],
         correct: 1,
         fillTemplate: "The three most common types of dementia are Alzheimer's, ___ dementia and ___ body dementia.",
         fillAnswers: ["vascular","Lewy"],
@@ -2731,7 +2731,7 @@ const TOPICS_EN = {
       {
         q: "What are typical early signs of Alzheimer's dementia?",
         a: "Short-term memory problems (forgetting conversations, missing appointments), word-finding difficulties, disorientation in new environments, mood changes, withdrawal. Long-term memory initially preserved.",
-        options: ["Sudden onset of motor symptoms including tremor, muscle rigidity and balance difficulties","Short-term memory problems, word-finding difficulties, disorientation; long-term memory initially intact","Rapid personality change and behavioural disinhibition as the first and most prominent sign","Episodic visual hallucinations and fluctuating confusion as the earliest distinguishing symptoms"],
+        options: ["Sudden onset of motor symptoms including resting tremor, rigidity and postural instability","Short-term memory problems, word-finding difficulties, disorientation; long-term memory initially intact","Rapid personality change and social disinhibition as the first and most prominent early sign","Episodic visual hallucinations and fluctuating attention as the earliest distinguishing symptoms"],
         correct: 1,
         fillTemplate: "Early Alzheimer's mainly affects ___ memory. ___ memory is initially still intact.",
         fillAnswers: ["short-term","Long-term"],
@@ -2739,7 +2739,7 @@ const TOPICS_EN = {
       {
         q: "What is Validation (Naomi Feil) and how is it applied?",
         a: "Validation is a communication method for people with dementia. It accepts and affirms feelings and the person's subjective reality without correction. Techniques: eye contact, gentle voice, using the person's own language.",
-        options: ["Reality orientation training that gently corrects misperceptions to keep the person grounded in the present","Accepting the subjective reality without correction; engaging on an emotional level","A cognitive stimulation technique using structured memory exercises and recall tasks","A biographical reminiscence approach that focuses on past events rather than current emotional states"],
+        options: ["Reality orientation that gently corrects misperceptions to keep the person grounded in the present","Accepting the subjective reality without correction; engaging on an emotional level","A cognitive stimulation technique using structured memory exercises and object recall tasks","A biographical reminiscence approach focusing on past events rather than current emotional states"],
         correct: 1,
         fillTemplate: "Validation accepts the ___ reality of the person with dementia. The person is never ___, but engaged emotionally.",
         fillAnswers: ["subjective","corrected"],
@@ -2747,7 +2747,7 @@ const TOPICS_EN = {
       {
         q: "What are the principles of person-centred dementia care (Tom Kitwood)?",
         a: "Personhood must be maintained. Five psychological needs: love/belonging, identity, occupation, inclusion/comfort, attachment. Dementia alone does not explain behaviour – care quality influences experience.",
-        options: ["Medical management of symptoms is the primary focus; behavioural approaches are secondary","Maintain personhood; five needs: love, identity, occupation, inclusion, attachment","Cognitive training and memory exercises slow the disease and are the core of person-centred care","Structured daily routines and predictability are the single most important aspect of dementia care"],
+        options: ["Medical symptom management is the primary focus; relational and behavioural approaches are secondary","Maintain personhood; five needs: love, identity, occupation, inclusion, attachment","Cognitive training and memory exercises slow disease progression and are the core of Kitwood's model","Structured daily routines and maximum predictability are the single most important care element"],
         correct: 1,
         fillTemplate: "According to Kitwood, five needs are important: love, ___, occupation, inclusion and ___.",
         fillAnswers: ["identity","attachment"],
@@ -2755,7 +2755,7 @@ const TOPICS_EN = {
       {
         q: "How is normal ageing distinguished from dementia?",
         a: "Normal ageing: occasionally forgets details but main event is remembered; daily life manageable. Dementia: entire experiences forgotten; daily activities increasingly impaired; personality changes; no insight into illness.",
-        options: ["No clinically meaningful difference; all older adults lose the same amount of memory over time","Normal: main event remembered, life manageable. Dementia: everything forgotten, daily life impaired, personality changes","Normal ageing causes the same cognitive changes as dementia but progresses more slowly","Dementia is characterised by slower thinking, while normal ageing causes complete memory loss"],
+        options: ["No meaningful difference; all older adults lose the same amount of memory over time","Normal: main event remembered, life manageable. Dementia: everything forgotten, daily life impaired, personality changes","Normal ageing causes identical cognitive changes to dementia but progresses more slowly","Dementia means only slower thinking; normal ageing causes the complete memory loss"],
         correct: 1,
         fillTemplate: "With normal ageing, the ___ event is remembered. With dementia, entire ___ are forgotten and daily life is impaired.",
         fillAnswers: ["main","experiences"],
@@ -2763,7 +2763,7 @@ const TOPICS_EN = {
       {
         q: "What tests are used for dementia diagnosis?",
         a: "Mini Mental State Examination (MMSE: 30 points, <24 indicates possible dementia). DemTect. MoCA (Montreal Cognitive Assessment). Clock drawing test. These complement medical diagnosis.",
-        options: ["Braden Scale and Barthel Index combined provide a validated score for diagnosing dementia","MMSE, DemTect, MoCA, clock test; complement medical diagnosis","The MMSE alone provides a definitive dementia diagnosis when the score is below 20","The Geriatric Depression Scale (GDS) is the standard screening instrument for detecting dementia"],
+        options: ["Braden Scale and Barthel Index combined provide the validated score used to diagnose dementia","MMSE, DemTect, MoCA, clock test; complement medical diagnosis","The MMSE alone gives a definitive dementia diagnosis when the score is below 20","The Geriatric Depression Scale (GDS) is the standard screening instrument for diagnosing dementia"],
         correct: 1,
         fillTemplate: "The ___ (MMSE) scores below ___ points may indicate cognitive impairment.",
         fillAnswers: ["Mini Mental State Examination","24"],
@@ -2771,7 +2771,7 @@ const TOPICS_EN = {
       {
         q: "What is 'challenging behaviour' in dementia and how should it be handled?",
         a: "Challenging behaviour: agitation, aggression, wandering, calling out, sleep disturbances. Usually expresses unmet needs, pain or anxiety. Response: identify triggers, meet the need, distraction, calm atmosphere, no confrontation.",
-        options: ["Administer as-needed sedation after physician consultation as the first response to agitation","Expression of unmet needs; identify triggers, meet need, calm atmosphere","Use reality orientation training to directly correct confusion and restore orientation","Apply bed rails or a tilt chair as a protective measure until the trigger has been identified"],
+        options: ["Administer as-needed sedation after physician consultation as the first-line response to agitation","Expression of unmet needs; identify triggers, meet need, calm atmosphere","Use reality orientation training to directly correct confusion and re-establish temporal orientation","Apply bed rails or tilt chair as a protective measure until the trigger has been clearly identified"],
         correct: 1,
         fillTemplate: "Challenging behaviour often expresses unmet ___. Find the ___ and meet the need.",
         fillAnswers: ["needs","trigger"],
@@ -2779,7 +2779,7 @@ const TOPICS_EN = {
       {
         q: "What is biographical work in dementia care?",
         a: "Deliberately incorporating a person's life history into their care and activity. Important: profession, hobbies, family, rituals, preferences. Strengthens identity and enables meaningful activities.",
-        options: ["A therapeutic writing approach in which the resident writes or dictates their autobiography","Incorporating life history: profession, hobbies, rituals; strengthens identity and enables meaningful activities","A formal psychological assessment of personality and developmental history conducted at admission","A social activity programme where residents share stories with school children and other visitors"],
+        options: ["A therapeutic writing approach in which residents write or dictate their autobiography","Incorporating life history: profession, hobbies, rituals; strengthens identity and enables meaningful activities","A formal psychological assessment of personality and developmental history conducted at admission","A social activity programme where residents share life stories with school visitors and volunteers"],
         correct: 1,
         fillTemplate: "Biographical work incorporates the person's ___ history into care. It strengthens ___ and enables meaningful activities.",
         fillAnswers: ["life","identity"],
@@ -2787,7 +2787,7 @@ const TOPICS_EN = {
       {
         q: "What is sundowning syndrome in dementia?",
         a: "Sundowning = increased confusion, restlessness or agitation in people with dementia in the late afternoon/evening. Causes: disturbed day-night rhythm, fatigue, reduced orientation cues in the dark. Management: structure, light, daytime activities.",
-        options: ["A morning phenomenon in which people with dementia wake confused and mistake their surroundings","Increased confusion and restlessness in the evening; structure and lighting help","Rapid eye movement sleep disturbance causing vivid nightmares and nocturnal agitation","A condition in which bright sunlight causes disorientation and should be avoided during the day"],
+        options: ["A morning phenomenon in which people with dementia wake confused and cannot recognise their surroundings","Increased confusion and restlessness in the evening; structure and lighting help","A rapid eye movement sleep disorder causing vivid nightmares and nocturnal agitation in dementia","A condition in which bright sunlight triggers disorientation; daytime outdoor activity must be avoided"],
         correct: 1,
         fillTemplate: "In sundowning syndrome, ___ increases in the evening. Helpful measures are structure and adequate ___.",
         fillAnswers: ["confusion","light"],
@@ -2795,7 +2795,7 @@ const TOPICS_EN = {
       {
         q: "How can fall risk be reduced in people with dementia?",
         a: "Environmental adaptation (non-slip floors, handrails, night lighting), safe footwear, mobility aids available, regular toilet offers, medication review (sedatives!), balance training, regular falls risk assessment.",
-        options: ["Use bed rails and seat belts during the day to prevent unsupervised ambulation","Environmental adaptation, safe footwear, aids, toilet offers, medication review, balance training","Limit all walking to supervised physiotherapy sessions and accompany residents at all other times","Administer low-dose sedatives to reduce wandering behaviour and night-time restlessness"],
+        options: ["Use bed rails and seat belts during the day to prevent all unsupervised ambulation and wandering","Environmental adaptation, safe footwear, aids, toilet offers, medication review, balance training","Restrict all walking to supervised physiotherapy sessions; accompany residents at all other times","Prescribe low-dose sedatives routinely to reduce wandering behaviour and night-time restlessness"],
         correct: 1,
         fillTemplate: "Falls prevention for dementia includes ___ (e.g. handrails), safe footwear and review of ___ (especially sedatives).",
         fillAnswers: ["environmental adaptation","medications"],
@@ -2803,7 +2803,7 @@ const TOPICS_EN = {
       {
         q: "What is reality orientation training (ROT) and for whom is it suitable?",
         a: "ROT provides structured orientation cues for time, place and person (date, day, weather; orientation boards). Suitable for mild to moderate dementia. In severe dementia it can cause distress and validation is preferable.",
-        options: ["An intensive therapy that corrects all misperceptions firmly across all stages of dementia","Orientation cues for time/place/person; suitable for mild dementia; severe dementia: better use Validation","A physical exercise programme that uses spatial orientation tasks to improve balance and coordination","A reminiscence-based approach using photographs from the past to improve long-term memory recall"],
+        options: ["An intensive approach that corrects all misperceptions firmly across all stages of dementia equally","Orientation cues for time/place/person; suitable for mild dementia; severe dementia: better use Validation","A physical programme using spatial orientation tasks to improve balance and coordination","A reminiscence-based method using photographs from the past to strengthen long-term memory recall"],
         correct: 1,
         fillTemplate: "ROT provides orientation cues for time, ___ and person. In severe dementia, ___ is more appropriate.",
         fillAnswers: ["place","Validation"],
@@ -2811,7 +2811,7 @@ const TOPICS_EN = {
       {
         q: "What is reminiscence work in elderly care?",
         a: "Reminiscence work = deliberate recollection and sharing from the past. Uses long-term memory (better preserved in dementia). Promotes identity, wellbeing and social interaction using photos, music, objects.",
-        options: ["A structured memory training programme using new information and puzzles to maintain cognitive function","Deliberate recollection from the past; uses long-term memory, promotes identity and wellbeing","A forward-looking life planning approach focusing on personal goals and social participation","A cognitive behavioural therapy technique helping residents process negative memories"],
+        options: ["A structured memory training programme using new information and puzzles to maintain cognitive function","Deliberate recollection from the past; uses long-term memory, promotes identity and wellbeing","A forward-looking life planning approach focusing on future goals and increased social participation","A cognitive behavioural therapy technique that helps residents process and reframe negative memories"],
         correct: 1,
         fillTemplate: "Reminiscence work uses ___ memory which is better preserved in dementia. It promotes ___ and wellbeing.",
         fillAnswers: ["long-term","identity"],
@@ -2819,7 +2819,7 @@ const TOPICS_EN = {
       {
         q: "What is important in end-of-life care in elderly residential settings?",
         a: "Dignity and self-determination to the end, pain relief (palliative sedation if needed), considering spiritual/religious needs, involving family, allowing farewell, respecting advance directive.",
-        options: ["Maximising all available medical interventions to prolong life as long as clinically possible","Dignity, pain relief, spiritual needs, family involvement, respecting advance directive","Transferring residents to hospital for the final phase to ensure specialised medical monitoring","Sedating the resident continuously from the moment of declining consciousness"],
+        options: ["Maximising all available medical interventions to prolong life as long as clinically possible","Dignity, pain relief, spiritual needs, family involvement, respecting advance directive","Transferring residents to hospital for the final phase to ensure access to specialised medical monitoring","Initiating continuous sedation from the moment the resident first shows signs of declining consciousness"],
         correct: 1,
         fillTemplate: "___ and pain relief are central in end-of-life care. The ___ must be respected.",
         fillAnswers: ["Dignity","advance directive"],
@@ -2827,7 +2827,7 @@ const TOPICS_EN = {
       {
         q: "What are gerontological theories of ageing (activity theory, disengagement theory)?",
         a: "Activity theory: quality of life maintained through active participation. Disengagement theory (outdated): natural withdrawal in old age. Today: individual resources and preferences determine successful ageing.",
-        options: ["Continuity theory: older people must maintain the exact same lifestyle as in middle adulthood","Activity theory: participation promotes quality of life; disengagement: withdrawal; today: individual","Selectivity theory: successful ageing requires reducing all activities to conserve energy and avoid stress","Role theory: older people only age successfully when they adopt the social role expected of them"],
+        options: ["Continuity theory: successful ageing requires maintaining the identical lifestyle from middle adulthood","Activity theory: participation promotes quality of life; disengagement: withdrawal; today: individual","Selectivity theory: successful ageing requires reducing all activities to conserve energy and reduce stress","Role theory: older people age successfully only by adopting the social roles expected of their age group"],
         correct: 1,
         fillTemplate: "Activity theory states that active ___ promotes quality of life. Disengagement theory describes natural ___ in old age.",
         fillAnswers: ["participation","withdrawal"],
@@ -2835,7 +2835,7 @@ const TOPICS_EN = {
       {
         q: "What social risks commonly accompany ageing?",
         a: "Loss of partner (grief, loneliness), retirement (role change), reduced mobility, loss of social networks, financial constraints, possible care dependency.",
-        options: ["Retirement increases social participation and significantly reduces the risk of loneliness","Loss of partner, role change from retirement, mobility, network loss, financial constraints","Social risks only become clinically relevant from care level 3 onwards","Financial situation improves substantially after retirement due to pension payments and lower expenses"],
+        options: ["Retirement increases social participation and significantly reduces the risk of social isolation","Loss of partner, role change from retirement, mobility, network loss, financial constraints","Social risks only become clinically relevant from care level 3 onwards and require formal intervention","Financial situation improves substantially after retirement due to pension income and lower expenses"],
         correct: 1,
         fillTemplate: "Typical social risks of ageing include loss of ___, loneliness and reduced ___.",
         fillAnswers: ["partner","mobility"],
@@ -2843,7 +2843,7 @@ const TOPICS_EN = {
       {
         q: "What is milieu-oriented care in dementia?",
         a: "Milieu-oriented care creates a dementia-friendly environment: consistent daily routines, familiar objects from the person's biography, calm atmosphere, clear orientation aids (pictures, colours, names on doors), safety without restriction of liberty.",
-        options: ["Frequently changing the environment to provide new stimuli and prevent cognitive decline","Dementia-friendly environment: routines, familiar items, orientation aids, calm, safety","Professionally designed spaces with colour-coded zones and minimal personal belongings","A strict uniform daily schedule without individual exceptions to provide predictability for all residents"],
+        options: ["Frequently changing the environment to provide new stimuli and reduce cognitive decline","Dementia-friendly environment: routines, familiar items, orientation aids, calm, safety","Professionally designed colour-coded spaces with minimal personal belongings for clearer orientation","A strict uniform daily schedule without individual exceptions to ensure predictability for all residents"],
         correct: 1,
         fillTemplate: "Milieu-oriented care creates a dementia-friendly ___ with orientation aids. ___ objects from the biography provide security.",
         fillAnswers: ["environment","Familiar"],
@@ -2851,7 +2851,7 @@ const TOPICS_EN = {
       {
         q: "How should carers respond to challenging behaviours in dementia in practice?",
         a: "Do not take behaviour personally, understand it as an expression of need. Remain calm, use gentle voice and body language. Offer distraction (activity, music, walk). Avoid restraint and confrontation. Document to identify patterns.",
-        options: ["Prescribe sedation after medical consultation as the primary step to reduce injury risk","Remain calm, understand as need expression, offer distraction, avoid confrontation, document","Provide clear verbal correction and calmly repeat the explanation to restore orientation","Use bed rails or a reclining chair as a preventive measure until the case conference meets"],
+        options: ["Prescribe sedation after medical consultation as the primary and first-line response to agitation","Remain calm, understand as need expression, offer distraction, avoid confrontation, document","Calmly and clearly correct the behaviour and repeat the explanation until orientation is restored","Apply bed rails or a reclining chair as a preventive measure until the case conference can convene"],
         correct: 1,
         fillTemplate: "Challenging behaviour should be understood as an expression of ___. Carers should remain ___ and offer distraction.",
         fillAnswers: ["need","calm"],
@@ -2865,7 +2865,7 @@ const TOPICS_EN = {
       {
         q: "What are the six most important prophylaxes in residential elderly care?",
         a: "Pressure ulcer, falls, contracture, thrombosis, pneumonia and intertrigoprophylaxis. All aim to prevent complications from immobility or care dependency.",
-        options: ["Falls and pressure ulcer prophylaxis only, as legally required by care insurance regulations","Pressure ulcer, falls, contracture, thrombosis, pneumonia and intertriго","Pneumonia and thrombosis prophylaxis only, since other measures are the physiotherapist's responsibility","Intertriго, wound care and incontinence management as the three primary nursing prophylaxes"],
+        options: ["Falls and pressure ulcer prophylaxis only, as these are legally required by care insurance law","Pressure ulcer, falls, contracture, thrombosis, pneumonia and intertriго","Pneumonia and thrombosis prophylaxis only, since all other measures belong to physiotherapy","Intertriго, wound care and incontinence management as the three primary nursing prophylaxes"],
         correct: 1,
         fillTemplate: "Key prophylaxes include pressure ulcer, falls, contracture, ___, ___ and intertriго.",
         fillAnswers: ["thrombosis","pneumonia"],
@@ -2873,7 +2873,7 @@ const TOPICS_EN = {
       {
         q: "What does pressure ulcer prophylaxis involve?",
         a: "Measures: regular repositioning (every 2 hours), pressure relief (specialist mattresses), skin inspection, nutrition optimisation, and early mobilisation. Document skin condition.",
-        options: ["Pressure-relieving mattresses alone are sufficient; repositioning is only needed for very high-risk patients","Repositioning every 2 hours, pressure relief, skin inspection, nutrition, mobilisation","Repositioning every 4 hours is adequate when a pressure-relieving mattress is in place","Skin care and incontinence management are the only nursing-relevant prophylactic measures"],
+        options: ["Pressure-relieving mattresses alone are sufficient; repositioning is only needed for the highest-risk patients","Repositioning every 2 hours, pressure relief, skin inspection, nutrition, mobilisation","Repositioning every 4 hours is adequate when a pressure-relieving mattress has been placed","Skin care and incontinence management are the only nursing-relevant prophylactic measures"],
         correct: 1,
         fillTemplate: "Pressure ulcer prophylaxis includes repositioning every ___ hours, pressure ___ and skin inspection.",
         fillAnswers: ["2","relief"],
@@ -2881,7 +2881,7 @@ const TOPICS_EN = {
       {
         q: "What is thrombosis prophylaxis and why is it important?",
         a: "Prevents blood clots in the veins (deep vein thrombosis), which can lead to pulmonary embolism. Measures: movement exercises, compression stockings, adequate fluids, early mobilisation, heparin if medically ordered.",
-        options: ["Prevention of arterial plaque formation through diet, exercise and cholesterol medication","Prevents venous clots; measures: exercises, compression stockings, fluids, mobilisation","Prophylaxis of atrial fibrillation to reduce the risk of cardioembolic stroke","Prevention of superficial vein inflammation through leg elevation and warm compresses"],
+        options: ["Prevention of arterial plaque formation through diet, exercise and cholesterol-lowering medication","Prevents venous clots; measures: exercises, compression stockings, fluids, mobilisation","Prophylaxis of atrial fibrillation to reduce the cardioembolic stroke risk in immobile residents","Prevention of superficial vein inflammation through leg elevation and warm compress application"],
         correct: 1,
         fillTemplate: "Thrombosis prophylaxis prevents ___ in the veins. Measures include movement exercises, ___ stockings and mobilisation.",
         fillAnswers: ["blood clots","compression"],
@@ -2889,7 +2889,7 @@ const TOPICS_EN = {
       {
         q: "What measures are included in pneumonia prophylaxis?",
         a: "Breathing exercises (deep breathing, pursed lip breathing), regular mobilisation, upper body elevation, inhalations, oral care, adequate fluid intake, physiotherapy.",
-        options: ["Pneumococcal vaccination alone is sufficient as the primary preventive measure for all residents","Breathing exercises, mobilisation, upper body elevation, oral care, fluids","Inhalation therapy is the most important measure; breathing exercises are only supplementary","Oral care prevents only oral thrush, not pneumonia, and is therefore not part of this prophylaxis"],
+        options: ["Pneumococcal vaccination alone is sufficient as the primary preventive measure for immobile residents","Breathing exercises, mobilisation, upper body elevation, oral care, fluids","Inhalation therapy is the most important measure; all breathing exercises are merely supplementary","Oral care prevents only oral thrush, not pneumonia, and therefore cannot be part of this prophylaxis"],
         correct: 1,
         fillTemplate: "Pneumonia prophylaxis includes ___ exercises, mobilisation and ___. The upper body should be elevated.",
         fillAnswers: ["breathing","oral care"],
@@ -2897,7 +2897,7 @@ const TOPICS_EN = {
       {
         q: "What is contracture prophylaxis and what does it involve?",
         a: "Preventing permanent shortening of muscles and tendons due to immobility. Measures: regular active and passive joint exercises (physiotherapy), correct positioning in functional position, early mobilisation.",
-        options: ["Application of heat pads and muscle-relaxing ointments to maintain joint flexibility","Active and passive joint exercises, correct positioning, early mobilisation","Immobilising affected joints with splints to protect shortened muscles from further damage","Contracture prophylaxis is exclusively the physiotherapist's responsibility and not a nursing task"],
+        options: ["Application of heat pads and muscle-relaxing ointments to maintain joint flexibility and range of motion","Active and passive joint exercises, correct positioning, early mobilisation","Immobilising affected joints with splints to protect shortened muscles and tendons from further damage","Contracture prophylaxis is exclusively the physiotherapist's responsibility; nurses are not involved"],
         correct: 1,
         fillTemplate: "Contracture prophylaxis includes ___ and passive movement exercises. Correct ___ in functional position is essential.",
         fillAnswers: ["active","positioning"],
@@ -2905,7 +2905,7 @@ const TOPICS_EN = {
       {
         q: "What is intertrigoprophylaxis and which body areas are at risk?",
         a: "Intertriго = skin irritation in skin folds from moisture and friction. At-risk areas: groins, under breasts, armpits, between toes. Prevention: keep skin folds dry, breathable clothing, zinc paste/skin protection, daily inspection.",
-        options: ["Exclusively the sacrum and heels, which are the most common pressure ulcer sites","Skin folds (groins, under breasts, armpits); keep dry, use protection products, daily inspection","Only the feet and between the toes, where friction during walking causes skin damage","The abdomen and lower back, where incontinence pads cause the most skin moisture"],
+        options: ["Exclusively the sacrum and heels, which are the most common sites for pressure ulcer development","Skin folds (groins, under breasts, armpits); keep dry, use protection products, daily inspection","Only the feet and between the toes, where friction during walking causes skin maceration","The abdomen and lower back, where incontinence pads generate the greatest moisture load"],
         correct: 1,
         fillTemplate: "Intertriго develops in ___ from moisture and friction. Prevention: keep ___ and inspect daily.",
         fillAnswers: ["skin folds","dry"],
@@ -2913,7 +2913,7 @@ const TOPICS_EN = {
       {
         q: "What are the three risk areas of falls prophylaxis?",
         a: "Person-related factors (balance, strength, vision, medications), environment-related factors (tripping hazards, poor lighting, wet floors), activity-related factors (getting up without help, unsuitable footwear).",
-        options: ["Cognitive impairment only, which is the single strongest predictor of fall risk in elderly care","Person-related (balance, meds), environment-related (tripping), activity-related (getting up)","Environmental hazards only, since physical risk factors are addressed by physiotherapy","Medication side effects exclusively, since all other factors are outside the care team's control"],
+        options: ["Cognitive impairment only, which is the strongest single predictor of fall risk in elderly care","Person-related (balance, meds), environment-related (tripping), activity-related (getting up)","Environmental hazards only, since all physical risk factors are managed exclusively by physiotherapy","Medication side effects only, since all other factors are outside the nursing team's control"],
         correct: 1,
         fillTemplate: "Falls risk factors include person-related (e.g. ___ and medication), environment-related and ___ factors.",
         fillAnswers: ["balance","activity-related"],
@@ -2921,7 +2921,7 @@ const TOPICS_EN = {
       {
         q: "What is a falls assessment and which tools are used?",
         a: "A falls assessment systematically measures fall risk. Common tools: Morse Fall Scale (0–125 points), Hendrich II Fall Risk Model, internal assessment forms. Result: risk category and individual action plan.",
-        options: ["A single assessment at admission is sufficient since fall risk rarely changes in stable residents","Systematic risk measurement; Morse Scale, Hendrich II; result is risk category and action plan","The Braden Scale serves as the primary falls risk instrument since it covers all relevant factors","Clinical judgement by an experienced nurse is sufficient without needing a standardised scale"],
+        options: ["A single assessment at admission is sufficient since fall risk rarely changes in stable care residents","Systematic risk measurement; Morse Scale, Hendrich II; result is risk category and action plan","The Braden Scale serves as the primary falls risk instrument since it covers all relevant fall factors","Clinical judgement of an experienced nurse is sufficient; standardised scales are not necessary"],
         correct: 1,
         fillTemplate: "Falls assessment measures ___ systematically. Commonly used tools include the ___ Scale and Hendrich II.",
         fillAnswers: ["fall risk","Morse"],
@@ -2929,7 +2929,7 @@ const TOPICS_EN = {
       {
         q: "What is the DNQP and which expert standards are especially relevant?",
         a: "DNQP = German Network for Quality Development in Nursing. Develops evidence-based expert standards. Relevant standards: pressure ulcer prevention, falls prevention, pain management, continence promotion, care for people with dementia.",
-        options: ["A government regulatory body that conducts inspections of residential care facilities","Network for nursing standards; standards include pressure ulcer, falls, pain, dementia care","A professional registration body responsible for licensing nursing professionals in Germany","A research institute publishing clinical trials on medication safety in elderly patients"],
+        options: ["A government regulatory body that conducts mandatory inspections of residential care facilities","Network for nursing standards; standards include pressure ulcer, falls, pain, dementia care","A professional licensing body responsible for registering nursing professionals in Germany","A research institute publishing evidence-based clinical trials on medication safety in elderly patients"],
         correct: 1,
         fillTemplate: "DNQP stands for German Network for Quality Development in ___. It develops ___ expert standards.",
         fillAnswers: ["Nursing","evidence-based"],
@@ -2937,7 +2937,7 @@ const TOPICS_EN = {
       {
         q: "What are anti-decubitus (pressure-relieving) mattresses and when are they used?",
         a: "Specialist mattresses using air chambers (alternating pressure) or foam cores (soft positioning) to distribute contact pressure. Used when there is elevated pressure ulcer risk (Braden <18) as a supplement to repositioning.",
-        options: ["A standard high-density foam mattress that provides adequate support for all residents","Specialist mattress for pressure distribution; used with elevated risk as supplement to repositioning","A therapeutic mattress that replaces repositioning schedules for residents with high pressure ulcer risk","A heated mattress used to improve circulation in residents with peripheral arterial disease"],
+        options: ["A standard high-density foam mattress that provides adequate pressure support for all residents","Specialist mattress for pressure distribution; used with elevated risk as supplement to repositioning","A therapeutic mattress that fully replaces repositioning in residents with high pressure ulcer risk","A heated mattress used to improve peripheral circulation in residents with arterial disease"],
         correct: 1,
         fillTemplate: "Anti-decubitus mattresses distribute ___ pressure. They ___ repositioning but do not replace it.",
         fillAnswers: ["contact","supplement"],
@@ -2945,7 +2945,7 @@ const TOPICS_EN = {
       {
         q: "What is fluid balance monitoring and when is it used in care?",
         a: "Fluid balance = recording intake (drinking, infusions, tube feeding) and output (urine, vomiting, drainage). Goal: detect over- or underhydration early. Used for: heart failure, renal insufficiency, dehydration risk.",
-        options: ["Daily weighing of the resident, which is the only reliable indicator of fluid retention","Recording intake and output; detects over-/underhydration; used for heart/renal failure","A protocol that records only urine output to monitor kidney function in catheterised residents","Measurement of blood electrolytes to assess fluid status, conducted by the physician on request"],
+        options: ["Daily weighing only, which is the single most reliable indicator of fluid balance in care","Recording intake and output; detects over-/underhydration; used for heart/renal failure","A protocol that records urine output only to monitor kidney function in catheterised residents","Blood electrolyte measurement to assess fluid status, ordered by the physician on each occasion"],
         correct: 1,
         fillTemplate: "Fluid balance records ___ (drinking, infusions) and ___ (urine). It detects dehydration early.",
         fillAnswers: ["intake","output"],
@@ -2953,7 +2953,7 @@ const TOPICS_EN = {
       {
         q: "What is compression therapy and what care points apply?",
         a: "Compression stockings apply pressure to the legs to promote venous return. Used for thrombosis and oedema prevention. Points: correct size, apply in the morning before getting up, check for pressure sores, contraindicated in arterial disease.",
-        options: ["Improving arterial blood flow by exerting steady pressure on the superficial leg veins","Pressure on veins → venous return; apply in morning, correct size, contraindicated in arterial disease","Apply in the evening before bed and remove in the morning after getting up","Compression stockings are indicated for all forms of heart failure without restriction"],
+        options: ["Improving arterial blood flow by applying steady pressure to the superficial leg veins","Pressure on veins → venous return; apply in morning, correct size, contraindicated in arterial disease","Apply in the evening before bed and remove after getting up in the morning","Compression stockings are indicated for all forms of heart failure without any restriction"],
         correct: 1,
         fillTemplate: "Compression stockings promote ___ return. They should be applied in the ___ before getting up.",
         fillAnswers: ["venous","morning"],
@@ -2961,7 +2961,7 @@ const TOPICS_EN = {
       {
         q: "What is nutritional screening and when is it used in care?",
         a: "Nutritional screening = brief assessment of malnutrition risk. Tools: MNA-SF (Mini Nutritional Assessment Short Form) or NRS-2002. Applied on admission and regularly for at-risk groups (weight loss, reduced appetite).",
-        options: ["A full nutritional assessment with blood tests, conducted by a dietitian on physician referral","Brief malnutrition risk assessment; MNA-SF or NRS-2002; on admission and regularly","A one-time assessment completed at admission, which remains valid for the entire care stay","A three-day dietary recall conducted monthly to calculate caloric and protein intake"],
+        options: ["A full nutritional assessment including blood tests, conducted by a dietitian on physician referral","Brief malnutrition risk assessment; MNA-SF or NRS-2002; on admission and regularly","A one-time assessment at admission that remains valid throughout the entire care stay","A three-day dietary recall conducted monthly to calculate caloric and protein intake"],
         correct: 1,
         fillTemplate: "Nutritional screening assesses ___ risk. The ___ (MNA-SF) is commonly used on admission.",
         fillAnswers: ["malnutrition","Mini Nutritional Assessment"],
@@ -2969,7 +2969,7 @@ const TOPICS_EN = {
       {
         q: "How does oral care link to pneumonia prophylaxis?",
         a: "Regular oral care removes bacteria (streptococci, gram-negative organisms) that can be aspirated and cause pneumonia. Especially important for tube-fed patients. At least twice daily: clean teeth/dentures, moist mucous membranes, check for thrush.",
-        options: ["Oral care primarily prevents dental caries and has no clinically relevant effect on pneumonia risk","Oral care removes bacteria that could be aspirated; twice daily, clean dentures, moist membranes","Antiseptic mouthwash twice daily is the most effective oral care measure for pneumonia prevention","Oral care only reduces pneumonia risk in ventilated patients; it is not relevant in residential care"],
+        options: ["Oral care primarily prevents dental caries and has no clinically significant effect on pneumonia risk","Oral care removes bacteria that could be aspirated; twice daily, clean dentures, moist membranes","Antiseptic mouthwash twice daily is the single most effective oral care measure for pneumonia","Oral care reduces pneumonia risk only in ventilated patients; irrelevant in residential elderly care"],
         correct: 1,
         fillTemplate: "Oral care removes ___ that could be aspirated. It should be done ___ daily.",
         fillAnswers: ["bacteria","twice"],
@@ -2977,7 +2977,7 @@ const TOPICS_EN = {
       {
         q: "What is a repositioning plan and what does it contain?",
         a: "An individual repositioning plan for bedridden residents specifying: frequency (usually every 2 hours), types of position (supine, lateral, prone, 30° tilt, foam positioning), responsible person. Each repositioning is documented.",
-        options: ["A standard repositioning schedule for all bedridden residents; individual adaptation only on physician instruction","Individual plan: frequency (2 hours), position types, responsible person, documentation","A physician's order for repositioning; nursing documentation of each position change is not required","An anti-decubitus mattress allows repositioning intervals to be extended to every 4 hours"],
+        options: ["A standard repositioning schedule for all bedridden residents; individual adjustment only on physician order","Individual plan: frequency (2 hours), position types, responsible person, documentation","A physician's written order for repositioning; nursing documentation of each change is not required","An anti-decubitus mattress allows repositioning intervals to be safely extended to every 4 hours"],
         correct: 1,
         fillTemplate: "A repositioning plan specifies ___ (every 2 hours) and ___ of positions. Each repositioning is documented.",
         fillAnswers: ["frequency","types"],
@@ -2985,7 +2985,7 @@ const TOPICS_EN = {
       {
         q: "What is the pursed-lip technique and how does it help in pneumonia prophylaxis?",
         a: "Pursed-lip breathing = breathing technique: exhale slowly through slightly open lips. Slows exhalation, increases airway pressure and prevents small bronchi from collapsing. Used for bedridden patients and those with COPD.",
-        options: ["A breathing exercise in which air is forcefully inhaled through pursed lips to strengthen diaphragm muscles","Exhale through slightly open lips; prevents bronchial collapse in bedridden patients","A technique in which the patient breathes rapidly through the nose to clear mucus from the airways","A respiratory technique in which air is held briefly before exhalation to improve oxygen uptake"],
+        options: ["A breathing exercise in which air is forcefully inhaled through pursed lips to strengthen the diaphragm","Exhale through slightly open lips; prevents bronchial collapse in bedridden patients","A technique using rapid nasal breathing to clear mucus from the airways by increased airflow","A technique in which air is briefly held before exhalation to improve alveolar oxygen uptake"],
         correct: 1,
         fillTemplate: "With pursed-lip breathing, air is exhaled through slightly ___ lips. It prevents the ___ of small bronchi.",
         fillAnswers: ["open","collapse"],
@@ -2993,7 +2993,7 @@ const TOPICS_EN = {
       {
         q: "What evidence-based measures does the DNQP expert standard for pressure ulcer prevention include?",
         a: "Risk assessment (Braden Scale), repositioning and micro-positioning, pressure-relieving aids, skin care and inspection, nutrition optimisation, mobilisation, training of staff and relatives. Documentation of all measures.",
-        options: ["Pressure-relieving mattresses only; the standard states all other measures are physician-ordered","Risk assessment, repositioning, aids, skin care, nutrition, mobilisation, training, documentation","Risk assessment and repositioning only; nutrition and mobilisation are addressed in separate standards","Standard dressings and wound care for existing pressure ulcers as the primary preventive action"],
+        options: ["Pressure-relieving mattresses only; the standard states all other measures must be physician-ordered","Risk assessment, repositioning, aids, skin care, nutrition, mobilisation, training, documentation","Risk assessment and repositioning only; nutrition and mobilisation are covered in separate DNQP standards","Wound dressings and wound care for existing pressure ulcers as the primary preventive action"],
         correct: 1,
         fillTemplate: "The DNQP pressure ulcer standard includes risk assessment with the ___ Scale, repositioning, pressure relief and ___.",
         fillAnswers: ["Braden","skin care"],
@@ -3001,7 +3001,7 @@ const TOPICS_EN = {
       {
         q: "What is stimulating back massage (Atemstimulierende Einreibung / ASE) as a nursing measure?",
         a: "ASE = a nursing method: rhythmic back massage to deepen breathing, promote relaxation and mobilise secretions. Stimulates the respiratory muscles and supports spontaneous breathing. Especially for immobile, ventilated or comatose patients.",
-        options: ["A superficial Swedish massage technique applied to reduce muscle tension and promote relaxation","Rhythmic back massage to deepen breathing and mobilise secretions; for immobile patients","A vigorous chest percussion technique used to break up consolidated mucus in pneumonia","A passive stretching technique that mimics active breathing movements in paralysed patients"],
+        options: ["A superficial Swedish massage applied to reduce generalised muscle tension and promote relaxation","Rhythmic back massage to deepen breathing and mobilise secretions; for immobile patients","A vigorous chest percussion technique used to break up consolidated mucus in bacterial pneumonia","A passive stretching technique mimicking active breathing movements in completely paralysed patients"],
         correct: 1,
         fillTemplate: "ASE is a rhythmic ___ of the back. It promotes ___ and mobilises secretions.",
         fillAnswers: ["massage","deep breathing"],
@@ -3015,7 +3015,7 @@ const TOPICS_EN = {
       {
         q: "What is the difference between implementation responsibility and steering responsibility?",
         a: "Implementation responsibility: nursing assistants carry out measures independently. Steering responsibility: the qualified nurse plans, monitors and steers the care. In stable care situations nursing assistants can act independently.",
-        options: ["Both terms describe the same form of accountability shared equally between assistant and qualified nurse","Implementation: assistant carries out; steering: nurse plans and monitors","Implementation responsibility belongs to the physician who ordered the care measure","Steering responsibility means the assistant checks their own work; no qualified oversight is needed"],
+        options: ["Both terms describe the same form of accountability shared equally between assistant and qualified nurse","Implementation: assistant carries out; steering: nurse plans and monitors","Implementation responsibility always belongs to the physician who ordered the care measure","Steering responsibility means the assistant reviews their own work; no qualified oversight is needed"],
         correct: 1,
         fillTemplate: "Nursing assistants hold ___ responsibility for their actions. The qualified nurse holds ___ responsibility.",
         fillAnswers: ["implementation","steering"],
@@ -3023,7 +3023,7 @@ const TOPICS_EN = {
       {
         q: "What is delegation and what conditions must be met?",
         a: "Delegation = transfer of a medical or nursing task to another professional. Conditions: the delegating person ensures the recipient is qualified; instruction responsibility stays with the delegator; the recipient carries implementation responsibility.",
-        options: ["Any task can be delegated freely as long as the delegating person is present in the building","Task transfer when recipient is qualified; instruction responsibility stays with delegator","Delegation transfers all responsibility to the recipient; the delegating person is no longer accountable","The recipient bears both instruction and implementation responsibility once a task is accepted"],
+        options: ["Any task can be freely delegated as long as the delegating person is present in the same building","Task transfer when recipient is qualified; instruction responsibility stays with delegator","Delegation transfers all responsibility to the recipient; the delegating person is fully released","The recipient bears both instruction and implementation responsibility once the task is accepted"],
         correct: 1,
         fillTemplate: "In delegation, the ___ responsibility stays with the delegator. The person carrying it out holds ___ responsibility.",
         fillAnswers: ["instruction","implementation"],
@@ -3031,7 +3031,7 @@ const TOPICS_EN = {
       {
         q: "What tasks may a nursing assistant NOT carry out independently?",
         a: "Reserved nursing professional tasks: creating care plans/assessments, making nursing diagnoses, independent medication administration (medical delegation required), intravenous injections, complex high-risk care. Assistants only in stable care situations.",
-        options: ["Nursing assistants may carry out all tasks that a qualified nurse has demonstrated to them at least once","No care plans, no nursing diagnoses, no independent medication without delegation","Body care and repositioning may only be carried out by qualified nursing professionals","All care tasks require a written physician's order before a nursing assistant may carry them out"],
+        options: ["Nursing assistants may carry out all tasks a qualified nurse has demonstrated to them at least once","No care plans, no nursing diagnoses, no independent medication without delegation","Body care and repositioning may only be carried out by qualified nursing professionals at all times","All care tasks require a written physician's order before a nursing assistant is permitted to act"],
         correct: 1,
         fillTemplate: "Nursing assistants may not create ___ and may not administer medication without ___.",
         fillAnswers: ["care plans","delegation"],
@@ -3039,7 +3039,7 @@ const TOPICS_EN = {
       {
         q: "What is professional self-reflection and why is it important in care?",
         a: "Professional self-reflection = critical examination of one's own actions, attitudes, emotions and errors. Important for: quality assurance, burnout prevention, professional growth, recognising one's own limits.",
-        options: ["A performance review conducted by the team leader to evaluate individual competencies","Critical examination of own actions; promotes quality, prevents burnout, recognises limits","A formal appraisal process comparing individual performance against facility standards","The process of comparing one's approach against a colleague's to identify best practice"],
+        options: ["A performance review conducted by the team leader to evaluate individual nursing competencies","Critical examination of own actions; promotes quality, prevents burnout, recognises limits","A formal appraisal process comparing individual performance against facility quality standards","Comparing one's approach against a colleague's to identify best practice and copy it"],
         correct: 1,
         fillTemplate: "Professional self-reflection critically examines one's own ___. It helps to recognise one's own ___ and prevent burnout.",
         fillAnswers: ["actions","limits"],
@@ -3047,7 +3047,7 @@ const TOPICS_EN = {
       {
         q: "What is a case conference and what is its purpose?",
         a: "Interdisciplinary discussion about a resident (nursing, doctor, therapists, social work). Purpose: jointly analyse care situation, coordinate measures, individualise care, use resources. Held regularly or when problems arise.",
-        options: ["A monthly general team briefing covering operational topics without reference to individual residents","Interdisciplinary case analysis for coordinating measures and individualising care","An exclusive nursing-physician discussion about medication and medical treatment decisions","A meeting where the care manager reviews problem cases without involving hands-on care staff"],
+        options: ["A monthly general team briefing covering operational topics without reference to any individual resident","Interdisciplinary case analysis for coordinating measures and individualising care","An exclusive nursing-physician discussion about medications and medical treatment plans only","A meeting where the care manager reviews problem cases without the hands-on care staff present"],
         correct: 1,
         fillTemplate: "A case conference is an ___ discussion about a resident. It aims to coordinate ___ and individualise care.",
         fillAnswers: ["interdisciplinary","measures"],
@@ -3055,7 +3055,7 @@ const TOPICS_EN = {
       {
         q: "What is a nursing handover and what must it include?",
         a: "Nursing handover = systematic transfer of care-relevant information at shift change. Content: resident condition, special events, completed and outstanding measures, orders, changes. Can be verbal, written or via handover protocol.",
-        options: ["A verbal summary of completed care tasks without reference to current resident condition or changes","Systematic transfer: resident condition, events, measures, orders, changes","Handover is limited to extraordinary events and new admissions during the shift","A written record of vital signs passed to the next shift without verbal discussion"],
+        options: ["A verbal summary of completed care tasks without reference to current resident condition or changes","Systematic transfer: resident condition, events, measures, orders, changes","Handover is limited to extraordinary events and new admissions; routine care is assumed unchanged","A written vital signs record passed to the next shift without any verbal discussion"],
         correct: 1,
         fillTemplate: "The nursing handover reports on ___ condition, special events and ___ measures.",
         fillAnswers: ["resident","outstanding"],
@@ -3063,7 +3063,7 @@ const TOPICS_EN = {
       {
         q: "What are nursing care standards and what function do they serve?",
         a: "Nursing standards describe binding minimum quality requirements for care measures (e.g. standard for pressure ulcer prophylaxis, falls, tube feeding). Based on expert standards (DNQP), nursing science and legal requirements. Legally relevant.",
-        options: ["Internal guidelines created by the care management without scientific basis or legal relevance","Binding minimum quality requirements; based on expert standards, science and law; legally relevant","Advisory recommendations from the MDK that can be individually adapted to resident preferences","Voluntary quality targets used for external marketing and performance comparison between facilities"],
+        options: ["Internal guidelines created by care management without a scientific basis or legal relevance","Binding minimum quality requirements; based on expert standards, science and law; legally relevant","Advisory recommendations from the MDK that can be adapted individually to resident preferences","Voluntary quality targets used for external marketing and benchmarking between facilities"],
         correct: 1,
         fillTemplate: "Nursing standards describe ___ minimum requirements. They are based on ___ (DNQP) and are legally relevant.",
         fillAnswers: ["binding","expert standards"],
@@ -3071,7 +3071,7 @@ const TOPICS_EN = {
       {
         q: "What is burnout in nursing and what factors contribute to it?",
         a: "Burnout = state of emotional, mental and physical exhaustion from chronic work stress. Risk factors: high workload, shift work, emotional burden (death, suffering), lack of recognition, insufficient recovery time.",
-        options: ["Short-term fatigue following a stressful week that fully resolves during a weekend off","Exhaustion from chronic stress; risks: workload, shifts, emotional burden, lack of recognition","Acute stress reaction after a single traumatic event at work, distinct from long-term burnout","Clinical depression with physical symptoms that exclusively affects personal life outside work"],
+        options: ["Short-term fatigue following a stressful week that fully resolves after a weekend off","Exhaustion from chronic stress; risks: workload, shifts, emotional burden, lack of recognition","Acute stress reaction after a single traumatic work event, clinically distinct from long-term burnout","Clinical depression with physical symptoms that exclusively affects the worker's personal life"],
         correct: 1,
         fillTemplate: "Burnout is exhaustion from chronic ___. Risk factors include high workload and lack of ___.",
         fillAnswers: ["work stress","recognition"],
@@ -3079,7 +3079,7 @@ const TOPICS_EN = {
       {
         q: "What is professional communication with difficult residents or relatives?",
         a: "Professional communication in conflict: stay calm, listen actively, show empathy, state own limits clearly (I-messages), no blame, avoid escalation, involve superiors if needed.",
-        options: ["Fully comply with all relative demands to avoid formal complaints being filed with the MDK","Stay calm, active listening, empathy, I-messages, set limits, involve superiors if needed","Delegate all difficult conversations to the care manager to prevent any risk of escalation","Use you-messages to clearly communicate which behaviour is unacceptable and must stop"],
+        options: ["Fully comply with all relative demands to avoid formal complaints being filed","Stay calm, active listening, empathy, I-messages, set limits, involve superiors if needed","Delegate all difficult conversations to the care manager to prevent escalation","Use you-messages to clearly communicate which behaviour is unacceptable and must stop immediately"],
         correct: 1,
         fillTemplate: "In difficult conversations, ___ listening and ___ messages help express feelings clearly.",
         fillAnswers: ["active","I"],
@@ -3087,7 +3087,7 @@ const TOPICS_EN = {
       {
         q: "What does observing, perceiving and assessing mean in nursing?",
         a: "Observing = systematic perception using all senses (skin, breathing, behaviour, urine, wounds). Assessing = determining if findings are normal or abnormal. Document and inform qualified nurse if needed. Basis for nursing decisions.",
-        options: ["Subjective gut-feeling assessment of general wellbeing without any systematic approach","Systematic perception using all senses, assessment (normal/abnormal), documentation, inform nurse","Measuring vital signs and documenting them, since other observations are too subjective to be reliable","Findings are noted at the next care planning review rather than reported immediately"],
+        options: ["Subjective gut-feeling assessment of wellbeing without any systematic or structured approach","Systematic perception using all senses, assessment (normal/abnormal), documentation, inform nurse","Measuring vital signs and documenting them only; other observations are too subjective to be reliable","Findings are noted at the next scheduled care planning review rather than reported immediately"],
         correct: 1,
         fillTemplate: "Nursing observation uses all ___ of the body. Abnormal findings are ___ and reported to the qualified nurse.",
         fillAnswers: ["senses","documented"],
@@ -3095,7 +3095,7 @@ const TOPICS_EN = {
       {
         q: "What is confidentiality within the workplace (internal and external)?",
         a: "Internal: only pass on information that is necessary for care – not to colleagues without care relevance. External: no discussion of residents/patients outside the facility (family, friends). Data protection (GDPR) also applies to care documentation.",
-        options: ["Internal confidentiality only applies to visitors; all team members may share all resident information freely","Internal: only care-relevant info; external: no conversations about residents outside; GDPR applies","Resident data may be shared with relatives acting as legal representatives without restriction","Confidentiality applies only to medical diagnoses, not to general care observations or behaviour"],
+        options: ["Internal confidentiality applies only to external visitors; team members may share all resident data freely","Internal: only care-relevant info; external: no conversations about residents outside; GDPR applies","Resident data may always be shared with relatives acting as legal representatives without restriction","Confidentiality applies only to medical diagnoses; care observations and behaviour are not covered"],
         correct: 1,
         fillTemplate: "Internally, only ___ relevant information should be shared. Externally, ___ about residents outside the facility is prohibited.",
         fillAnswers: ["care","discussion"],
@@ -3103,7 +3103,7 @@ const TOPICS_EN = {
       {
         q: "What is interdisciplinary cooperation in elderly care?",
         a: "Cooperation of all professionals involved: nursing, doctors, physiotherapists, occupational therapists, speech therapists, social workers, pastoral care. Goal: holistic care. Coordinated by the qualified nurse.",
-        options: ["Cooperation of nursing professionals and physicians under coordination of the medical services","All professions (nursing, doctors, therapies, social work, pastoral) for holistic care","Cooperation between nursing and therapists, with physicians acting independently and in parallel","Cooperation within the nursing team between qualified nurses and assistants"],
+        options: ["Cooperation of nursing professionals and physicians under coordination of the medical services team","All professions (nursing, doctors, therapies, social work, pastoral) for holistic care","Cooperation between nursing and therapists, with physicians acting independently in parallel","Cooperation exclusively within the nursing team between qualified nurses and their assistants"],
         correct: 1,
         fillTemplate: "Interdisciplinary cooperation includes ___, doctors, therapists and social workers. The goal is ___ care.",
         fillAnswers: ["nursing","holistic"],
@@ -3111,7 +3111,7 @@ const TOPICS_EN = {
       {
         q: "What is peer consultation (kollegiale Beratung) and supervision?",
         a: "Peer consultation: structured discussion among colleagues to find solutions to professional problems, without an external facilitator. Supervision: professionally guided reflection on work with an external supervisor. Both promote quality and health.",
-        options: ["Peer consultation is led by an external supervisor; supervision is an informal discussion among colleagues","Peer: among colleagues; supervision: with external professional; both promote reflection and quality","Supervision is a compulsory monthly performance review conducted by the care manager","Peer consultation and supervision are legally required and must be documented in the care plan"],
+        options: ["Peer consultation is led by an external supervisor; supervision is an informal discussion among colleagues","Peer: among colleagues; supervision: with external professional; both promote reflection and quality","Supervision is a compulsory monthly performance review conducted by the care management","Peer consultation and supervision are legally required and must be documented in the care file"],
         correct: 1,
         fillTemplate: "Peer consultation takes place ___ an external professional. In supervision, an ___ expert leads.",
         fillAnswers: ["without","external"],
@@ -3119,7 +3119,7 @@ const TOPICS_EN = {
       {
         q: "What is a care home's nursing philosophy (Pflegeleitbild)?",
         a: "The nursing philosophy describes the core values, goals and view of the person that underlies a care facility (e.g. dignity, autonomy, activation). It guides daily actions and is the basis for quality standards.",
-        options: ["The organisational chart showing staff hierarchies, responsibilities and job descriptions","Core values, view of person and goals of the facility; guides daily actions and quality standards","The quality handbook containing specific care procedures and operational instructions","The legally required concept for implementing the Nursing Professions Act in the facility"],
+        options: ["The organisational chart showing staff hierarchies, reporting lines and job descriptions","Core values, view of person and goals of the facility; guides daily actions and quality standards","The quality handbook containing specific care procedures and operational instructions","The legally required implementation concept for the Nursing Professions Act in the facility"],
         correct: 1,
         fillTemplate: "The nursing philosophy describes ___ values and the ___ of the person. It guides daily actions.",
         fillAnswers: ["core","view"],
@@ -3127,7 +3127,7 @@ const TOPICS_EN = {
       {
         q: "What does teamwork mean in elderly care and what are its prerequisites?",
         a: "Good teamwork: open communication, clear task distribution, mutual respect, constructive error management, shared goals. Prerequisites: regular team meetings, handovers, collegiality.",
-        options: ["Each team member works independently for their assigned residents with no need for coordination","Open communication, clear roles, respect, constructive error management, shared goals","Teamwork primarily means dividing tasks equally according to the duty schedule","Hierarchical structures with clear chains of command replace collegial coordination in effective teams"],
+        options: ["Each team member works independently for their assigned residents and needs no coordination with others","Open communication, clear roles, respect, constructive error management, shared goals","Teamwork primarily means distributing tasks equally according to the duty schedule","Hierarchical structures with clear command chains fully replace collegial coordination in effective teams"],
         correct: 1,
         fillTemplate: "Good teamwork requires open ___ and clear ___. Regular team meetings are important.",
         fillAnswers: ["communication","task distribution"],
@@ -3135,7 +3135,7 @@ const TOPICS_EN = {
       {
         q: "What are 'reserved activities' (Vorbehaltsaufgaben) under the German Nursing Professions Act?",
         a: "Reserved activities may only be carried out independently by qualified nursing professionals (not nursing assistants): nursing assessment and care planning, evaluation of care, instruction and counselling of those in care. Protects patient safety.",
-        options: ["Any task that a qualified nurse has demonstrated to an assistant at least twice is no longer reserved","Assessment, planning and evaluation may only be done independently by qualified nurses","Medical procedures such as i.v. injections, which are reserved for physicians and cannot be delegated","All care tasks including basic body care are reserved activities requiring a qualified nurse"],
+        options: ["Any task a qualified nurse has demonstrated to an assistant at least twice is no longer reserved","Assessment, planning and evaluation may only be done independently by qualified nurses","Medical procedures like i.v. injections, which are reserved for physicians and cannot be delegated","All care tasks including basic body care are reserved activities requiring a qualified nursing professional"],
         correct: 1,
         fillTemplate: "Reserved activities include nursing assessment, care ___ and evaluation. Only ___ professionals may do these independently.",
         fillAnswers: ["planning","qualified nursing"],
@@ -3143,7 +3143,7 @@ const TOPICS_EN = {
       {
         q: "What is resilience in nursing and how can it be strengthened?",
         a: "Resilience = psychological resistance to stress and crisis. Important in nursing due to heavy demands (death, shift work, understaffing). Strengthened through: breaks, social support, self-reflection, exercise, supervision.",
-        options: ["Emotional distancing from residents as a protective mechanism against compassion fatigue","Psychological resistance to stress; strengthened by breaks, social support, self-reflection, supervision","The ability to ignore stress completely and not allow difficult situations to affect one's wellbeing","A personality trait shaped entirely by childhood experiences and not modifiable in adulthood"],
+        options: ["Emotional distancing from residents as an effective protective mechanism against compassion fatigue","Psychological resistance to stress; strengthened by breaks, social support, self-reflection, supervision","The ability to ignore stress completely and not allow difficult situations to affect one's wellbeing","A stable personality trait shaped entirely by childhood experiences and not modifiable in adulthood"],
         correct: 1,
         fillTemplate: "Resilience is the psychological ___ to stress. It can be strengthened through breaks, ___ and supervision.",
         fillAnswers: ["resistance","social support"],
@@ -3151,7 +3151,7 @@ const TOPICS_EN = {
       {
         q: "What is an induction plan and why is it important in nursing?",
         a: "An induction plan = structured plan to introduce new staff to tasks, processes and the culture of a facility. Important for: safety for beginners, error prevention, quality assurance, team integration.",
-        options: ["A checklist of house rules and hygiene regulations that new staff sign on their first day","Structured introduction plan for new staff; ensures quality and prevents errors","The probationary period appraisal form used to decide about continued employment","An introductory conversation on the first day to present the facility and introduce colleagues"],
+        options: ["A checklist of house rules and hygiene regulations that new staff sign on their first day","Structured introduction plan for new staff; ensures quality and prevents errors","The probationary period appraisal form used to decide on continued employment or contract extension","An orientation conversation on the first day to present the facility and introduce colleagues"],
         correct: 1,
         fillTemplate: "An induction plan is a structured plan for introducing ___ staff. It ensures ___ and helps prevent errors.",
         fillAnswers: ["new","quality"],
